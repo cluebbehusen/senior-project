@@ -54,7 +54,7 @@ class VL53L1X:
         self._timing_budget = None
         self.timing_budget = 50
         if (address != _DEFAULT_ADDRESS):
-            self._change_address(address)
+            self._change_address(i2c, address)
 
     def _sensor_init(self):
         init_seq = bytes(
@@ -145,6 +145,8 @@ class VL53L1X:
         self._timing_budget = val
 
     def _change_address(self, i2c, addr):
+        print('changing address')
+        print(addr)
         self._write_register(_ADDRESS_REGISTER, addr.to_bytes(1, 'big'))
         self.i2c_device = i2c_device.I2CDevice(i2c, addr)
         time.sleep(0.01)

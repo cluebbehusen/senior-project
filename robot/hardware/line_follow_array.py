@@ -18,12 +18,12 @@ class LineFollowArray:
     def read_sensors(self) -> List[int]:
         """Read binary values from all 8 sensors"""
         readings = []
-        for pin in self.pins:
-            readings.append(self.device.digitalRead(pin))
+        for pin in self.pins[::-1]:
+            readings.append(1 - self.device.digitalRead(pin))
         return readings
 
-    def get_sensor_reading_magnitude(self) -> Tuple[int, int]:
-        """Get equivalent magnitude value for binary list reading"""
+    def get_sensor_reading_magnitudes(self) -> Tuple[int, int]:
+        """Get equivalent magnitude values for binary list reading"""
         readings = self.read_sensors()
         leftSum = 0
         rightSum = 0
