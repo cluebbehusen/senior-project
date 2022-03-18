@@ -4,6 +4,7 @@ from typing import TypedDict
 
 class PWM(Enum):
     HIGH = 12
+    HIGH_LEFT = 11
     MID = 8
     LOW = 4
     OFF = 0
@@ -24,6 +25,7 @@ class BaseState(Enum):
     VEER_RIGHT = 7
     TURN_LEFT = 8
     TURN_RIGHT = 9
+    FINISH = 10
 
 
 class BaseInput(TypedDict):

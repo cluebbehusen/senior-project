@@ -22,8 +22,8 @@ if __name__ == '__main__':
 
     GPIO.setup(left_pwm_pin, GPIO.OUT)
     GPIO.setup(right_pwm_pin, GPIO.OUT)
-    left_pwm = GPIO.PWM(left_pwm_pin, 5000)
-    right_pwm = GPIO.PWM(right_pwm_pin, 5000)
+    left_pwm = GPIO.PWM(left_pwm_pin, 10000)
+    right_pwm = GPIO.PWM(right_pwm_pin, 10000)
     left_pwm.start(0)
     right_pwm.start(0)
 
@@ -31,10 +31,10 @@ if __name__ == '__main__':
     for pin in tof_pins:
         GPIO.setup(pin, GPIO.OUT)
         GPIO.output(pin, GPIO.LOW)
-    time.sleep(0.1)
+    time.sleep(0.2)
     for pin in tof_pins:
         GPIO.output(pin, GPIO.HIGH)
-    time.sleep(0.1)
+    time.sleep(0.2)
     for pin in tof_pins:
         GPIO.output(pin, GPIO.LOW)
 
@@ -50,6 +50,7 @@ if __name__ == '__main__':
     line_follower = LineFollowArray(i2c, line_pins)
 
     base_state_machine = BaseStateMachine()
+    count = 0
 
     while True:
         left_tof = devices['left'].get_distance()
@@ -64,13 +65,18 @@ if __name__ == '__main__':
             'left_line': left_line,
             'right_line': right_line,
         }
+        old_state = base_state_machine.state
         output = base_state_machine.transition(input)
-        print('base input')
-        print(input)
-        print('state machine state')
-        print(base_state_machine.state)
+        new_state = base_state_machine.state
+        if old_state != new_state or count > 30:
+            if old_state != new_state:
+                print('=== State Change Occurred ===')
+                print('{} -> {}'.format(old_state, new_state))
+            print('{}: {}'.format(base_state_machine.state, input))
+            count = 0
         left_pwm.ChangeDutyCycle(output['left_pwm'].value)
         right_pwm.ChangeDutyCycle(output['right_pwm'].value)
         GPIO.output(left_dir_pin, output['left_dir'].value)
         GPIO.output(right_dir_pin, output['right_dir'].value)
-        time.sleep(1 / 60)
+        time.sleep(1 / 30)
+        count += 1

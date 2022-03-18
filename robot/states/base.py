@@ -20,28 +20,28 @@ class BaseStateMachine():
             'right_dir': GPIOOutput.LOW,
         },
         BaseState.START: {
-            'left_pwm': PWM.HIGH,
+            'left_pwm': PWM.HIGH_LEFT,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
         },
         BaseState.STAIGHT: {
-            'left_pwm': PWM.HIGH,
+            'left_pwm': PWM.HIGH_LEFT,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
         },
         BaseState.START_TURN_AROUND: {
-            'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.LOW,
+            'left_pwm': PWM.HIGH_LEFT,
+            'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.HIGH,
+            'right_dir': GPIOOutput.LOW,
         },
         BaseState.TURN_AROUND: {
-            'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.LOW,
+            'left_pwm': PWM.HIGH_LEFT,
+            'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.HIGH,
+            'right_dir': GPIOOutput.LOW,
         },
         BaseState.VEER_LEFT: {
             'left_pwm': PWM.LOW,
@@ -50,23 +50,29 @@ class BaseStateMachine():
             'right_dir': GPIOOutput.LOW,
         },
         BaseState.TURN_LEFT: {
-            'left_pwm': PWM.MID,
+            'left_pwm': PWM.HIGH_LEFT,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
         },
         BaseState.VEER_RIGHT: {
-            'left_pwm': PWM.HIGH,
+            'left_pwm': PWM.HIGH_LEFT,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.LOW,
             'right_dir': GPIOOutput.LOW,
         },
         BaseState.TURN_RIGHT: {
-            'left_pwm': PWM.HIGH,
+            'left_pwm': PWM.HIGH_LEFT,
             'left_dir': GPIOOutput.LOW,
-            'right_pwm': PWM.MID,
+            'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
         },
+        BaseState.FINISH: {
+            'left_pwm': PWM.OFF,
+            'left_dir': GPIOOutput.LOW,
+            'right_pwm': PWM.OFF,
+            'right_dir': GPIOOutput.LOW,
+        }
     }
 
     def __init__(self):
@@ -76,12 +82,13 @@ class BaseStateMachine():
             BaseState.STOP: self.transition_from_stop,
             BaseState.START: self.transition_from_start,
             BaseState.STAIGHT: self.transition_from_straight,
-            BaseState.START_TURN_AROUND: 3,
+            BaseState.START_TURN_AROUND: self.transition_from_start_turn_around,
             BaseState.TURN_AROUND: self.transition_from_turn_around,
             BaseState.VEER_LEFT: self.transition_from_veer_left,
             BaseState.VEER_RIGHT: self.transition_from_veer_right,
             BaseState.TURN_LEFT: self.transition_from_turn_left,
             BaseState.TURN_RIGHT: self.transition_from_turn_right,
+            BaseState.FINISH: self.transition_from_finish,
         }
 
     def transition(self, input: BaseInput) -> BaseOutput:
@@ -98,29 +105,37 @@ class BaseStateMachine():
     def transition_from_start(self, input: BaseInput) -> None:
         """Transition from START state to next state"""
         left, right = input['left_line'], input['right_line']
+        middle_tof = input['middle_tof']
         magnitude = right - left
-        if magnitude < 0:
+        if magnitude < 0 and middle_tof < 35:
             self.state = BaseState.VEER_LEFT
-        elif magnitude > 0:
+        elif magnitude > 0 and middle_tof < 35:
             self.state = BaseState.VEER_RIGHT
 
     def transition_from_straight(self, input: BaseInput) -> None:
         """Transition from STRAIGHT state to next state"""
         left, right = input['left_line'], input['right_line']
         magnitude = right - left
-        if magnitude < -3:
+        left_tof, middle_tof, right_tof = (
+            input['left_tof'], input['middle_tof'], input['right_tof'])
+        close_to_end = middle_tof < 8 and left_tof < 15 and right_tof < 15
+        if close_to_end and left == 10 and right == 10:
+            self.state = BaseState.FINISH
+        elif close_to_end:
+            self.state = BaseState.START_TURN_AROUND
+        elif magnitude < -3:
             self.state = BaseState.TURN_LEFT
         elif magnitude < 0:
-            self.state = BaseState.VEER_LEFT
+            self.state = BaseState.TURN_LEFT
         elif magnitude > 3:
             self.state = BaseState.TURN_RIGHT
         elif magnitude > 0:
-            self.state = BaseState.VEER_RIGHT
+            self.state = BaseState.TURN_RIGHT
 
     def transition_from_start_turn_around(self, input: BaseInput) -> None:
         """Transition from START_TURN_AROUND state to next state"""
         left, right = input['left_line'], input['right_line']
-        if left == 0 and right == 0:
+        if left <= 3 and right <= 0:
             self.state = BaseState.TURN_AROUND
 
     def transition_from_turn_around(self, input: BaseInput) -> None:
@@ -128,23 +143,27 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         if left != 0 and right != 0:
             self.state = BaseState.STAIGHT
-        elif right != 0:
+        elif right > 7:
             self.state = BaseState.TURN_RIGHT
-        elif left != 0:
+        elif left > 7:
             self.state = BaseState.TURN_LEFT
 
     def transition_from_veer_left(self, input: BaseInput) -> None:
         """Transition from VEER_LEFT state to next state"""
-        left = input['left_line']
-        if left <= 1:
+        left, right = input['left_line'], input['right_line']
+        middle_tof = input['middle_tof']
+        magnitude = right - left
+        if left <= 1 or magnitude > 0 or middle_tof < 10:
             self.state = BaseState.STAIGHT
         elif left > 3:
             self.state = BaseState.TURN_LEFT
 
     def transition_from_veer_right(self, input: BaseInput) -> None:
         """Transition from VEER_RIGHT state to next state"""
-        right = input['right_line']
-        if right <= 1:
+        left, right = input['left_line'], input['right_line']
+        middle_tof = input['middle_tof']
+        magnitude = right - left
+        if right <= 1 or magnitude < 0 or middle_tof < 10:
             self.state = BaseState.STAIGHT
         elif right > 3:
             self.state = BaseState.TURN_RIGHT
@@ -152,17 +171,21 @@ class BaseStateMachine():
     def transition_from_turn_left(self, input: BaseInput) -> None:
         """Transition from TURN_LEFT state to next state"""
         left, right = input['left_line'], input['right_line']
-        # magnitude = abs(right - left)
-        # if magnitude < 3:
-        #     self.state = BaseState.STAIGHT
-        if left <= 3:
+        magnitude = abs(right - left)
+        if magnitude < 3:
+            self.state = BaseState.STAIGHT
+        elif left <= 3:
             self.state = BaseState.VEER_LEFT
 
     def transition_from_turn_right(self, input: BaseInput) -> None:
         """Transition from TURN_RIGHT state to next state"""
         left, right = input['left_line'], input['right_line']
-        # magnitude = abs(right - left)
-        # if magnitude < 3:
-        #     self.state = BaseState.STAIGHT
-        if right <= 3:
+        magnitude = abs(right - left)
+        if magnitude < 3:
+            self.state = BaseState.STAIGHT
+        elif right <= 3:
             self.state = BaseState.VEER_RIGHT
+
+    def transition_from_finish(self, input: BaseInput) -> None:
+        """Transition from FINISH state to next state"""
+        return
