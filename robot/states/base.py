@@ -118,10 +118,10 @@ class BaseStateMachine():
         magnitude = right - left
         left_tof, middle_tof, right_tof = (
             input['left_tof'], input['middle_tof'], input['right_tof'])
-        close_to_end = middle_tof < 8 and left_tof < 15 and right_tof < 15
-        if close_to_end and left == 10 and right == 10:
+        boxed_in = left_tof < 15 and right_tof < 15
+        if boxed_in and middle_tof < 5 and left == 10 and right == 10:
             self.state = BaseState.FINISH
-        elif close_to_end:
+        elif boxed_in and middle_tof < 10 and left != 10 and right != 10:
             self.state = BaseState.START_TURN_AROUND
         elif magnitude < -3:
             self.state = BaseState.TURN_LEFT
@@ -172,7 +172,7 @@ class BaseStateMachine():
         """Transition from TURN_LEFT state to next state"""
         left, right = input['left_line'], input['right_line']
         magnitude = abs(right - left)
-        if magnitude < 3:
+        if magnitude < 1:
             self.state = BaseState.STAIGHT
         elif left <= 3:
             self.state = BaseState.VEER_LEFT
@@ -181,7 +181,7 @@ class BaseStateMachine():
         """Transition from TURN_RIGHT state to next state"""
         left, right = input['left_line'], input['right_line']
         magnitude = abs(right - left)
-        if magnitude < 3:
+        if magnitude < 1:
             self.state = BaseState.STAIGHT
         elif right <= 3:
             self.state = BaseState.VEER_RIGHT
