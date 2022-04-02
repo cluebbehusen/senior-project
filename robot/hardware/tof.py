@@ -1,6 +1,6 @@
 from board import I2C
 from statistics import mean
-from typing import Type
+from typing import List, Type
 
 from robot.drivers.vl53l1x import VL53L1X
 
@@ -14,7 +14,7 @@ class TOF:
         self.device.distance_mode = 1
         self.device.timing_budget = 33
         self.device.start_ranging()
-        self.distances = []
+        self.distances: List[int] = []
 
     def get_distance(self) -> float:
         """Get and return distance reading of sensor"""
