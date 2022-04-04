@@ -14,7 +14,7 @@ class Phase(Enum):
 class StepperMotor:
     """Class for cleanly controlling operation of DC stepper motor"""
 
-    step_delay = 0.0008
+    step_delay = 0.01
 
     def __init__(
             self,
@@ -43,7 +43,6 @@ class StepperMotor:
 
     def step_one_forward(self):
         """Turn the stepper motor one step forward based on current phase"""
-        print(self.phase)
         if self.phase == Phase.ONE:
             GPIO.output(self.phase_a_pins[0], GPIO.LOW)
             GPIO.output(self.phase_b_pins[1], GPIO.HIGH)
@@ -90,5 +89,4 @@ class StepperMotor:
     def step_backward(self, steps: int):
         """Turn the stepper motor backward the specified number of steps"""
         for _ in range(steps):
-            print('stepping backward')
             self.step_one_backward()
