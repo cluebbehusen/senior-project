@@ -19,6 +19,7 @@ class TOF:
     def get_distance(self) -> float:
         """Get and return distance reading of sensor"""
         if self.device.data_ready:
+            # distance returned is running average of the past five distances
             if len(self.distances) == 5:
                 self.distances.pop(0)
             self.distances.append(self.device.distance)

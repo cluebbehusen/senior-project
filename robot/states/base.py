@@ -25,7 +25,7 @@ class BaseStateMachine():
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
         },
-        BaseState.STAIGHT: {
+        BaseState.STRAIGHT: {
             'left_pwm': PWM.HIGH_LEFT,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
@@ -81,7 +81,7 @@ class BaseStateMachine():
         self.transitions: Dict[BaseState, Callable[[BaseInput], None]] = {
             BaseState.STOP: self.transition_from_stop,
             BaseState.START: self.transition_from_start,
-            BaseState.STAIGHT: self.transition_from_straight,
+            BaseState.STRAIGHT: self.transition_from_straight,
             BaseState.START_TURN_AROUND: self.transition_from_start_turn_around,
             BaseState.TURN_AROUND: self.transition_from_turn_around,
             BaseState.VEER_LEFT: self.transition_from_veer_left,
@@ -98,9 +98,7 @@ class BaseStateMachine():
 
     def transition_from_stop(self, input: BaseInput) -> None:
         """Transition from STOP state to next state"""
-        if input['stop']:
-            return
-        self.state = BaseState.STAIGHT
+        return
 
     def transition_from_start(self, input: BaseInput) -> None:
         """Transition from START state to next state"""
@@ -123,12 +121,8 @@ class BaseStateMachine():
             self.state = BaseState.FINISH
         elif boxed_in and middle_tof < 10 and left != 10 and right != 10:
             self.state = BaseState.START_TURN_AROUND
-        elif magnitude < -3:
-            self.state = BaseState.TURN_LEFT
         elif magnitude < 0:
             self.state = BaseState.TURN_LEFT
-        elif magnitude > 3:
-            self.state = BaseState.TURN_RIGHT
         elif magnitude > 0:
             self.state = BaseState.TURN_RIGHT
 
@@ -142,7 +136,7 @@ class BaseStateMachine():
         """Transition from TURN_AROUND state to next state"""
         left, right = input['left_line'], input['right_line']
         if left != 0 and right != 0:
-            self.state = BaseState.STAIGHT
+            self.state = BaseState.STRAIGHT
         elif right > 7:
             self.state = BaseState.TURN_RIGHT
         elif left > 7:
@@ -154,7 +148,7 @@ class BaseStateMachine():
         middle_tof = input['middle_tof']
         magnitude = right - left
         if left <= 1 or magnitude > 0 or middle_tof < 10:
-            self.state = BaseState.STAIGHT
+            self.state = BaseState.STRAIGHT
         elif left > 3:
             self.state = BaseState.TURN_LEFT
 
@@ -164,7 +158,7 @@ class BaseStateMachine():
         middle_tof = input['middle_tof']
         magnitude = right - left
         if right <= 1 or magnitude < 0 or middle_tof < 10:
-            self.state = BaseState.STAIGHT
+            self.state = BaseState.STRAIGHT
         elif right > 3:
             self.state = BaseState.TURN_RIGHT
 
@@ -173,7 +167,7 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         magnitude = abs(right - left)
         if magnitude < 1:
-            self.state = BaseState.STAIGHT
+            self.state = BaseState.STRAIGHT
         elif left <= 3:
             self.state = BaseState.VEER_LEFT
 
@@ -182,7 +176,7 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         magnitude = abs(right - left)
         if magnitude < 1:
-            self.state = BaseState.STAIGHT
+            self.state = BaseState.STRAIGHT
         elif right <= 3:
             self.state = BaseState.VEER_RIGHT
 

@@ -16,9 +16,9 @@ class GPIOOutput(Enum):
 
 
 class BaseState(Enum):
-    STOP = 1
+    REST = 1
     START = 2
-    STAIGHT = 3
+    STRAIGHT = 3
     START_TURN_AROUND = 4
     TURN_AROUND = 5
     VEER_LEFT = 6
@@ -42,3 +42,23 @@ class BaseOutput(TypedDict):
     left_dir: GPIOOutput
     right_pwm: PWM
     right_dir: GPIOOutput
+
+
+class LiftState(Enum):
+    REST = 0
+    RAISING = 1
+    LOWERING = 2
+
+
+class LiftInput(Enum):
+    pass
+
+
+class LiftOutput(Enum):
+    pass
+
+
+class GrabberState(Enum):
+    REST = 0
+    EXTENDING = 1
+    RETRACTING = 2
