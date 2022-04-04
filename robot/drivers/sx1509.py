@@ -1,3 +1,6 @@
+# The following is adapted from Pat Satyshur's code here:
+# https://github.com/ilikecake/SX1509-Python, licensed under GPL
+
 from adafruit_bus_device import i2c_device
 from micropython import const
 
@@ -35,7 +38,8 @@ class SX1509:
 
     def pinMode(self, pin, input_mode):
         mode_bit = 1
-        if (input_mode == PIN_TYPE_OUTPUT) or (input_mode == PIN_TYPE_ANALOG_OUTPUT):
+        if (input_mode == PIN_TYPE_OUTPUT) or (
+                input_mode == PIN_TYPE_ANALOG_OUTPUT):
             mode_bit = 0
 
         tempRegDir = self._read_reg_16(_SX1509_RegDirB)

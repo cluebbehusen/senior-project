@@ -1,3 +1,7 @@
+# The following code is adapted from Adafruit Industries code here:
+# https://github.com/adafruit/Adafruit_CircuitPython_VL53L1X,
+# licensed under MIT
+
 import time
 import struct
 from adafruit_bus_device import i2c_device
