@@ -35,6 +35,10 @@ class StepperMotor:
 
     def reset_phase(self):
         """Resets the stepper motor phase to phase one"""
+        GPIO.output(self.phase_a_pins[0], GPIO.LOW)
+        GPIO.output(self.phase_a_pins[1], GPIO.LOW)
+        GPIO.output(self.phase_b_pins[0], GPIO.LOW)
+        GPIO.output(self.phase_b_pins[1], GPIO.LOW)
         self.phase = Phase.ONE
 
     def step_one_forward(self):
@@ -54,7 +58,7 @@ class StepperMotor:
         elif self.phase == Phase.FOUR:
             GPIO.output(self.phase_b_pins[0], GPIO.LOW)
             GPIO.output(self.phase_a_pins[0], GPIO.HIGH)
-            self.phase == Phase.ONE
+            self.phase = Phase.ONE
         time.sleep(self.step_delay)
 
     def step_forward(self, steps: int):
@@ -79,7 +83,7 @@ class StepperMotor:
         elif self.phase == Phase.FOUR:
             GPIO.output(self.phase_b_pins[0], GPIO.LOW)
             GPIO.output(self.phase_a_pins[1], GPIO.HIGH)
-            self.phase == Phase.ONE
+            self.phase = Phase.ONE
         time.sleep(self.step_delay)
 
     def step_backward(self, steps: int):
