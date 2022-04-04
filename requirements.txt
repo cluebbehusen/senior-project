@@ -1,1 +1,3 @@
 adafruit-circuitpython-busdevice
+pigpio
+mypy
