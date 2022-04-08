@@ -121,9 +121,9 @@ class BaseStateMachine():
             self.state = BaseState.FINISH
         elif boxed_in and middle_tof < 8 and left != 10 and right != 10:
             self.state = BaseState.START_TURN_AROUND
-        elif middle_tof < 8.5 and left_tof > 20:
+        elif middle_tof < 9.5 and left_tof > 20:
             self.state = BaseState.TURN_LEFT
-        elif middle_tof < 11 and right_tof > 20:
+        elif middle_tof < 14 and right_tof > 20:
             self.state = BaseState.TURN_RIGHT
         elif magnitude < 0 and middle_tof > 22:
             self.state = BaseState.VEER_LEFT
@@ -151,7 +151,9 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         middle_tof = input['middle_tof']
         magnitude = right - left
-        if left < 1 and right > 0:
+        if left == 10 and right == 10:
+            self.state = BaseState.STRAIGHT
+        elif left < 1 and right > 0:
             self.state = BaseState.VEER_RIGHT
         elif left <= 0 or magnitude > 0 or middle_tof < 10:
             self.state = BaseState.STRAIGHT
@@ -161,9 +163,11 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         middle_tof = input['middle_tof']
         magnitude = right - left
-        if right < 1 and left > 0:
+        if right == 10 and left == 10:
+            self.state = BaseState.STRAIGHT
+        elif right < 1 and left > 0:
             self.state = BaseState.VEER_LEFT
-        if right <= 0 or magnitude < 0 or middle_tof < 10:
+        elif right <= 0 or magnitude < 0 or middle_tof < 10:
             self.state = BaseState.STRAIGHT
 
     def transition_from_turn_left(self, input: BaseInput) -> None:

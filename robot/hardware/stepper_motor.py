@@ -14,7 +14,7 @@ class Phase(Enum):
 class StepperMotor:
     """Class for cleanly controlling operation of DC stepper motor"""
 
-    step_delay = 0.01
+    step_delay = 0.005
 
     def __init__(
             self,

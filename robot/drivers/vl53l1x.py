@@ -115,8 +115,9 @@ class VL53L1X:
     @property
     def data_ready(self):
         """Returns true if new data is ready, otherwise false"""
+        value = self._read_register(_GPIO__TIO_HV_STATUS)
         if (
-            self._read_register(_GPIO__TIO_HV_STATUS)[0] & 0x01
+            value and value[0] & 0x01
             == self._interrupt_polarity
         ):
             return True

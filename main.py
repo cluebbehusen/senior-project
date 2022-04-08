@@ -1,31 +1,25 @@
 import board
 import RPi.GPIO as GPIO
 import time
+import pigpio
 
 from robot.hardware.line_follow_array import LineFollowArray
 from robot.hardware.tof import TOF
+from robot.hardware.brushed_motor import BrushedMotor
 from robot.states.base import BaseStateMachine
 from robot.states.state_types import BaseInput
 
 if __name__ == '__main__':
     i2c = board.I2C()
+    pi = pigpio.pi()
 
     left_pwm_pin = 13
     right_pwm_pin = 18
     left_dir_pin = 24
     right_dir_pin = 23
 
-    GPIO.setup(left_dir_pin, GPIO.OUT)
-    GPIO.setup(right_dir_pin, GPIO.OUT)
-    GPIO.output(left_dir_pin, GPIO.LOW)
-    GPIO.output(right_dir_pin, GPIO.LOW)
-
-    GPIO.setup(left_pwm_pin, GPIO.OUT)
-    GPIO.setup(right_pwm_pin, GPIO.OUT)
-    left_pwm = GPIO.PWM(left_pwm_pin, 10000)
-    right_pwm = GPIO.PWM(right_pwm_pin, 10000)
-    left_pwm.start(0)
-    right_pwm.start(0)
+    left_motor = BrushedMotor(pi, left_dir_pin, left_pwm_pin, 10000)
+    right_motor = BrushedMotor(pi, right_dir_pin, right_pwm_pin, 10000)
 
     tof_pins = (17, 27, 22)
     for pin in tof_pins:
@@ -52,31 +46,36 @@ if __name__ == '__main__':
     base_state_machine = BaseStateMachine()
     count = 0
 
-    while True:
-        left_tof = devices['left'].get_distance()
-        middle_tof = devices['middle'].get_distance()
-        right_tof = devices['right'].get_distance()
-        left_line, right_line = line_follower.get_sensor_reading_magnitudes()
-        input: BaseInput = {
-            'stop': False,
-            'left_tof': left_tof,
-            'middle_tof': middle_tof,
-            'right_tof': right_tof,
-            'left_line': left_line,
-            'right_line': right_line,
-        }
-        old_state = base_state_machine.state
-        output = base_state_machine.transition(input)
-        new_state = base_state_machine.state
-        if old_state != new_state or count > 10:
-            if old_state != new_state:
-                print('=== State Change Occurred ===')
-                print('{} -> {}'.format(old_state, new_state))
-            print('{}: {}'.format(base_state_machine.state, input))
-            count = 0
-        left_pwm.ChangeDutyCycle(output['left_pwm'].value)
-        right_pwm.ChangeDutyCycle(output['right_pwm'].value)
-        GPIO.output(left_dir_pin, output['left_dir'].value)
-        GPIO.output(right_dir_pin, output['right_dir'].value)
-        time.sleep(1 / 60)
-        count += 1
+    try:
+        while True:
+            left_tof = devices['left'].get_distance()
+            middle_tof = devices['middle'].get_distance()
+            right_tof = devices['right'].get_distance()
+            left_line, right_line = line_follower.get_sensor_reading_magnitudes()
+            input: BaseInput = {
+                'stop': False,
+                'left_tof': left_tof,
+                'middle_tof': middle_tof,
+                'right_tof': right_tof,
+                'left_line': left_line,
+                'right_line': right_line,
+            }
+            old_state = base_state_machine.state
+            output = base_state_machine.transition(input)
+            new_state = base_state_machine.state
+            if old_state != new_state or count > 10:
+                if old_state != new_state:
+                    print('=== State Change Occurred ===')
+                    print('{} -> {}'.format(old_state, new_state))
+                print('{}: {}'.format(base_state_machine.state, input))
+                count = 0
+            left_motor.set_motor_pwm(output['left_pwm'].value)
+            right_motor.set_motor_pwm(output['right_pwm'].value)
+            left_motor.set_direction(output['left_dir'].value)
+            right_motor.set_direction(output['right_dir'].value)
+            time.sleep(1 / 30)
+            count += 1
+    except BaseException as e:
+        print(e)
+        left_motor.stop_motor()
+        right_motor.stop_motor()
