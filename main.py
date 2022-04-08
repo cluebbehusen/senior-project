@@ -10,10 +10,10 @@ from robot.states.state_types import BaseInput
 if __name__ == '__main__':
     i2c = board.I2C()
 
-    left_pwm_pin = 18
-    right_pwm_pin = 13
-    left_dir_pin = 23
-    right_dir_pin = 24
+    left_pwm_pin = 13
+    right_pwm_pin = 18
+    left_dir_pin = 24
+    right_dir_pin = 23
 
     GPIO.setup(left_dir_pin, GPIO.OUT)
     GPIO.setup(right_dir_pin, GPIO.OUT)
@@ -68,7 +68,7 @@ if __name__ == '__main__':
         old_state = base_state_machine.state
         output = base_state_machine.transition(input)
         new_state = base_state_machine.state
-        if old_state != new_state or count > 30:
+        if old_state != new_state or count > 10:
             if old_state != new_state:
                 print('=== State Change Occurred ===')
                 print('{} -> {}'.format(old_state, new_state))
@@ -78,5 +78,5 @@ if __name__ == '__main__':
         right_pwm.ChangeDutyCycle(output['right_pwm'].value)
         GPIO.output(left_dir_pin, output['left_dir'].value)
         GPIO.output(right_dir_pin, output['right_dir'].value)
-        time.sleep(1 / 30)
+        time.sleep(1 / 60)
         count += 1

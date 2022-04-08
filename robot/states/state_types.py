@@ -3,10 +3,9 @@ from typing import TypedDict
 
 
 class PWM(Enum):
-    HIGH = 12
-    HIGH_LEFT = 11
-    MID = 8
-    LOW = 4
+    HIGH = 20
+    MID = 15
+    LOW = 8
     OFF = 0
 
 
