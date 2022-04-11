@@ -1,6 +1,5 @@
 import pigpio
 import time
-from typing import Type
 
 from robot.hardware.brushed_motor import BrushedMotor
 from robot.hardware.linear_actuator import LinearActuator

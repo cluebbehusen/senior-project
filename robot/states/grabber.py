@@ -1,5 +1,6 @@
 from typing import Callable, Dict
 
+from robot.subsystems.grabber import Grabber
 from robot.states.state_types import (
     GrabberInput,
     GrabberOutput,
@@ -28,12 +29,16 @@ class GrabberStateMachine():
         }
     }
 
-    def __init__(self, grabber: None) -> None:
+    def __init__(self, grabber: Grabber) -> None:
         """Initialize starting state and state transition dictionary"""
         self.state: GrabberState = GrabberState.REST
-        self.transitions: Dict[GrabberState,
-                               Callable[[GrabberInput], None]] = {}
-        # Fill in with actual grabber object
+        self.transitions: Dict[GrabberState, Callable[[GrabberInput], None]] = {
+            GrabberState.REST: self.transition_from_rest,
+            GrabberState.GRAB: self.transition_from_grab,
+            GrabberState.EXTEND_TO_CUP: self.transition_from_extend_to_cup,
+            GrabberState.RETRACT: self.transition_from_retract,
+            GrabberState.DISPENSE: self.transition_from_dispense
+        }
         self.grabber = grabber
 
     def transition(self, input: GrabberInput) -> GrabberOutput:
@@ -53,22 +58,23 @@ class GrabberStateMachine():
 
     def transition_from_grab(self, input: GrabberInput) -> None:
         """Transition from GRAB state to next state"""
-        # Fill in with self.grabber grab method
+        self.grabber.grab()
         self.state = GrabberState.RETRACT
 
     def transition_from_extend_to_cup(self, input: GrabberInput) -> None:
         """Transition from EXTEND_TO_CUP state to next state"""
-        # Fill in with self.grabber extend method
+        self.grabber.extend_to_cup()
         self.state = GrabberState.DISPENSE
 
     def transition_from_retract(self, input: GrabberInput) -> None:
         """Transition from RETRACT state to next state"""
-        # Fill in with self.grabber retract method
+        self.grabber.retract()
         self.state = GrabberState.REST
 
     def transition_from_dispense(self, input: GrabberInput) -> None:
         """Transition from DISPENSE state to next state"""
         cup = input['cup']
+        self.grabber.dispense_beads()
         if cup:
             self.state = GrabberState.RETRACT
         else:
