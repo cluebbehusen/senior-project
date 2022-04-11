@@ -23,23 +23,23 @@ class Grabber:
 
     def __init__(
             self,
-            pi: Type[pigpio.pi],
+            pi: pigpio.pi,
             linear_actuator_pwm_pin: int,
             brushed_motor_pwm_pin: int,
             brushed_motor_direction_pin: int) -> None:
         """Initialize linear actuator and brushed motor objects"""
-        self.motor = BrushedMotor(
+        self.motor: BrushedMotor = BrushedMotor(
             pi,
             brushed_motor_direction_pin,
             brushed_motor_pwm_pin,
             1000)
-        self.actuator = LinearActuator(
+        self.actuator: LinearActuator = LinearActuator(
             pi,
             linear_actuator_pwm_pin,
             1000
         )
 
-    def grab(self):
+    def grab(self) -> None:
         """Extend grabbing mechanism and grab beads"""
         self.motor.set_direction_forward()
         self.motor.set_motor_pwm(self.grab_motor_pwm)
