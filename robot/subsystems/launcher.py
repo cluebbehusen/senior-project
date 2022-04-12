@@ -16,7 +16,7 @@ class Launcher:
         brushed_motor_pwm_pin: int,
         brushed_motor_direction_pin: int,
     ) -> None:
-        """Initialie brushed motor object for launcher"""
+        """Initialize brushed motor object for launcher"""
         self.motor: BrushedMotor = BrushedMotor(
             pi,
             brushed_motor_pwm_pin,
