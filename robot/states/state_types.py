@@ -48,14 +48,17 @@ class LiftState(Enum):
     REST = 0
     RAISE = 1
     LOWER = 2
+    RESET = 3
 
 
 class LiftInput(TypedDict):
-    pass
+    lift: bool
+    lower: bool
+    reset: bool
 
 
 class LiftOutput(TypedDict):
-    pass
+    finish: bool
 
 
 class GrabberState(Enum):
@@ -82,8 +85,9 @@ class LauncherState(Enum):
 
 
 class LauncherInput(TypedDict):
-    pass
+    launch: bool
+    finish: bool
 
 
 class LauncherOutput(TypedDict):
-    pass
+    finish: bool

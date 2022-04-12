@@ -37,7 +37,7 @@ class GrabberStateMachine():
             GrabberState.GRAB: self.transition_from_grab,
             GrabberState.EXTEND_TO_CUP: self.transition_from_extend_to_cup,
             GrabberState.RETRACT: self.transition_from_retract,
-            GrabberState.DISPENSE: self.transition_from_dispense
+            GrabberState.DISPENSE: self.transition_from_dispense,
         }
         self.grabber = grabber
 
