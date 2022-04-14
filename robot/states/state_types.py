@@ -45,19 +45,48 @@ class BaseOutput(TypedDict):
 
 class LiftState(Enum):
     REST = 0
-    RAISING = 1
-    LOWERING = 2
+    RAISE = 1
+    LOWER = 2
+    RESET = 3
 
 
-class LiftInput(Enum):
-    pass
+class LiftInput(TypedDict):
+    lift: bool
+    lower: bool
+    reset: bool
 
 
-class LiftOutput(Enum):
-    pass
+class LiftOutput(TypedDict):
+    finish: bool
 
 
 class GrabberState(Enum):
     REST = 0
-    EXTENDING = 1
-    RETRACTING = 2
+    GRAB = 1
+    EXTEND_TO_CUP = 2
+    RETRACT = 3
+    DISPENSE = 4
+
+
+class GrabberInput(TypedDict):
+    tree: bool
+    cup: bool
+    net: bool
+
+
+class GrabberOutput(TypedDict):
+    finish: bool
+
+
+class LauncherState(Enum):
+    REST = 0
+    LAUNCH = 1
+
+
+class LauncherInput(TypedDict):
+    launch: bool
+    finish: bool
+
+
+class LauncherOutput(TypedDict):
+    finish: bool
