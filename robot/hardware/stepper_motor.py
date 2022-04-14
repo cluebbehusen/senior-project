@@ -14,7 +14,7 @@ class Phase(Enum):
 class StepperMotor:
     """Class for cleanly controlling operation of DC stepper motor"""
 
-    step_delay = 0.005
+    step_delay = 0.008
 
     def __init__(
             self,
@@ -65,6 +65,7 @@ class StepperMotor:
         """Turn the stepper motor forward the specified number of steps"""
         for _ in range(steps):
             self.step_one_forward()
+        self.reset_phase()
 
     def step_one_backward(self):
         """Turn the stepper motor one step backward based on current phase"""
@@ -90,3 +91,4 @@ class StepperMotor:
         """Turn the stepper motor backward the specified number of steps"""
         for _ in range(steps):
             self.step_one_backward()
+        self.reset_phase()

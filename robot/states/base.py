@@ -77,7 +77,7 @@ class BaseStateMachine():
 
     def __init__(self):
         """Initialize starting state and state transition dictionary"""
-        self.state: BaseState = BaseState.START
+        self.state: BaseState = BaseState.REST
         self.transitions: Dict[BaseState, Callable[[BaseInput], None]] = {
             BaseState.REST: self.transition_from_rest,
             BaseState.START: self.transition_from_start,
