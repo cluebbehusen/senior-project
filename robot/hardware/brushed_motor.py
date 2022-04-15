@@ -1,6 +1,6 @@
 import pigpio
 import RPi.GPIO as GPIO
-from typing import Type, Union
+from typing import Type
 
 
 class BrushedMotor:

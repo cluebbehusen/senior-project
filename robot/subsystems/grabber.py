@@ -8,12 +8,12 @@ from robot.hardware.linear_actuator import LinearActuator
 class Grabber:
     """Class for cleanly controlling grabber subsystem"""
 
-    grab_initial_delay: float = 0.0
-    grab_actuator_min_pwm: int = 0
-    grab_actuator_max_pwm: int = 0
-    grab_motor_pwm: int = 0
-    grab_extension_delay: float = 0.0
-    grab_end_delay: float = 0.0
+    grab_initial_delay: float = 0.3
+    grab_actuator_min_pwm: int = 77
+    grab_actuator_max_pwm: int = 230
+    grab_motor_pwm: int = 191
+    grab_extension_delay: float = .03
+    grab_end_delay: float = 1.0
     retract_delay: float = 0.0
     cup_distance: int = 0
     cup_extension_delay: float = 0.0
@@ -31,7 +31,7 @@ class Grabber:
             pi,
             brushed_motor_direction_pin,
             brushed_motor_pwm_pin,
-            1000)
+            10000)
         self.actuator: LinearActuator = LinearActuator(
             pi,
             linear_actuator_pwm_pin,

@@ -6,8 +6,9 @@ from robot.hardware.stepper_motor import StepperMotor
 class Lift:
     """Class for cleanly controlling lift subsystem"""
 
-    rise_steps: int = 0
-    lower_steps: int = 0
+    rise_steps: int = 1800
+    increment_steps: int = 200
+    lower_steps: int = 1500
 
     def __init__(
         self,
@@ -21,10 +22,17 @@ class Lift:
         """Lift scissor lift to default height"""
         self.stepper.step_forward(self.rise_steps)
 
+    def incremement(self) -> None:
+        """Lift scissor lift an additional small amount"""
+        self.stepper.step_forward(self.increment_steps)
+
     def lower(self) -> None:
         """Lower scissor lift to default height"""
         self.stepper.step_backward(self.lower_steps)
 
     def reset(self) -> None:
         """Lower scissor lift back to starting height"""
-        self.stepper.step_backward(self.rise_steps - self.lower_steps)
+        self.stepper.step_backward(
+            self.rise_steps +
+            self.increment_steps -
+            self.lower_steps)

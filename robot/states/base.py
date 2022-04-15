@@ -77,7 +77,7 @@ class BaseStateMachine():
 
     def __init__(self):
         """Initialize starting state and state transition dictionary"""
-        self.state: BaseState = BaseState.STRAIGHT
+        self.state: BaseState = BaseState.START
         self.transitions: Dict[BaseState, Callable[[BaseInput], None]] = {
             BaseState.REST: self.transition_from_rest,
             BaseState.START: self.transition_from_start,
@@ -123,7 +123,7 @@ class BaseStateMachine():
             self.state = BaseState.START_TURN_AROUND
         elif middle_tof < 9.5 and left_tof > 20:
             self.state = BaseState.TURN_LEFT
-        elif middle_tof < 14 and right_tof > 20:
+        elif middle_tof < 10 and right_tof > 20:
             self.state = BaseState.TURN_RIGHT
         elif magnitude < 0 and middle_tof > 22:
             self.state = BaseState.VEER_LEFT
@@ -176,6 +176,8 @@ class BaseStateMachine():
         magnitude = abs(right - left)
         if magnitude < 1 and left != 0 and right != 0:
             self.state = BaseState.STRAIGHT
+        elif left < 3 and left > 0:
+            self.state = BaseState.VEER_LEFT
 
     def transition_from_turn_right(self, input: BaseInput) -> None:
         """Transition from TURN_RIGHT state to next state"""
@@ -183,6 +185,8 @@ class BaseStateMachine():
         magnitude = abs(right - left)
         if magnitude < 1 and left != 0 and right != 0:
             self.state = BaseState.STRAIGHT
+        elif right < 3 and right > 0:
+            self.state = BaseState.VEER_RIGHT
 
     def transition_from_finish(self, input: BaseInput) -> None:
         """Transition from FINISH state to next state"""

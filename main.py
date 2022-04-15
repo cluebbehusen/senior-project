@@ -9,6 +9,33 @@ from robot.hardware.brushed_motor import BrushedMotor
 from robot.states.base import BaseStateMachine
 from robot.states.state_types import BaseInput
 
+
+def reset_tof_sensors():
+    tof_pins = (10, 9, 11, 19, 26)
+    for pin in tof_pins:
+        GPIO.setup(pin, GPIO.OUT)
+        GPIO.output(pin, GPIO.LOW)
+    time.sleep(0.02)
+    for pin in tof_pins:
+        GPIO.output(pin, GPIO.HIGH)
+    time.sleep(0.02)
+    for pin in tof_pins:
+        GPIO.output(pin, GPIO.LOW)
+
+    devices = {}
+    GPIO.output(tof_pins[0], GPIO.HIGH)
+    devices['left'] = TOF(i2c, 0x30)
+    GPIO.output(tof_pins[1], GPIO.HIGH)
+    devices['middle'] = TOF(i2c, 0x31)
+    GPIO.output(tof_pins[2], GPIO.HIGH)
+    devices['right'] = TOF(i2c, 0x32)
+    GPIO.output(tof_pins[3], GPIO.HIGH)
+    devices['bottom'] = TOF(i2c, 0x33)
+    GPIO.output(tof_pins[4], GPIO.HIGH)
+    devices['top'] = TOF(i2c, 0x34)
+    return devices
+
+
 if __name__ == '__main__':
     i2c = board.I2C()
     pi = pigpio.pi()
@@ -21,28 +48,7 @@ if __name__ == '__main__':
     left_motor = BrushedMotor(pi, left_dir_pin, left_pwm_pin, 10000)
     right_motor = BrushedMotor(pi, right_dir_pin, right_pwm_pin, 10000)
 
-    tof_pins = (10, 9, 11, 19, 26)
-    for pin in tof_pins:
-        GPIO.setup(pin, GPIO.OUT)
-        GPIO.output(pin, GPIO.LOW)
-    time.sleep(0.2)
-    for pin in tof_pins:
-        GPIO.output(pin, GPIO.HIGH)
-    time.sleep(0.2)
-    for pin in tof_pins:
-        GPIO.output(pin, GPIO.LOW)
-
-    devices = {}
-    GPIO.output(tof_pins[0], GPIO.HIGH)
-    devices['left'] = TOF(i2c, 0x30)
-    GPIO.output(tof_pins[1], GPIO.HIGH)
-    devices['middle'] = TOF(i2c, 0x31)
-    GPIO.output(tof_pins[2], GPIO.HIGH)
-    devices['right'] = TOF(i2c, 0x32)
-    GPIO.output(tof_pins[3], GPIO.HIGH)
-    bottom = TOF(i2c, 0x33)
-    GPIO.output(tof_pins[4], GPIO.HIGH)
-    top = TOF(i2c, 0x34)
+    devices = reset_tof_sensors()
 
     line_pins = [0, 1, 2, 3, 4, 5, 6, 7]
     line_follower = LineFollowArray(i2c, line_pins)
@@ -52,9 +58,15 @@ if __name__ == '__main__':
 
     try:
         while True:
-            left_tof = devices['left'].get_distance()
-            middle_tof = devices['middle'].get_distance()
-            right_tof = devices['right'].get_distance()
+            try:
+                left_tof = devices['left'].get_distance()
+                middle_tof = devices['middle'].get_distance()
+                right_tof = devices['right'].get_distance()
+                top_tof = devices['top'].get_distance()
+                bottom_tof = devices['bottom'].get_distance()
+            except BaseException:
+                print('error occurred, resetting sensors')
+                devices = reset_tof_sensors()
             left_line, right_line = line_follower.get_sensor_reading_magnitudes()
             input: BaseInput = {
                 'stop': False,
@@ -72,16 +84,13 @@ if __name__ == '__main__':
                     print('=== State Change Occurred ===')
                     print('{} -> {}'.format(old_state, new_state))
                 print('{}: {}'.format(base_state_machine.state, input))
-                print(
-                    'TOP: {}, BOTTOM: {}'.format(
-                        top.get_distance(),
-                        bottom.get_distance()))
+                print('TOP: {}, BOTTOM: {}'.format(top_tof, bottom_tof))
                 count = 0
             left_motor.set_motor_pwm(output['left_pwm'].value)
             right_motor.set_motor_pwm(output['right_pwm'].value)
             left_motor.set_direction(output['left_dir'].value)
             right_motor.set_direction(output['right_dir'].value)
-            time.sleep(1 / 15)
+            time.sleep(1 / 30)
             count += 1
     except BaseException as e:
         print(e)
