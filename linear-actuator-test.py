@@ -3,4 +3,4 @@ import pigpio
 
 pi = pigpio.pi()
 actuator = LinearActuator(pi, 12, 1000)
-actuator.set_extension_minimum()
+actuator.set_extension_percent(0)

@@ -67,7 +67,7 @@ if __name__ == '__main__':
             old_state = base_state_machine.state
             output = base_state_machine.transition(input)
             new_state = base_state_machine.state
-            if old_state != new_state or count > 5:
+            if old_state != new_state or count > 3:
                 if old_state != new_state:
                     print('=== State Change Occurred ===')
                     print('{} -> {}'.format(old_state, new_state))
@@ -81,7 +81,7 @@ if __name__ == '__main__':
             right_motor.set_motor_pwm(output['right_pwm'].value)
             left_motor.set_direction(output['left_dir'].value)
             right_motor.set_direction(output['right_dir'].value)
-            time.sleep(1 / 60)
+            time.sleep(1 / 15)
             count += 1
     except BaseException as e:
         print(e)

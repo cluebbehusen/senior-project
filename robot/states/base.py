@@ -15,69 +15,69 @@ class BaseStateMachine():
     outputs: Dict[BaseState, BaseOutput] = {
         BaseState.REST: {
             'left_pwm': PWM.OFF,
-            'left_dir': GPIOOutput.LOW,
+            'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.OFF,
-            'right_dir': GPIOOutput.LOW,
+            'right_dir': GPIOOutput.HIGH,
         },
         BaseState.START: {
             'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.LOW,
+            'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.LOW,
+            'right_dir': GPIOOutput.HIGH,
         },
         BaseState.STRAIGHT: {
             'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.LOW,
+            'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.LOW,
+            'right_dir': GPIOOutput.HIGH,
         },
         BaseState.START_TURN_AROUND: {
-            'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.HIGH,
-            'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.LOW,
-        },
-        BaseState.TURN_AROUND: {
-            'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.HIGH,
-            'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.LOW,
-        },
-        BaseState.VEER_LEFT: {
-            'left_pwm': PWM.LOW,
-            'left_dir': GPIOOutput.LOW,
-            'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.LOW,
-        },
-        BaseState.TURN_LEFT: {
-            'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.HIGH,
-            'right_pwm': PWM.HIGH,
-            'right_dir': GPIOOutput.LOW,
-        },
-        BaseState.VEER_RIGHT: {
-            'left_pwm': PWM.HIGH,
-            'left_dir': GPIOOutput.LOW,
-            'right_pwm': PWM.LOW,
-            'right_dir': GPIOOutput.LOW,
-        },
-        BaseState.TURN_RIGHT: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
         },
+        BaseState.TURN_AROUND: {
+            'left_pwm': PWM.HIGH,
+            'left_dir': GPIOOutput.LOW,
+            'right_pwm': PWM.HIGH,
+            'right_dir': GPIOOutput.HIGH,
+        },
+        BaseState.VEER_LEFT: {
+            'left_pwm': PWM.LOW,
+            'left_dir': GPIOOutput.HIGH,
+            'right_pwm': PWM.HIGH,
+            'right_dir': GPIOOutput.HIGH,
+        },
+        BaseState.TURN_LEFT: {
+            'left_pwm': PWM.HIGH,
+            'left_dir': GPIOOutput.LOW,
+            'right_pwm': PWM.HIGH,
+            'right_dir': GPIOOutput.HIGH,
+        },
+        BaseState.VEER_RIGHT: {
+            'left_pwm': PWM.HIGH,
+            'left_dir': GPIOOutput.HIGH,
+            'right_pwm': PWM.LOW,
+            'right_dir': GPIOOutput.HIGH,
+        },
+        BaseState.TURN_RIGHT: {
+            'left_pwm': PWM.HIGH,
+            'left_dir': GPIOOutput.HIGH,
+            'right_pwm': PWM.HIGH,
+            'right_dir': GPIOOutput.LOW,
+        },
         BaseState.FINISH: {
             'left_pwm': PWM.OFF,
-            'left_dir': GPIOOutput.LOW,
+            'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.OFF,
-            'right_dir': GPIOOutput.LOW,
+            'right_dir': GPIOOutput.HIGH,
         }
     }
 
     def __init__(self):
         """Initialize starting state and state transition dictionary"""
-        self.state: BaseState = BaseState.REST
+        self.state: BaseState = BaseState.STRAIGHT
         self.transitions: Dict[BaseState, Callable[[BaseInput], None]] = {
             BaseState.REST: self.transition_from_rest,
             BaseState.START: self.transition_from_start,
@@ -176,8 +176,6 @@ class BaseStateMachine():
         magnitude = abs(right - left)
         if magnitude < 1 and left != 0 and right != 0:
             self.state = BaseState.STRAIGHT
-        elif left < 3 and left > 0:
-            self.state = BaseState.VEER_LEFT
 
     def transition_from_turn_right(self, input: BaseInput) -> None:
         """Transition from TURN_RIGHT state to next state"""
@@ -185,8 +183,6 @@ class BaseStateMachine():
         magnitude = abs(right - left)
         if magnitude < 1 and left != 0 and right != 0:
             self.state = BaseState.STRAIGHT
-        elif right < 3 and right > 0:
-            self.state = BaseState.VEER_RIGHT
 
     def transition_from_finish(self, input: BaseInput) -> None:
         """Transition from FINISH state to next state"""
