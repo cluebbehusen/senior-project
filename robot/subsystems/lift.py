@@ -28,3 +28,6 @@ class Lift:
     def reset(self) -> None:
         """Lower scissor lift back to starting height"""
         self.stepper.step_backward(self.rise_steps - self.lower_steps)
+
+    def stop(self) -> None:
+        self.stepper.reset_phase()

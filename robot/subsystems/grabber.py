@@ -69,3 +69,7 @@ class Grabber:
         time.sleep(self.dispense_time)
         self.motor.set_motor_pwm(0)
         self.motor.set_direction_forward()
+
+    def stop(self) -> None:
+        self.actuator.set_extension_minimum()
+        self.motor.set_motor_pwm(0)
