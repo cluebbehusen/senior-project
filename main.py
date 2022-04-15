@@ -61,7 +61,6 @@ if __name__ == '__main__':
             if old_pauseable != pauseable:
                 object_count = 0
             new_state = base_state_machine.state
-            print('OBJECT COUNT: {}'.format(object_count))
             if bottom_tof < object_threshold and pauseable:
                 object_count += 1
             if object_count > 20:
@@ -71,7 +70,7 @@ if __name__ == '__main__':
                 time.sleep(1)
                 base_state_machine.state = new_state
                 object_count = 0
-            if old_state != new_state or count > 3:
+            if old_state != new_state or count > 0:
                 if old_state != new_state:
                     print('=== State Change Occurred ===')
                     print('{} -> {}'.format(old_state, new_state))
