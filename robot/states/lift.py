@@ -18,6 +18,9 @@ class LiftStateMachine():
         LiftState.RAISE: {
             'finish': False
         },
+        LiftState.INCREMENT: {
+            'finish': False
+        },
         LiftState.LOWER: {
             'finish': False
         },
@@ -44,9 +47,11 @@ class LiftStateMachine():
 
     def transition_from_rest(self, input: LiftInput) -> None:
         """Transition from REST state to next state"""
-        lift, lower, reset = input['lift'], input['lower'], input['reset']
+        lift, increment, lower, reset = input['lift'], input['increment'], input['lower'], input['reset']
         if lift:
             self.state = LiftState.RAISE
+        if increment:
+            self.state = LiftState.INCREMENT
         elif lower:
             self.state = LiftState.LOWER
         elif reset:
@@ -55,6 +60,11 @@ class LiftStateMachine():
     def transition_from_raise(self, input: LiftInput) -> None:
         """Transition from RAISE state to next state"""
         self.lift.rise()
+        self.state = LiftState.REST
+
+    def transition_from_increment(self, input: LiftInput) -> None:
+        """Transition from INCREMENT state to next state"""
+        self.lift.incremement()
         self.state = LiftState.REST
 
     def transition_from_lower(self, input: LiftInput) -> None:

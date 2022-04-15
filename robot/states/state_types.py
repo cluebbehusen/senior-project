@@ -46,12 +46,14 @@ class BaseOutput(TypedDict):
 class LiftState(Enum):
     REST = 0
     RAISE = 1
-    LOWER = 2
-    RESET = 3
+    INCREMENT = 2
+    LOWER = 3
+    RESET = 4
 
 
 class LiftInput(TypedDict):
     lift: bool
+    increment: bool
     lower: bool
     reset: bool
 

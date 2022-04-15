@@ -12,14 +12,14 @@ from robot.subsystems.grabber import Grabber
 from robot.subsystems.launcher import Launcher
 from robot.subsystems.lift import Lift
 
-tof_pins = (17, 27, 22, 0, 0)
+tof_pins = (10, 9, 11, 19, 26)
 
 line_pins = [0, 1, 2, 3, 4, 5, 6, 7]
 
-left_pwm_pin = 18
+left_pwm_pin = 16
 right_pwm_pin = 13
-left_dir_pin = 23
-right_dir_pin = 24
+left_dir_pin = 20
+right_dir_pin = 21
 
 coil_pwm_pin = 15
 coil_dir_pin = 14
