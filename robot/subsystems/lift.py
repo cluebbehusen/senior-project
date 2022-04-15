@@ -36,3 +36,6 @@ class Lift:
             self.rise_steps +
             self.increment_steps -
             self.lower_steps)
+
+    def stop(self) -> None:
+        self.stepper.reset_phase()
