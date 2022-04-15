@@ -44,10 +44,10 @@ def init_tof(i2c: board.I2C) -> TOFDevices:
     for pin in tof_pins:
         GPIO.setup(pin, GPIO.OUT)
         GPIO.output(pin, GPIO.LOW)
-    time.sleep(0.02)
+    time.sleep(0.03)
     for pin in tof_pins:
         GPIO.output(pin, GPIO.HIGH)
-    time.sleep(0.02)
+    time.sleep(0.03)
     for pin in tof_pins:
         GPIO.output(pin, GPIO.LOW)
     GPIO.output(tof_pins[0], GPIO.HIGH)
