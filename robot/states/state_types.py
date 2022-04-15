@@ -41,6 +41,7 @@ class BaseOutput(TypedDict):
     left_dir: GPIOOutput
     right_pwm: PWM
     right_dir: GPIOOutput
+    pauseable: bool
 
 
 class LiftState(Enum):

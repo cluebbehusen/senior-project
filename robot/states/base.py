@@ -18,60 +18,70 @@ class BaseStateMachine():
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.OFF,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': False,
         },
         BaseState.START: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': False,
         },
         BaseState.STRAIGHT: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': True,
         },
         BaseState.START_TURN_AROUND: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': False
         },
         BaseState.TURN_AROUND: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': False
         },
         BaseState.VEER_LEFT: {
             'left_pwm': PWM.LOW,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': True
         },
         BaseState.TURN_LEFT: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': False
         },
         BaseState.VEER_RIGHT: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.LOW,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': True,
         },
         BaseState.TURN_RIGHT: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
+            'pauseable': False,
         },
         BaseState.FINISH: {
             'left_pwm': PWM.OFF,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.OFF,
             'right_dir': GPIOOutput.HIGH,
+            'pauseable': False,
         }
     }
 

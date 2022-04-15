@@ -3,6 +3,7 @@ import time
 import pigpio
 
 from robot.states.base import BaseStateMachine, BaseInput
+from robot.states.state_types import BaseState
 from robot.utils.init import init_tof, init_subsystems, stop_subsystems
 
 object_threshold = 15
@@ -42,11 +43,15 @@ if __name__ == '__main__':
             }
             old_state = base_state_machine.state
             output = base_state_machine.transition(input)
+            pauseable = output['pauseable']
             new_state = base_state_machine.state
             if bottom_tof < object_threshold:
                 object_count += 1
-            if object_count > 10:
+            if object_count > 10 and pauseable:
                 print('DETECTED OBJECT')
+                base_state_machine.state = BaseState.REST
+                time.sleep(5)
+                base_state_machine.state = new_state
                 object_count = 0
             if old_state != new_state or count > 3:
                 # if old_state != new_state:
