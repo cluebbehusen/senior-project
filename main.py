@@ -77,14 +77,14 @@ def run_course():
             if old_base_state != new_base_state:
                 print('=== State Change Occurred ===')
                 print('{} -> {}'.format(old_base_state, new_base_state))
-            print('BASE: {}: {}'.format(base_state_machine.state, robot_input))
+            print('BASE: {}: {}'.format(base_state_machine.state, base_input))
             if old_robot_state != new_robot_state:
                 print('=== State Change Occurred ===')
                 print('{} -> {}'.format(old_robot_state, new_robot_state))
             print(
                 'ROBOT: {}: {}'.format(
                     robot_state_machine.state,
-                    base_input))
+                    robot_input))
             print('CUP/NET COUNT: {}'.format(robot_state_machine.cup_net_count))
             finish = base_output['finish']
             if finish:

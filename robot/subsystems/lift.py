@@ -18,9 +18,13 @@ class Lift:
         """Initialize stepper motor for lift"""
         self.stepper = StepperMotor(phase_a_pins, phase_b_pins)
 
-    def rise(self) -> None:
+    def initial_rise(self) -> None:
         """Lift scissor lift to default height"""
         self.stepper.step_forward(self.rise_steps)
+
+    def second_rise(self) -> None:
+        """Lift scissor lift from run height to default height"""
+        self.stepper.step_forward(self.lower_steps - self.increment_steps)
 
     def incremement(self) -> None:
         """Lift scissor lift an additional small amount"""

@@ -121,7 +121,10 @@ class RobotStateMachine():
 
     def transition_from_grab(self, input: RobotInput) -> None:
         """Transition from GRAB state to next state"""
-        self.lift.rise()
+        if (self.cup_net_count == 0):
+            self.lift.initial_rise()
+        else:
+            self.lift.second_rise()
         self.grabber.grab()
         self.lift.incremement()
         self.grabber.retract()
@@ -137,7 +140,7 @@ class RobotStateMachine():
         if (bottom_tof < self.detection_threshold and self.cup_net_count == 0):
             self.cup_net_count += 1
             self.state = RobotState.IGNORE_CUP_NET
-        if (bottom_tof < self.detection_threshold and top_tof <
+        elif (bottom_tof < self.detection_threshold and top_tof <
                 self.detection_threshold):
             self.cup_net_count += 1
             self.state = RobotState.ADVANCE_NET
