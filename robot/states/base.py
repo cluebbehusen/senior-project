@@ -74,7 +74,7 @@ class BaseStateMachine():
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
-            'pauseable': False,
+            'pauseable': True,
             'finish': False,
         },
         BaseState.FINISH: {
@@ -124,7 +124,7 @@ class BaseStateMachine():
         left_tof, middle_tof, right_tof = (
             input['left_tof'], input['middle_tof'], input['right_tof'])
         boxed_in = left_tof < 15 and right_tof < 15
-        if boxed_in and middle_tof < 4 and left == 10 and right == 10:
+        if boxed_in and middle_tof < 6 and left == 10 and right == 10:
             self.state = BaseState.FINISH
         elif boxed_in and middle_tof < 6 and left != 10 and right != 10:
             self.state = BaseState.START_TURN_AROUND
