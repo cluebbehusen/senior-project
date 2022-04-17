@@ -13,7 +13,8 @@ from robot.subsystems.lift import Lift
 class RobotStateMachine():
     """State machine for managing robot's beads subsystems"""
 
-    detection_threshold: float = 16.5
+    bottom_detection_threshold: float = 16.5
+    top_detection_threshold: float = 19.0
     rejection_threshold: float = 21.0
     tree_advance: int = 9
     cup_advance: int = 10
@@ -104,8 +105,8 @@ class RobotStateMachine():
         pauseable = input['pauseable']
         if not pauseable:
             return
-        if (top_tof < self.detection_threshold and bottom_tof <
-                self.detection_threshold):
+        if (top_tof < self.top_detection_threshold and bottom_tof <
+                self.bottom_detection_threshold):
             self.state = RobotState.ADVANCE_TREE
 
     def transition_from_advance_tree(self, input: RobotInput) -> None:
@@ -137,14 +138,14 @@ class RobotStateMachine():
         pauseable = input['pauseable']
         if not pauseable:
             return
-        if (bottom_tof < self.detection_threshold and self.cup_net_count == 0):
+        if (bottom_tof < self.bottom_detection_threshold and self.cup_net_count == 0):
             self.cup_net_count += 1
             self.state = RobotState.IGNORE_CUP_NET
-        elif (bottom_tof < self.detection_threshold and top_tof <
-                self.detection_threshold):
+        elif (bottom_tof < self.bottom_detection_threshold and top_tof <
+                self.top_detection_threshold):
             self.cup_net_count += 1
             self.state = RobotState.ADVANCE_NET
-        elif (bottom_tof < self.detection_threshold):
+        elif (bottom_tof < self.bottom_detection_threshold):
             self.cup_net_count += 1
             self.state = RobotState.ADVANCE_CUP
 
@@ -201,8 +202,8 @@ class RobotStateMachine():
         """Transition from EXPECT_POLE state to next state"""
         top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
         pauseable = input['pauseable']
-        if (top_tof < self.detection_threshold and bottom_tof <
-                self.detection_threshold and pauseable):
+        if (top_tof < self.top_detection_threshold and bottom_tof <
+                self.bottom_detection_threshold and pauseable):
             self.state = RobotState.IGNORE_POLE
 
     def transition_from_ignore_pole(self, input: RobotInput) -> None:
