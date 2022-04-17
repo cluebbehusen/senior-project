@@ -15,7 +15,7 @@ class RobotStateMachine():
 
     detection_threshold: float = 16.5
     rejection_threshold: float = 21.0
-    tree_advance: int = 10
+    tree_advance: int = 8
     cup_advance: int = 10
     net_advance: int = 10
 
@@ -110,6 +110,7 @@ class RobotStateMachine():
 
     def transition_from_advance_tree(self, input: RobotInput) -> None:
         """Transition from ADVANCE_TREE state to next state"""
+        self.advance_count += 1
         if self.advance_count > self.tree_advance:
             self.state = RobotState.READY_GRAB
 
@@ -146,11 +147,13 @@ class RobotStateMachine():
 
     def transition_from_advance_cup(self, input: RobotInput) -> None:
         """Transition from ADVANCE_CUP state to next state"""
+        self.advance_count += 1
         if self.advance_count > self.cup_advance:
             self.state = RobotState.READY_DROP
 
     def transition_from_advance_net(self, input: RobotInput) -> None:
         """Transition from ADVANCE_CUP state to next state"""
+        self.advance_count += 1
         if self.advance_count > self.net_advance:
             self.state = RobotState.READY_LAUNCH
 

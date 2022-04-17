@@ -85,6 +85,7 @@ def run_course():
                 'ROBOT: {}: {}'.format(
                     robot_state_machine.state,
                     base_input))
+            print('CUP/NET COUNT: {}'.format(robot_state_machine.cup_net_count))
             finish = base_output['finish']
             if finish:
                 break

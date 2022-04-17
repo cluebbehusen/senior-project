@@ -6,9 +6,9 @@ from robot.hardware.stepper_motor import StepperMotor
 class Lift:
     """Class for cleanly controlling lift subsystem"""
 
-    rise_steps: int = 1800
+    rise_steps: int = 1750
     increment_steps: int = 200
-    lower_steps: int = 1400
+    lower_steps: int = 1600
 
     def __init__(
         self,

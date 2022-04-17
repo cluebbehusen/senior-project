@@ -1,0 +1,1567 @@
+BASE: BaseState.START: {'top_tof': 87.4, 'bottom_tof': 0, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 49.0, 'right_tof': 9.5, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.6, 'bottom_tof': 0, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 49.0, 'right_tof': 9.5, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.66666666666667, 'bottom_tof': 13.3, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 48.9, 'right_tof': 9.433333333333334, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.625, 'bottom_tof': 13.3, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 48.85, 'right_tof': 9.4, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.6, 'bottom_tof': 13.433333333333334, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 48.92, 'right_tof': 9.38, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.62, 'bottom_tof': 13.5, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 48.96, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.7, 'bottom_tof': 13.54, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 49.0, 'right_tof': 9.34, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.78, 'bottom_tof': 14.14, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 48.82, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.78, 'bottom_tof': 14.74, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 48.64, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.78, 'bottom_tof': 19.1, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.58, 'middle_tof': 48.14, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.78, 'bottom_tof': 23.46, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.48, 'middle_tof': 47.64, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.6, 'bottom_tof': 27.82, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.48, 'middle_tof': 47.14, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.42, 'bottom_tof': 38.78, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.48, 'middle_tof': 46.800000000000004, 'right_tof': 9.360000000000001, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 87.17999999999999, 'bottom_tof': 49.739999999999995, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.48, 'middle_tof': 46.46, 'right_tof': 9.4, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 86.94, 'bottom_tof': 56.959999999999994, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.54, 'middle_tof': 46.06, 'right_tof': 9.44, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 86.7, 'bottom_tof': 64.17999999999999, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 45.660000000000004, 'right_tof': 9.36, 'left_line': 10, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 86.24, 'bottom_tof': 71.39999999999999, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 45.260000000000005, 'right_tof': 9.28, 'left_line': 3, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 85.78, 'bottom_tof': 71.42, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.62, 'middle_tof': 44.78, 'right_tof': 9.2, 'left_line': 1, 'right_line': 5}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 85.52, 'bottom_tof': 71.44, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.639999999999999, 'middle_tof': 44.300000000000004, 'right_tof': 9.12, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 85.14, 'bottom_tof': 71.36, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.62, 'middle_tof': 44.1, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 84.76, 'bottom_tof': 70.92, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 43.78, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 84.36, 'bottom_tof': 70.48, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.58, 'middle_tof': 43.46, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 83.96000000000001, 'bottom_tof': 69.84, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 43.08, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 83.56, 'bottom_tof': 69.2, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.620000000000001, 'middle_tof': 42.7, 'right_tof': 9.06, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 83.0, 'bottom_tof': 68.56, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 42.32, 'right_tof': 9.08, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 82.44, 'bottom_tof': 67.96000000000001, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.66, 'middle_tof': 41.86, 'right_tof': 9.12, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 82.16, 'bottom_tof': 67.36, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.64, 'middle_tof': 41.4, 'right_tof': 9.12, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 81.44, 'bottom_tof': 67.04, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 41.199999999999996, 'right_tof': 9.12, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 80.72, 'bottom_tof': 66.52000000000001, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.56, 'middle_tof': 40.82, 'right_tof': 9.02, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 79.78, 'bottom_tof': 66.0, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.52, 'middle_tof': 40.44, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 78.84, 'bottom_tof': 65.62, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.58, 'middle_tof': 40.04, 'right_tof': 8.82, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 77.9, 'bottom_tof': 65.24000000000001, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.639999999999999, 'middle_tof': 39.64, 'right_tof': 8.84, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 77.02000000000001, 'bottom_tof': 64.86, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.66, 'middle_tof': 39.239999999999995, 'right_tof': 8.86, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 76.14, 'bottom_tof': 64.46000000000001, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.7, 'middle_tof': 38.76, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 75.76, 'bottom_tof': 64.06, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 38.28, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 74.96000000000001, 'bottom_tof': 63.839999999999996, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 38.019999999999996, 'right_tof': 9.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 74.16, 'bottom_tof': 63.54, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.86, 'middle_tof': 37.56, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 73.38, 'bottom_tof': 63.24, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 37.1, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 72.6, 'bottom_tof': 63.08, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 36.66, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 71.82, 'bottom_tof': 62.92, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 36.22, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 71.24, 'bottom_tof': 62.76, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 35.78, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.START: {'top_tof': 70.66, 'bottom_tof': 62.54, 'pauseable': False}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 35.32, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.START -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 70.3, 'bottom_tof': 62.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 34.86, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 69.94, 'bottom_tof': 62.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 34.46, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 69.52, 'bottom_tof': 62.04, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 34.06, 'right_tof': 9.14, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 69.32, 'bottom_tof': 61.9, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 33.66, 'right_tof': 9.299999999999999, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 69.12, 'bottom_tof': 61.96, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 33.26, 'right_tof': 9.6, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.96, 'bottom_tof': 62.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 32.86, 'right_tof': 9.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.8, 'bottom_tof': 62.1, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 32.46, 'right_tof': 10.2, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.64, 'bottom_tof': 62.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 32.06, 'right_tof': 12.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.48, 'bottom_tof': 62.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 31.66, 'right_tof': 13.84, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 68.32000000000001, 'bottom_tof': 62.28, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 31.28, 'right_tof': 16.66, 'left_line': 3, 'right_line': 5}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.28, 'bottom_tof': 62.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 30.900000000000002, 'right_tof': 19.48, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.24, 'bottom_tof': 62.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 30.580000000000002, 'right_tof': 22.3, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.28, 'bottom_tof': 62.339999999999996, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 30.26, 'right_tof': 24.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.32000000000001, 'bottom_tof': 62.36, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 29.94, 'right_tof': 27.5, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.36, 'bottom_tof': 62.44, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 29.58, 'right_tof': 30.2, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.4, 'bottom_tof': 62.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 29.22, 'right_tof': 32.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.44, 'bottom_tof': 62.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 28.82, 'right_tof': 36.36, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.56, 'bottom_tof': 62.72, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 28.419999999999998, 'right_tof': 38.42, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.68, 'bottom_tof': 62.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 28.02, 'right_tof': 40.480000000000004, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 68.8, 'bottom_tof': 62.88, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.86, 'middle_tof': 27.7, 'right_tof': 41.980000000000004, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 69.02, 'bottom_tof': 62.94, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 27.38, 'right_tof': 43.480000000000004, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 69.24, 'bottom_tof': 63.04, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 27.04, 'right_tof': 44.980000000000004, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 69.48, 'bottom_tof': 63.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.700000000000001, 'middle_tof': 26.7, 'right_tof': 46.480000000000004, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 69.72, 'bottom_tof': 63.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 26.16, 'right_tof': 47.980000000000004, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 69.96, 'bottom_tof': 63.42, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 25.78, 'right_tof': 49.44, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 70.18, 'bottom_tof': 63.6, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 25.4, 'right_tof': 50.9, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 70.4, 'bottom_tof': 63.76, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 25.02, 'right_tof': 51.46, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 70.58, 'bottom_tof': 63.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 24.64, 'right_tof': 52.019999999999996, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 70.76, 'bottom_tof': 64.08, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 24.32, 'right_tof': 52.58, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 70.94, 'bottom_tof': 61.76, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 24.0, 'right_tof': 53.58, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 66.28, 'bottom_tof': 59.44, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 23.68, 'right_tof': 54.58, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 61.62, 'bottom_tof': 57.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.08, 'middle_tof': 23.22, 'right_tof': 55.72, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 51.9, 'bottom_tof': 49.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.18, 'middle_tof': 22.759999999999998, 'right_tof': 57.42, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 42.18, 'bottom_tof': 40.94, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.28, 'middle_tof': 22.44, 'right_tof': 59.12, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 32.46, 'bottom_tof': 34.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.28, 'middle_tof': 22.06, 'right_tof': 61.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 26.66, 'bottom_tof': 27.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.28, 'middle_tof': 21.68, 'right_tof': 64.68, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+[!] Line follower array error occurred
+BASE: BaseState.VEER_LEFT: {'top_tof': 20.04, 'bottom_tof': 20.060000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.16, 'middle_tof': 21.32, 'right_tof': 70.88000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 18.939999999999998, 'bottom_tof': 18.560000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.1, 'middle_tof': 21.02, 'right_tof': 74.30000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 17.84, 'bottom_tof': 18.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.1, 'middle_tof': 20.78, 'right_tof': 75.5, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 17.56, 'bottom_tof': 17.34, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.08, 'middle_tof': 20.38, 'right_tof': 73.30000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.VEER_LEFT: {'top_tof': 17.16, 'bottom_tof': 16.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 19.98, 'right_tof': 71.10000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 16.759999999999998, 'bottom_tof': 15.979999999999999, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 19.82, 'right_tof': 67.7, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 16.64, 'bottom_tof': 15.799999999999999, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 19.5, 'right_tof': 65.06, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 16.5, 'bottom_tof': 15.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 19.18, 'right_tof': 62.42, 'left_line': 1, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 16.36, 'bottom_tof': 15.58, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.EXPECT_TREE -> RobotState.ADVANCE_TREE
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 18.78, 'right_tof': 63.18, 'left_line': 1, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 16.56, 'bottom_tof': 15.74, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 18.38, 'right_tof': 63.14, 'left_line': 1, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 16.759999999999998, 'bottom_tof': 15.9, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 17.98, 'right_tof': 63.1, 'left_line': 1, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 16.96, 'bottom_tof': 16.82, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 17.5, 'right_tof': 60.78, 'left_line': 3, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 17.98, 'bottom_tof': 17.740000000000002, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 17.02, 'right_tof': 58.46, 'left_line': 1, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 19.0, 'bottom_tof': 18.66, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 16.580000000000002, 'right_tof': 54.52, 'left_line': 1, 'right_line': 10}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 29.56, 'bottom_tof': 27.34, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 16.14, 'right_tof': 51.38, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 40.12, 'bottom_tof': 36.02, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 15.700000000000001, 'right_tof': 48.24, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 50.68, 'bottom_tof': 47.8, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 15.38, 'right_tof': 45.76, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 62.76, 'bottom_tof': 59.58, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.ADVANCE_TREE -> RobotState.READY_GRAB
+ROBOT: RobotState.READY_GRAB: {'stop': False, 'left_tof': 8.84, 'middle_tof': 15.06, 'right_tof': 43.28, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 74.84, 'bottom_tof': 71.36, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.READY_GRAB -> RobotState.GRAB
+ROBOT: RobotState.GRAB: {'stop': False, 'left_tof': 8.84, 'middle_tof': 14.7, 'right_tof': 42.18, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 77.28, 'bottom_tof': 75.24, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.GRAB -> RobotState.EXPECT_CUP_NET
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.9, 'middle_tof': 14.34, 'right_tof': 41.08, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 79.7, 'bottom_tof': 79.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.92, 'middle_tof': 13.799999999999999, 'right_tof': 39.52, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.17999999999999, 'bottom_tof': 79.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.86, 'middle_tof': 13.379999999999999, 'right_tof': 39.0, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.34, 'bottom_tof': 79.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.799999999999999, 'middle_tof': 12.959999999999999, 'right_tof': 38.480000000000004, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.5, 'bottom_tof': 79.9, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.78, 'middle_tof': 12.72, 'right_tof': 38.160000000000004, 'left_line': 0, 'right_line': 4}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.5, 'bottom_tof': 80.08, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.78, 'middle_tof': 12.48, 'right_tof': 37.84, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.52, 'bottom_tof': 77.12, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.8, 'middle_tof': 12.42, 'right_tof': 37.98, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.54, 'bottom_tof': 74.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.82, 'middle_tof': 12.16, 'right_tof': 37.7, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.56, 'bottom_tof': 71.2, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.84, 'middle_tof': 11.9, 'right_tof': 37.42, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.58, 'bottom_tof': 59.480000000000004, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.92, 'middle_tof': 11.620000000000001, 'right_tof': 37.08, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.76, 'bottom_tof': 47.760000000000005, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.0, 'middle_tof': 11.34, 'right_tof': 36.74, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 82.94, 'bottom_tof': 37.96, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.22, 'middle_tof': 11.06, 'right_tof': 36.400000000000006, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 83.14, 'bottom_tof': 28.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.440000000000001, 'middle_tof': 10.74, 'right_tof': 36.5, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 83.34, 'bottom_tof': 18.36, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.66, 'middle_tof': 10.42, 'right_tof': 36.6, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.TURN_RIGHT
+BASE: BaseState.TURN_RIGHT: {'top_tof': 83.54, 'bottom_tof': 16.84, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.780000000000001, 'middle_tof': 9.959999999999999, 'right_tof': 37.42, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 83.7, 'bottom_tof': 15.32, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.9, 'middle_tof': 9.5, 'right_tof': 38.24, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 83.86, 'bottom_tof': 14.719999999999999, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.02, 'middle_tof': 9.04, 'right_tof': 39.06, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 84.0, 'bottom_tof': 14.12, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.14, 'middle_tof': 8.58, 'right_tof': 40.22, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 84.14, 'bottom_tof': 13.52, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.26, 'middle_tof': 8.12, 'right_tof': 41.379999999999995, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 84.28, 'bottom_tof': 13.34, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.46, 'middle_tof': 7.82, 'right_tof': 42.08, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 84.84, 'bottom_tof': 13.16, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.66, 'middle_tof': 7.52, 'right_tof': 42.78, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 85.4, 'bottom_tof': 13.16, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.76, 'middle_tof': 7.22, 'right_tof': 43.48, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 86.60000000000001, 'bottom_tof': 13.16, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.86, 'middle_tof': 7.1, 'right_tof': 42.839999999999996, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 87.80000000000001, 'bottom_tof': 13.16, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.96, 'middle_tof': 6.9799999999999995, 'right_tof': 42.199999999999996, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 89.0, 'bottom_tof': 13.479999999999999, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.88, 'middle_tof': 7.06, 'right_tof': 45.62, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 90.4, 'bottom_tof': 13.799999999999999, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.8, 'middle_tof': 7.14, 'right_tof': 49.04, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 91.80000000000001, 'bottom_tof': 18.419999999999998, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.88, 'middle_tof': 7.22, 'right_tof': 52.46, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 94.10000000000001, 'bottom_tof': 23.04, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.96, 'middle_tof': 7.5, 'right_tof': 56.48, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 96.4, 'bottom_tof': 27.659999999999997, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 11.040000000000001, 'middle_tof': 7.779999999999999, 'right_tof': 60.5, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 98.7, 'bottom_tof': 43.339999999999996, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 11.44, 'middle_tof': 8.06, 'right_tof': 58.76, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 102.36, 'bottom_tof': 59.019999999999996, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 11.84, 'middle_tof': 8.34, 'right_tof': 57.02, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 106.02000000000001, 'bottom_tof': 72.6, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 12.36, 'middle_tof': 8.62, 'right_tof': 54.08, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 112.62, 'bottom_tof': 86.17999999999999, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 12.88, 'middle_tof': 8.96, 'right_tof': 51.34, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 119.22, 'bottom_tof': 99.76, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 13.4, 'middle_tof': 9.3, 'right_tof': 48.6, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 125.82000000000001, 'bottom_tof': 107.0, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 13.96, 'middle_tof': 9.620000000000001, 'right_tof': 46.64, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 134.22, 'bottom_tof': 114.24000000000001, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 14.52, 'middle_tof': 9.94, 'right_tof': 44.68, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 142.62, 'bottom_tof': 124.06, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 14.780000000000001, 'middle_tof': 10.26, 'right_tof': 42.660000000000004, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 148.94, 'bottom_tof': 133.88, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 15.040000000000001, 'middle_tof': 10.68, 'right_tof': 40.64, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 155.26, 'bottom_tof': 143.70000000000002, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 15.3, 'middle_tof': 11.1, 'right_tof': 38.62, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 162.64, 'bottom_tof': 150.22, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 14.82, 'middle_tof': 11.7, 'right_tof': 35.94, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 166.16, 'bottom_tof': 156.74, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 14.34, 'middle_tof': 12.3, 'right_tof': 33.26, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 169.68, 'bottom_tof': 159.76000000000002, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 13.48, 'middle_tof': 12.9, 'right_tof': 30.8, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 173.16, 'bottom_tof': 162.78, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 12.620000000000001, 'middle_tof': 13.66, 'right_tof': 28.34, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 176.64000000000001, 'bottom_tof': 165.8, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 11.76, 'middle_tof': 14.42, 'right_tof': 25.88, 'left_line': 0, 'right_line': 0}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 182.44, 'bottom_tof': 172.12, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 11.12, 'middle_tof': 15.440000000000001, 'right_tof': 23.96, 'left_line': 0, 'right_line': 4}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 188.24, 'bottom_tof': 178.44, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.48, 'middle_tof': 16.46, 'right_tof': 22.04, 'left_line': 0, 'right_line': 4}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 203.02, 'bottom_tof': 191.14000000000001, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 10.0, 'middle_tof': 17.48, 'right_tof': 20.8, 'left_line': 0, 'right_line': 4}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 215.38, 'bottom_tof': 203.84, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.52, 'middle_tof': 19.02, 'right_tof': 19.56, 'left_line': 0, 'right_line': 7}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 229.4, 'bottom_tof': 221.5, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 9.04, 'middle_tof': 20.560000000000002, 'right_tof': 18.32, 'left_line': 0, 'right_line': 7}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 240.04, 'bottom_tof': 234.14, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.64, 'middle_tof': 23.3, 'right_tof': 18.060000000000002, 'left_line': 0, 'right_line': 7}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 250.68, 'bottom_tof': 250.98, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.24, 'middle_tof': 26.04, 'right_tof': 17.8, 'left_line': 0, 'right_line': 7}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 252.34, 'bottom_tof': 260.14, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.16, 'middle_tof': 30.439999999999998, 'right_tof': 18.700000000000003, 'left_line': 0, 'right_line': 9}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 211.7, 'bottom_tof': 269.3, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.08, 'middle_tof': 33.86, 'right_tof': 19.6, 'left_line': 0, 'right_line': 9}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 169.4, 'bottom_tof': 265.94, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.0, 'middle_tof': 37.28, 'right_tof': 20.5, 'left_line': 0, 'right_line': 5}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 122.1, 'bottom_tof': 262.58, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.12, 'middle_tof': 40.14, 'right_tof': 22.76, 'left_line': 0, 'right_line': 5}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 74.8, 'bottom_tof': 255.02, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.24, 'middle_tof': 43.0, 'right_tof': 25.02, 'left_line': 0, 'right_line': 6}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 27.5, 'bottom_tof': 204.28, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.26, 'middle_tof': 45.4, 'right_tof': 28.98, 'left_line': 0, 'right_line': 6}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 22.44, 'bottom_tof': 153.54, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.26, 'middle_tof': 47.800000000000004, 'right_tof': 32.94, 'left_line': 0, 'right_line': 3}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 17.38, 'bottom_tof': 110.36, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.26, 'middle_tof': 50.2, 'right_tof': 36.9, 'left_line': 0, 'right_line': 3}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 17.62, 'bottom_tof': 65.68, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.32, 'middle_tof': 52.160000000000004, 'right_tof': 40.199999999999996, 'left_line': 0, 'right_line': 3}
+CUP/NET COUNT: 0
+BASE: BaseState.TURN_RIGHT: {'top_tof': 17.86, 'bottom_tof': 21.0, 'pauseable': False}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.379999999999999, 'middle_tof': 54.12, 'right_tof': 43.5, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 0
+=== State Change Occurred ===
+BaseState.TURN_RIGHT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 18.099999999999998, 'bottom_tof': 19.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.44, 'middle_tof': 56.38, 'right_tof': 44.44, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 18.599999999999998, 'bottom_tof': 17.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.5, 'middle_tof': 58.64, 'right_tof': 45.38, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 0
+BASE: BaseState.STRAIGHT: {'top_tof': 19.099999999999998, 'bottom_tof': 15.48, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.EXPECT_CUP_NET -> RobotState.ADVANCE_CUP
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.56, 'middle_tof': 60.9, 'right_tof': 46.32, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 19.02, 'bottom_tof': 15.52, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.62, 'middle_tof': 56.44, 'right_tof': 46.44, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 18.94, 'bottom_tof': 15.56, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.68, 'middle_tof': 51.98, 'right_tof': 46.56, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 18.86, 'bottom_tof': 16.04, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.74, 'middle_tof': 46.02, 'right_tof': 46.52, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 18.44, 'bottom_tof': 16.52, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.76, 'middle_tof': 39.9, 'right_tof': 46.48, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 18.02, 'bottom_tof': 17.0, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.78, 'middle_tof': 33.78, 'right_tof': 46.44, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 17.880000000000003, 'bottom_tof': 18.54, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.72, 'middle_tof': 33.44, 'right_tof': 46.46, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 17.46, 'bottom_tof': 20.08, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.64, 'middle_tof': 33.1, 'right_tof': 46.48, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 17.04, 'bottom_tof': 21.52, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.56, 'middle_tof': 32.76, 'right_tof': 46.52, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.72, 'bottom_tof': 71.7, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.56, 'middle_tof': 32.879999999999995, 'right_tof': 46.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.4, 'bottom_tof': 121.88000000000001, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.56, 'middle_tof': 33.0, 'right_tof': 46.68, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.08, 'bottom_tof': 170.62, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.ADVANCE_CUP -> RobotState.READY_DROP
+ROBOT: RobotState.READY_DROP: {'stop': False, 'left_tof': 8.56, 'middle_tof': 33.3, 'right_tof': 46.64, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.14, 'bottom_tof': 222.52, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.READY_DROP -> RobotState.DROP
+ROBOT: RobotState.DROP: {'stop': False, 'left_tof': 8.52, 'middle_tof': 33.519999999999996, 'right_tof': 46.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.2, 'bottom_tof': 274.42, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.DROP -> RobotState.IGNORE_CUP_NET
+ROBOT: RobotState.IGNORE_CUP_NET: {'stop': False, 'left_tof': 8.48, 'middle_tof': 33.74, 'right_tof': 46.559999999999995, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.36, 'bottom_tof': 277.84, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.IGNORE_CUP_NET -> RobotState.EXPECT_CUP_NET
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.42, 'middle_tof': 33.6, 'right_tof': 46.48, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.5, 'bottom_tof': 281.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.360000000000001, 'middle_tof': 33.46, 'right_tof': 46.4, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.64, 'bottom_tof': 284.68, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.3, 'middle_tof': 33.44, 'right_tof': 46.4, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.68, 'bottom_tof': 284.94, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.3, 'middle_tof': 33.5, 'right_tof': 46.379999999999995, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.8, 'bottom_tof': 285.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.3, 'middle_tof': 33.56, 'right_tof': 46.36, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 16.86, 'bottom_tof': 285.84, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.3, 'middle_tof': 33.46, 'right_tof': 46.339999999999996, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 17.44, 'bottom_tof': 286.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.34, 'middle_tof': 33.36, 'right_tof': 46.3, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 18.02, 'bottom_tof': 285.7, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.38, 'middle_tof': 33.14, 'right_tof': 46.26, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 18.6, 'bottom_tof': 285.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.42, 'middle_tof': 32.96, 'right_tof': 46.28, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 48.519999999999996, 'bottom_tof': 284.78, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.42, 'middle_tof': 32.78, 'right_tof': 46.3, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+BASE: BaseState.STRAIGHT: {'top_tof': 78.44, 'bottom_tof': 284.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.42, 'middle_tof': 32.94, 'right_tof': 46.32, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 2
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_RIGHT
+BASE: BaseState.VEER_RIGHT: {'top_tof': 107.86, 'bottom_tof': 283.86, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.34, 'middle_tof': 33.1, 'right_tof': 46.42, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 2
+BASE: BaseState.VEER_RIGHT: {'top_tof': 161.29999999999998, 'bottom_tof': 284.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.26, 'middle_tof': 33.26, 'right_tof': 46.52, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 2
+BASE: BaseState.VEER_RIGHT: {'top_tof': 214.74, 'bottom_tof': 284.65999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.18, 'middle_tof': 33.64, 'right_tof': 46.58, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 2
+BASE: BaseState.VEER_RIGHT: {'top_tof': 238.86, 'bottom_tof': 284.74, 'pauseable': True}
+ROBOT: RobotState.EXPECT_CUP_NET: {'stop': False, 'left_tof': 8.16, 'middle_tof': 34.019999999999996, 'right_tof': 46.660000000000004, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 2
+[!] ToF error occurred, resetting sensors
+BASE: BaseState.VEER_RIGHT: {'top_tof': 287.6, 'bottom_tof': 0, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.EXPECT_CUP_NET -> RobotState.ADVANCE_CUP
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.0, 'middle_tof': 32.3, 'right_tof': 45.6, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 287.6, 'bottom_tof': 0, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.0, 'middle_tof': 32.3, 'right_tof': 45.55, 'left_line': 1, 'right_line': 3}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 287.3666666666667, 'bottom_tof': 283.8, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.066666666666666, 'middle_tof': 32.9, 'right_tof': 45.53333333333333, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 287.25, 'bottom_tof': 283.8, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.1, 'middle_tof': 33.2, 'right_tof': 45.55, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 287.18, 'bottom_tof': 283.8, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.08, 'middle_tof': 33.38, 'right_tof': 45.56, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 287.03999999999996, 'bottom_tof': 283.75, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.08, 'middle_tof': 33.28, 'right_tof': 45.56, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 286.82, 'bottom_tof': 283.72, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.08, 'middle_tof': 33.18, 'right_tof': 44.9, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 286.74, 'bottom_tof': 283.48, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.06, 'middle_tof': 32.86, 'right_tof': 44.24, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 286.65999999999997, 'bottom_tof': 283.24, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.04, 'middle_tof': 32.54, 'right_tof': 39.160000000000004, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 286.74, 'bottom_tof': 283.0, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.04, 'middle_tof': 32.22, 'right_tof': 34.08, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 286.82, 'bottom_tof': 282.56, 'pauseable': True}
+ROBOT: RobotState.ADVANCE_CUP: {'stop': False, 'left_tof': 8.04, 'middle_tof': 32.36, 'right_tof': 27.02, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 286.3, 'bottom_tof': 282.12, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.ADVANCE_CUP -> RobotState.READY_DROP
+ROBOT: RobotState.READY_DROP: {'stop': False, 'left_tof': 8.08, 'middle_tof': 32.5, 'right_tof': 20.64, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.78, 'bottom_tof': 281.68, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.READY_DROP -> RobotState.DROP
+ROBOT: RobotState.DROP: {'stop': False, 'left_tof': 8.1, 'middle_tof': 32.42, 'right_tof': 14.26, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.26, 'bottom_tof': 281.24, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.DROP -> RobotState.IGNORE_CUP_NET
+ROBOT: RobotState.IGNORE_CUP_NET: {'stop': False, 'left_tof': 8.12, 'middle_tof': 32.34, 'right_tof': 12.0, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.9, 'bottom_tof': 281.0, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.IGNORE_CUP_NET -> RobotState.EXPECT_POLE
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.18, 'middle_tof': 32.26, 'right_tof': 9.8, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.53999999999996, 'bottom_tof': 281.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.24, 'middle_tof': 32.18, 'right_tof': 9.58, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.02, 'bottom_tof': 280.71999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.28, 'middle_tof': 32.22, 'right_tof': 9.36, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.5, 'bottom_tof': 280.64, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.32, 'middle_tof': 32.34, 'right_tof': 9.139999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.98, 'bottom_tof': 280.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.360000000000001, 'middle_tof': 32.46, 'right_tof': 9.18, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.56, 'bottom_tof': 280.2, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.4, 'middle_tof': 32.7, 'right_tof': 9.16, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 285.14, 'bottom_tof': 280.12, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.44, 'middle_tof': 32.94, 'right_tof': 9.2, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.62, 'bottom_tof': 280.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.42, 'middle_tof': 33.24, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.09999999999997, 'bottom_tof': 280.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.4, 'middle_tof': 33.54, 'right_tof': 9.28, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.58, 'bottom_tof': 279.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.38, 'middle_tof': 33.74, 'right_tof': 9.28, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.76, 'bottom_tof': 279.44, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.38, 'middle_tof': 33.82, 'right_tof': 9.28, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.94, 'bottom_tof': 278.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.38, 'middle_tof': 33.900000000000006, 'right_tof': 9.18, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.06, 'bottom_tof': 277.42, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.4, 'middle_tof': 33.84, 'right_tof': 9.08, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.18, 'bottom_tof': 276.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.42, 'middle_tof': 33.78, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 284.3, 'bottom_tof': 276.22, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.44, 'middle_tof': 33.54, 'right_tof': 9.0, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.68, 'bottom_tof': 276.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.42, 'middle_tof': 33.3, 'right_tof': 9.02, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.06, 'bottom_tof': 276.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.4, 'middle_tof': 33.06, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.14, 'bottom_tof': 276.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.44, 'middle_tof': 32.9, 'right_tof': 9.06, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.21999999999997, 'bottom_tof': 276.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.48, 'middle_tof': 32.74, 'right_tof': 9.08, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.3, 'bottom_tof': 275.44, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.52, 'middle_tof': 33.1, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.28, 'bottom_tof': 274.7, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.56, 'middle_tof': 33.46, 'right_tof': 9.0, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 283.16, 'bottom_tof': 273.96000000000004, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 33.82, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 282.34000000000003, 'bottom_tof': 273.02000000000004, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.64, 'middle_tof': 34.1, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 281.52000000000004, 'bottom_tof': 272.08000000000004, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 34.379999999999995, 'right_tof': 8.94, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 280.70000000000005, 'bottom_tof': 271.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 34.3, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_RIGHT: {'top_tof': 281.06, 'bottom_tof': 270.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 34.22, 'right_tof': 8.9, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_RIGHT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 281.52, 'bottom_tof': 269.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 34.14, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 281.64, 'bottom_tof': 269.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.78, 'middle_tof': 34.42, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 281.76, 'bottom_tof': 269.04, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 34.699999999999996, 'right_tof': 8.84, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 281.65999999999997, 'bottom_tof': 269.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 35.0, 'right_tof': 8.8, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 281.1, 'bottom_tof': 269.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 35.3, 'right_tof': 8.76, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 280.54, 'bottom_tof': 268.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 35.6, 'right_tof': 8.74, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 280.22, 'bottom_tof': 269.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 36.18, 'right_tof': 8.719999999999999, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.90000000000003, 'bottom_tof': 269.78, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 36.76, 'right_tof': 8.7, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.62, 'bottom_tof': 269.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 37.16, 'right_tof': 8.7, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.34000000000003, 'bottom_tof': 270.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 37.559999999999995, 'right_tof': 8.7, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.06, 'bottom_tof': 269.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.08, 'middle_tof': 37.96, 'right_tof': 8.719999999999999, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.14, 'bottom_tof': 268.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 37.839999999999996, 'right_tof': 8.74, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.98, 'bottom_tof': 267.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 37.72, 'right_tof': 8.7, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.0, 'bottom_tof': 267.88, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 37.44, 'right_tof': 8.66, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.02, 'bottom_tof': 267.78, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 37.160000000000004, 'right_tof': 8.620000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.04, 'bottom_tof': 268.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 36.88, 'right_tof': 8.620000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.76, 'bottom_tof': 268.5, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 36.92, 'right_tof': 8.620000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.72, 'bottom_tof': 268.86, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 36.96, 'right_tof': 8.6, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.54, 'bottom_tof': 268.94, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 37.08, 'right_tof': 8.58, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.36, 'bottom_tof': 269.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 37.2, 'right_tof': 8.56, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.18, 'bottom_tof': 268.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 37.32, 'right_tof': 8.48, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.36, 'bottom_tof': 268.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 36.94, 'right_tof': 8.4, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.53999999999996, 'bottom_tof': 268.71999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 36.56, 'right_tof': 8.42, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.46, 'bottom_tof': 268.68, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 36.54, 'right_tof': 8.44, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.38, 'bottom_tof': 268.64, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 36.52, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.3, 'bottom_tof': 268.86, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 36.5, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.08, 'bottom_tof': 269.8, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 36.5, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.86, 'bottom_tof': 270.74, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 36.5, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.56, 'bottom_tof': 270.84, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 36.78, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.26, 'bottom_tof': 270.94, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 37.06, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.96, 'bottom_tof': 271.04, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.08, 'middle_tof': 37.339999999999996, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.76, 'bottom_tof': 269.94, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.12, 'middle_tof': 37.32, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.56, 'bottom_tof': 268.84, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.18, 'middle_tof': 37.3, 'right_tof': 8.44, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.84, 'bottom_tof': 268.36, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.24, 'middle_tof': 37.0, 'right_tof': 8.42, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.62, 'bottom_tof': 268.2, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.26, 'middle_tof': 36.82, 'right_tof': 8.4, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.4, 'bottom_tof': 268.03999999999996, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.24, 'middle_tof': 36.64, 'right_tof': 8.44, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.97999999999996, 'bottom_tof': 268.21999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.22, 'middle_tof': 36.7, 'right_tof': 8.48, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.56, 'bottom_tof': 268.4, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.14, 'middle_tof': 36.76, 'right_tof': 8.52, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.14, 'bottom_tof': 268.58, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 36.82, 'right_tof': 8.52, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 276.66, 'bottom_tof': 269.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 36.82, 'right_tof': 8.52, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 276.66, 'bottom_tof': 269.7, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 36.82, 'right_tof': 8.5, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.58, 'bottom_tof': 269.64, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 36.660000000000004, 'right_tof': 8.48, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.5, 'bottom_tof': 269.58, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 36.5, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.03999999999996, 'bottom_tof': 269.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 36.339999999999996, 'right_tof': 8.5, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 279.14, 'bottom_tof': 269.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 36.32, 'right_tof': 8.54, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 278.76, 'bottom_tof': 268.8, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 36.3, 'right_tof': 8.54, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 277.78, 'bottom_tof': 269.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 36.74, 'right_tof': 8.54, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.8, 'bottom_tof': 269.8, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 37.18, 'right_tof': 8.54, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.2, 'bottom_tof': 270.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 37.62, 'right_tof': 8.56, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 274.5, 'bottom_tof': 267.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 37.86, 'right_tof': 8.58, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 272.8, 'bottom_tof': 265.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 38.1, 'right_tof': 8.62, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 271.7, 'bottom_tof': 262.28000000000003, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 38.1, 'right_tof': 8.66, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 270.38, 'bottom_tof': 258.4, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.78, 'middle_tof': 38.06, 'right_tof': 8.7, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 269.06, 'bottom_tof': 254.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.78, 'middle_tof': 38.02, 'right_tof': 8.76, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 266.02, 'bottom_tof': 253.9, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.78, 'middle_tof': 37.94, 'right_tof': 8.82, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 262.98, 'bottom_tof': 253.28, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 37.86, 'right_tof': 8.879999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 259.94, 'bottom_tof': 252.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.86, 'middle_tof': 37.78, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.18, 'bottom_tof': 255.78, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 38.14, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 254.42000000000002, 'bottom_tof': 258.9, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 38.5, 'right_tof': 8.94, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 254.48, 'bottom_tof': 261.5, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 38.900000000000006, 'right_tof': 8.86, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.94, 'bottom_tof': 261.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 38.900000000000006, 'right_tof': 8.78, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 262.52, 'bottom_tof': 262.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 38.900000000000006, 'right_tof': 8.72, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 267.04, 'bottom_tof': 259.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 38.760000000000005, 'right_tof': 8.66, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 271.56, 'bottom_tof': 257.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 38.620000000000005, 'right_tof': 8.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.08, 'bottom_tof': 254.70000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 38.480000000000004, 'right_tof': 8.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 277.06, 'bottom_tof': 230.54000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 38.8, 'right_tof': 8.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.92, 'bottom_tof': 206.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 39.12, 'right_tof': 8.7, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.84, 'bottom_tof': 159.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.799999999999999, 'middle_tof': 39.36, 'right_tof': 8.799999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.76, 'bottom_tof': 111.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 39.6, 'right_tof': 8.9, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.76, 'bottom_tof': 64.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 39.84, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.9, 'bottom_tof': 40.28, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.16, 'middle_tof': 40.02, 'right_tof': 9.06, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.82, 'bottom_tof': 16.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.299999999999999, 'middle_tof': 40.2, 'right_tof': 9.14, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.68, 'bottom_tof': 15.36, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.44, 'middle_tof': 40.400000000000006, 'right_tof': 9.22, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.54, 'bottom_tof': 14.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.6, 'middle_tof': 40.6, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.46000000000004, 'bottom_tof': 13.56, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.76, 'middle_tof': 40.800000000000004, 'right_tof': 9.28, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.38, 'bottom_tof': 13.12, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.92, 'middle_tof': 41.1, 'right_tof': 9.32, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.18, 'bottom_tof': 12.68, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.120000000000001, 'middle_tof': 41.400000000000006, 'right_tof': 9.34, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.98, 'bottom_tof': 12.42, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.32, 'middle_tof': 41.84, 'right_tof': 9.36, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.78000000000003, 'bottom_tof': 12.16, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.42, 'middle_tof': 42.28, 'right_tof': 9.459999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.84000000000003, 'bottom_tof': 11.899999999999999, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.52, 'middle_tof': 42.72, 'right_tof': 9.559999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.90000000000003, 'bottom_tof': 11.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.620000000000001, 'middle_tof': 42.7, 'right_tof': 9.66, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.3, 'bottom_tof': 11.74, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.56, 'middle_tof': 42.68, 'right_tof': 9.76, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.68, 'bottom_tof': 11.76, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.5, 'middle_tof': 42.56, 'right_tof': 9.86, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 277.06, 'bottom_tof': 11.780000000000001, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.4, 'middle_tof': 42.44, 'right_tof': 9.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.96000000000004, 'bottom_tof': 11.8, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.3, 'middle_tof': 42.64, 'right_tof': 9.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.86, 'bottom_tof': 11.780000000000001, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.2, 'middle_tof': 43.199999999999996, 'right_tof': 10.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.76, 'bottom_tof': 11.76, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 10.04, 'middle_tof': 43.76, 'right_tof': 10.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.98, 'bottom_tof': 11.78, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.879999999999999, 'middle_tof': 44.32, 'right_tof': 10.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.20000000000005, 'bottom_tof': 11.8, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.879999999999999, 'middle_tof': 44.88, 'right_tof': 9.959999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.66, 'bottom_tof': 11.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.879999999999999, 'middle_tof': 45.46, 'right_tof': 9.879999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.12, 'bottom_tof': 12.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.879999999999999, 'middle_tof': 46.04, 'right_tof': 9.799999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.42, 'bottom_tof': 12.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.8, 'middle_tof': 46.62, 'right_tof': 9.7, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 277.42, 'bottom_tof': 12.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.72, 'middle_tof': 47.0, 'right_tof': 9.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 278.42, 'bottom_tof': 12.459999999999999, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.540000000000001, 'middle_tof': 47.379999999999995, 'right_tof': 9.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 278.48, 'bottom_tof': 12.6, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.36, 'middle_tof': 46.9, 'right_tof': 9.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 278.54, 'bottom_tof': 12.86, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.18, 'middle_tof': 46.42, 'right_tof': 9.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+[!] ToF error occurred, resetting sensors
+BASE: BaseState.STRAIGHT: {'top_tof': 277.4, 'bottom_tof': 0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 48.1, 'right_tof': 9.4, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.95, 'bottom_tof': 0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 48.1, 'right_tof': 9.5, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.8, 'bottom_tof': 17.4, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 48.0, 'right_tof': 9.533333333333333, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.725, 'bottom_tof': 17.4, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 47.95, 'right_tof': 9.525, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.04, 'bottom_tof': 17.4, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 47.92, 'right_tof': 9.52, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.22, 'bottom_tof': 18.974999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 48.24, 'right_tof': 9.54, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.48, 'bottom_tof': 19.919999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 48.56, 'right_tof': 9.54, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.74, 'bottom_tof': 69.72, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 48.84, 'right_tof': 9.54, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 278.0, 'bottom_tof': 119.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 49.120000000000005, 'right_tof': 9.56, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.56, 'bottom_tof': 169.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 49.400000000000006, 'right_tof': 9.58, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 277.12, 'bottom_tof': 218.65999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 49.88, 'right_tof': 9.64, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 277.48, 'bottom_tof': 268.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 50.36, 'right_tof': 9.68, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 277.84000000000003, 'bottom_tof': 268.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.64, 'middle_tof': 51.0, 'right_tof': 9.72, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 278.20000000000005, 'bottom_tof': 268.76, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.6, 'middle_tof': 51.64, 'right_tof': 9.700000000000001, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 278.1, 'bottom_tof': 269.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.62, 'middle_tof': 52.28, 'right_tof': 9.68, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 278.0, 'bottom_tof': 268.76, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.639999999999999, 'middle_tof': 53.18, 'right_tof': 9.56, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 277.38, 'bottom_tof': 268.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 54.08, 'right_tof': 9.44, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.76, 'bottom_tof': 268.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 55.18, 'right_tof': 9.32, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.14, 'bottom_tof': 268.54, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 56.28, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 276.08, 'bottom_tof': 268.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 56.64, 'right_tof': 9.16, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 276.02, 'bottom_tof': 268.44, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 56.160000000000004, 'right_tof': 9.12, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 275.6, 'bottom_tof': 268.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 55.68, 'right_tof': 9.08, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 275.18, 'bottom_tof': 267.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.719999999999999, 'middle_tof': 55.88, 'right_tof': 9.04, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 274.76, 'bottom_tof': 267.58, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.7, 'middle_tof': 56.08, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 275.12, 'bottom_tof': 267.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.66, 'middle_tof': 57.2, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 275.48, 'bottom_tof': 267.7, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.62, 'middle_tof': 58.32, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.08, 'bottom_tof': 268.15999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.68, 'middle_tof': 59.44, 'right_tof': 8.88, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 276.68, 'bottom_tof': 256.53999999999996, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 59.78, 'right_tof': 8.84, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 243.74, 'bottom_tof': 244.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 60.12, 'right_tof': 8.84, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 210.26, 'bottom_tof': 233.29999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 60.26, 'right_tof': 8.84, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 176.78, 'bottom_tof': 183.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.16, 'middle_tof': 60.4, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 125.06, 'bottom_tof': 133.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.2, 'middle_tof': 60.54, 'right_tof': 9.0, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 73.34, 'bottom_tof': 94.54, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.24, 'middle_tof': 60.660000000000004, 'right_tof': 9.08, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 54.7, 'bottom_tof': 56.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.28, 'middle_tof': 60.78, 'right_tof': 9.139999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 36.06, 'bottom_tof': 17.5, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.32, 'middle_tof': 61.56, 'right_tof': 9.2, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 17.42, 'bottom_tof': 16.6, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.36, 'middle_tof': 62.34, 'right_tof': 9.299999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 16.740000000000002, 'bottom_tof': 15.700000000000001, 'pauseable': True}
+ROBOT: RobotState.EXPECT_POLE: {'stop': False, 'left_tof': 9.4, 'middle_tof': 63.120000000000005, 'right_tof': 9.399999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 16.06, 'bottom_tof': 15.26, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.EXPECT_POLE -> RobotState.IGNORE_POLE
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.44, 'middle_tof': 63.2, 'right_tof': 9.5, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 15.76, 'bottom_tof': 14.82, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.48, 'middle_tof': 63.28, 'right_tof': 9.6, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 15.46, 'bottom_tof': 14.540000000000001, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.4, 'middle_tof': 63.1, 'right_tof': 9.7, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 15.16, 'bottom_tof': 14.56, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.32, 'middle_tof': 62.92, 'right_tof': 9.639999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 15.24, 'bottom_tof': 14.58, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.3, 'middle_tof': 62.74, 'right_tof': 9.58, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 15.32, 'bottom_tof': 14.92, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.28, 'middle_tof': 62.58, 'right_tof': 9.42, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 15.76, 'bottom_tof': 15.26, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.26, 'middle_tof': 62.42, 'right_tof': 9.26, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 16.2, 'bottom_tof': 15.440000000000001, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.18, 'middle_tof': 62.4, 'right_tof': 9.1, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 16.64, 'bottom_tof': 16.26, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.100000000000001, 'middle_tof': 62.379999999999995, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 17.72, 'bottom_tof': 17.080000000000002, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 62.36, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 18.8, 'bottom_tof': 54.76, 'pauseable': True}
+ROBOT: RobotState.IGNORE_POLE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 63.12, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 68.28, 'bottom_tof': 92.44, 'pauseable': True}
+=== State Change Occurred ===
+RobotState.IGNORE_POLE -> RobotState.EXPECT_TREE
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 63.879999999999995, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 117.76, 'bottom_tof': 130.12, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 64.34, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 167.24, 'bottom_tof': 178.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 64.8, 'right_tof': 8.84, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 217.60000000000002, 'bottom_tof': 227.51999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 65.26, 'right_tof': 8.82, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 267.96000000000004, 'bottom_tof': 239.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 65.36, 'right_tof': 8.78, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 269.64, 'bottom_tof': 250.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 65.46, 'right_tof': 8.76, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 270.26, 'bottom_tof': 261.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 65.34, 'right_tof': 8.74, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 270.88, 'bottom_tof': 260.36, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 65.14, 'right_tof': 8.76, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 269.3, 'bottom_tof': 259.42, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 64.94, 'right_tof': 8.780000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 267.72, 'bottom_tof': 258.48, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 64.86, 'right_tof': 8.8, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 266.14, 'bottom_tof': 259.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 64.84, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 266.42, 'bottom_tof': 260.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.879999999999999, 'middle_tof': 64.82000000000001, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_RIGHT
+BASE: BaseState.VEER_RIGHT: {'top_tof': 266.70000000000005, 'bottom_tof': 261.1, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.86, 'middle_tof': 65.12, 'right_tof': 8.98, 'left_line': 1, 'right_line': 5}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_RIGHT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 267.68, 'bottom_tof': 261.28000000000003, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 65.42, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.66, 'bottom_tof': 261.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.76, 'middle_tof': 65.62, 'right_tof': 9.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 269.64, 'bottom_tof': 261.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.74, 'middle_tof': 65.76, 'right_tof': 9.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 269.94, 'bottom_tof': 261.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 65.9, 'right_tof': 9.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 270.24, 'bottom_tof': 260.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 65.96000000000001, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 270.74, 'bottom_tof': 262.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.72, 'middle_tof': 66.02, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 271.24, 'bottom_tof': 263.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.78, 'middle_tof': 66.04, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 271.74, 'bottom_tof': 263.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 66.06, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 271.74, 'bottom_tof': 263.58, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 66.08, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 271.74, 'bottom_tof': 264.18, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 65.98, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 270.76, 'bottom_tof': 264.52, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 65.88, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 269.78000000000003, 'bottom_tof': 264.86, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 65.88, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.8, 'bottom_tof': 264.42, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 65.88, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.40000000000003, 'bottom_tof': 263.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 65.88, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.0, 'bottom_tof': 263.21999999999997, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 65.7, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.26, 'bottom_tof': 262.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 65.52, 'right_tof': 9.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.52, 'bottom_tof': 261.7, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 65.38, 'right_tof': 9.04, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 268.16, 'bottom_tof': 260.34, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 65.24, 'right_tof': 9.02, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 267.6, 'bottom_tof': 258.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 65.1, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 267.04, 'bottom_tof': 257.54, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 64.8, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 266.54, 'bottom_tof': 256.1, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 64.5, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 266.04, 'bottom_tof': 254.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 64.22, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 266.06, 'bottom_tof': 254.48, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 63.94, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 266.08, 'bottom_tof': 254.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 63.660000000000004, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 266.09999999999997, 'bottom_tof': 253.64, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 63.54, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 265.68, 'bottom_tof': 252.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 63.42, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 265.26, 'bottom_tof': 252.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 63.18, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 264.08, 'bottom_tof': 250.51999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 62.94, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 262.9, 'bottom_tof': 248.72, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 62.7, 'right_tof': 8.84, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 261.72, 'bottom_tof': 246.5, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 62.44, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 260.46, 'bottom_tof': 244.28, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.08, 'middle_tof': 62.18, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 259.2, 'bottom_tof': 242.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.06, 'middle_tof': 61.86, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.98, 'bottom_tof': 240.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.04, 'middle_tof': 61.54, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.76, 'bottom_tof': 238.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 61.22, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.53999999999996, 'bottom_tof': 237.14, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 60.8, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.74, 'bottom_tof': 236.22, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 60.38, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.94, 'bottom_tof': 235.3, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.98, 'middle_tof': 60.06, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 258.84, 'bottom_tof': 233.84, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 59.74, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.74, 'bottom_tof': 232.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 59.42, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.64, 'bottom_tof': 230.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 59.26, 'right_tof': 9.02, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.44, 'bottom_tof': 229.45999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 59.099999999999994, 'right_tof': 9.06, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.24, 'bottom_tof': 228.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 58.82, 'right_tof': 9.02, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.9, 'bottom_tof': 226.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 58.54, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 259.56, 'bottom_tof': 225.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 58.18, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 260.21999999999997, 'bottom_tof': 224.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 57.92, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 260.86, 'bottom_tof': 222.8, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 57.66, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 261.5, 'bottom_tof': 221.58, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 57.48, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 261.0, 'bottom_tof': 220.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 57.3, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 260.5, 'bottom_tof': 219.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 56.96, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 260.0, 'bottom_tof': 216.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 56.62, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 259.06, 'bottom_tof': 214.29999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 56.28, 'right_tof': 8.92, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.12, 'bottom_tof': 211.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 56.04, 'right_tof': 8.88, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.48, 'bottom_tof': 210.79999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 55.8, 'right_tof': 8.84, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 256.84, 'bottom_tof': 209.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 55.68, 'right_tof': 8.8, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 256.12, 'bottom_tof': 209.72, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 55.56, 'right_tof': 8.860000000000001, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 255.94, 'bottom_tof': 209.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 55.44, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 255.76, 'bottom_tof': 209.20000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 55.160000000000004, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 255.54, 'bottom_tof': 208.56, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 54.88, 'right_tof': 9.04, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 255.32, 'bottom_tof': 207.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 54.58, 'right_tof': 9.1, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.98, 'bottom_tof': 207.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 54.28, 'right_tof': 9.04, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.64000000000001, 'bottom_tof': 207.72, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.86, 'middle_tof': 53.980000000000004, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.3, 'bottom_tof': 207.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.879999999999999, 'middle_tof': 53.82, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.46, 'bottom_tof': 209.14000000000001, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 53.660000000000004, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.62, 'bottom_tof': 210.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 53.480000000000004, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.02, 'bottom_tof': 210.68, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.94, 'middle_tof': 53.3, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 253.42, 'bottom_tof': 210.70000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 53.12, 'right_tof': 8.860000000000001, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 252.82, 'bottom_tof': 210.72, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 52.839999999999996, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 253.44, 'bottom_tof': 209.98, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 52.56, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.06, 'bottom_tof': 209.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.9, 'middle_tof': 52.22, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 255.06, 'bottom_tof': 209.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 51.88, 'right_tof': 8.94, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 256.06, 'bottom_tof': 209.51999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 51.54, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.06, 'bottom_tof': 209.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 51.18, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.44, 'bottom_tof': 206.95999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.82, 'middle_tof': 50.82, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.82, 'bottom_tof': 204.26, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 50.64, 'right_tof': 8.96, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 256.92, 'bottom_tof': 201.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 50.46, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 256.02, 'bottom_tof': 199.57999999999998, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 50.28, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 255.12, 'bottom_tof': 197.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.8, 'middle_tof': 50.06, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.96, 'bottom_tof': 197.92, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 49.84, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 254.79999999999998, 'bottom_tof': 198.6, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 49.52, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 256.48, 'bottom_tof': 199.4, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 49.2, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.15999999999997, 'bottom_tof': 200.2, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 48.88, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 259.84, 'bottom_tof': 201.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 48.54, 'right_tof': 8.9, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 259.16, 'bottom_tof': 202.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 48.2, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.48, 'bottom_tof': 203.0, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.0, 'middle_tof': 47.86, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 258.58, 'bottom_tof': 203.66, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 47.52, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 258.68, 'bottom_tof': 204.32, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 47.18, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 258.78000000000003, 'bottom_tof': 204.98000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 46.96, 'right_tof': 9.02, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 259.74, 'bottom_tof': 204.68, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.860000000000001, 'middle_tof': 46.74, 'right_tof': 9.0, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 260.7, 'bottom_tof': 204.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.84, 'middle_tof': 46.5, 'right_tof': 9.04, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 260.40000000000003, 'bottom_tof': 206.06, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.88, 'middle_tof': 46.26, 'right_tof': 9.08, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 260.1, 'bottom_tof': 207.74, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.92, 'middle_tof': 46.02, 'right_tof': 9.12, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 259.8, 'bottom_tof': 209.42, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 8.96, 'middle_tof': 45.72, 'right_tof': 9.16, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 257.5, 'bottom_tof': 202.82, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.02, 'middle_tof': 45.42, 'right_tof': 9.2, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BASE: BaseState.VEER_LEFT: {'top_tof': 255.20000000000002, 'bottom_tof': 196.22, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.08, 'middle_tof': 45.14, 'right_tof': 9.219999999999999, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 212.74, 'bottom_tof': 158.38, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.16, 'middle_tof': 44.86, 'right_tof': 9.24, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 170.28, 'bottom_tof': 120.53999999999999, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.24, 'middle_tof': 44.58, 'right_tof': 9.26, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 122.36, 'bottom_tof': 82.7, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.32, 'middle_tof': 44.22, 'right_tof': 9.24, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.VEER_LEFT: {'top_tof': 76.24000000000001, 'bottom_tof': 51.62, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.34, 'middle_tof': 43.86, 'right_tof': 9.22, 'left_line': 3, 'right_line': 1}
+CUP/NET COUNT: 3
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BASE: BaseState.STRAIGHT: {'top_tof': 30.12, 'bottom_tof': 20.54, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.360000000000001, 'middle_tof': 43.46, 'right_tof': 9.2, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 24.3, 'bottom_tof': 19.22, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.360000000000001, 'middle_tof': 43.06, 'right_tof': 9.18, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+[!] Line follower array error occurred
+BASE: BaseState.STRAIGHT: {'top_tof': 18.119999999999997, 'bottom_tof': 16.580000000000002, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.360000000000001, 'middle_tof': 42.339999999999996, 'right_tof': 9.16, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 17.56, 'bottom_tof': 16.02, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.34, 'middle_tof': 42.019999999999996, 'right_tof': 9.16, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 17.0, 'bottom_tof': 15.46, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.32, 'middle_tof': 41.88, 'right_tof': 9.139999999999999, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+BASE: BaseState.STRAIGHT: {'top_tof': 16.619999999999997, 'bottom_tof': 15.24, 'pauseable': True}
+ROBOT: RobotState.EXPECT_TREE: {'stop': False, 'left_tof': 9.28, 'middle_tof': 41.62, 'right_tof': 9.12, 'left_line': 1, 'right_line': 1}
+CUP/NET COUNT: 3
+
