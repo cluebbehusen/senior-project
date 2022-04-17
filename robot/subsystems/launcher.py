@@ -7,7 +7,7 @@ from robot.hardware.brushed_motor import BrushedMotor
 class Launcher:
     """Class for cleanly controlling launcher subsystem"""
 
-    run_end_delay: float = 1.0
+    run_end_delay: float = 0.5
     motor_frequency: int = 10000
 
     def __init__(
