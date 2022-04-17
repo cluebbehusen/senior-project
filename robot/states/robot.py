@@ -15,7 +15,7 @@ class RobotStateMachine():
 
     detection_threshold: float = 16.5
     rejection_threshold: float = 21.0
-    tree_advance: int = 8
+    tree_advance: int = 9
     cup_advance: int = 10
     net_advance: int = 10
 
