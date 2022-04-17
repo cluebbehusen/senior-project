@@ -100,5 +100,5 @@ def stop_subsystems(subsystems: Subsystems) -> None:
     left_motor.set_motor_pwm(0)
     right_motor.set_motor_pwm(0)
     subsystems['grabber'].stop()
-    subsystems['launcher'].stop()
+    subsystems['launcher'].emergency_stop()
     subsystems['lift'].stop()

@@ -33,3 +33,7 @@ class Launcher:
         """Stop launcher belt spinning"""
         time.sleep(self.run_end_delay)
         self.motor.set_motor_pwm(0)
+
+    def emergency_stop(self) -> None:
+        """Stop launcher belt spinning without delay"""
+        self.motor.set_motor_pwm(0)
