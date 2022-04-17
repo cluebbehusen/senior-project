@@ -15,16 +15,15 @@ class GPIOOutput(Enum):
 
 
 class BaseState(Enum):
-    REST = 1
-    START = 2
-    STRAIGHT = 3
-    START_TURN_AROUND = 4
-    TURN_AROUND = 5
-    VEER_LEFT = 6
-    VEER_RIGHT = 7
-    TURN_LEFT = 8
-    TURN_RIGHT = 9
-    FINISH = 10
+    START = 0
+    STRAIGHT = 1
+    START_TURN_AROUND = 2
+    TURN_AROUND = 3
+    VEER_LEFT = 4
+    VEER_RIGHT = 5
+    TURN_LEFT = 6
+    TURN_RIGHT = 7
+    FINISH = 8
 
 
 class BaseInput(TypedDict):
@@ -42,54 +41,31 @@ class BaseOutput(TypedDict):
     right_pwm: PWM
     right_dir: GPIOOutput
     pauseable: bool
-
-
-class LiftState(Enum):
-    REST = 0
-    RAISE = 1
-    INCREMENT = 2
-    LOWER = 3
-    RESET = 4
-
-
-class LiftInput(TypedDict):
-    lift: bool
-    increment: bool
-    lower: bool
-    reset: bool
-
-
-class LiftOutput(TypedDict):
     finish: bool
 
 
-class GrabberState(Enum):
-    REST = 0
-    GRAB = 1
-    EXTEND_TO_CUP = 2
-    RETRACT = 3
-    DISPENSE = 4
+class RobotState(Enum):
+    EXPECT_TREE = 0
+    ADVANCE_TREE = 1
+    READY_GRAB = 2
+    GRAB = 3
+    EXPECT_CUP_NET = 4
+    ADVANCE_CUP = 5
+    ADVANCE_NET = 6
+    READY_DROP = 7
+    DROP = 8
+    READY_LAUNCH = 9
+    LAUNCH = 10
+    IGNORE_CUP_NET = 11
+    EXPECT_POLE = 12
+    IGNORE_POLE = 13
 
 
-class GrabberInput(TypedDict):
-    tree: bool
-    cup: bool
-    net: bool
+class RobotInput(TypedDict):
+    top_tof: float
+    bottom_tof: float
+    pauseable: bool
 
 
-class GrabberOutput(TypedDict):
-    finish: bool
-
-
-class LauncherState(Enum):
-    REST = 0
-    LAUNCH = 1
-
-
-class LauncherInput(TypedDict):
-    launch: bool
-    finish: bool
-
-
-class LauncherOutput(TypedDict):
-    finish: bool
+class RobotOutput(TypedDict):
+    move_base: bool

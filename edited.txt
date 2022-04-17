@@ -1,0 +1,659 @@
+======== BEGINNING CUP ========
+BaseState.START: {'stop': False, 'left_tof': 8.9, 'middle_tof': 50.7, 'right_tof': 9.5, 'left_line': 10, 'right_line': 10}
+TOP: 85.5, BOTTOM: 12.3
+BaseState.START: {'stop': False, 'left_tof': 8.24, 'middle_tof': 48.42, 'right_tof': 9.7, 'left_line': 10, 'right_line': 10}
+TOP: 86.72, BOTTOM: 16.62
+BaseState.START: {'stop': False, 'left_tof': 8.26, 'middle_tof': 47.980000000000004, 'right_tof': 9.74, 'left_line': 10, 'right_line': 10}
+TOP: 87.12, BOTTOM: 18.740000000000002
+BaseState.START: {'stop': False, 'left_tof': 8.3, 'middle_tof': 47.06, 'right_tof': 9.8, 'left_line': 10, 'right_line': 10}
+TOP: 87.92, BOTTOM: 35.38
+BaseState.START: {'stop': False, 'left_tof': 8.16, 'middle_tof': 45.36, 'right_tof': 9.88, 'left_line': 1, 'right_line': 3}
+TOP: 87.42, BOTTOM: 63.88
+======== END BEGINNING CUP ========
+BaseState.START: {'stop': False, 'left_tof': 8.139999999999999, 'middle_tof': 45.04, 'right_tof': 9.860000000000001, 'left_line': 1, 'right_line': 3}
+TOP: 87.08, BOTTOM: 65.68
+BaseState.START: {'stop': False, 'left_tof': 8.1, 'middle_tof': 44.64, 'right_tof': 9.84, 'left_line': 1, 'right_line': 3}
+TOP: 86.74, BOTTOM: 66.02
+BaseState.START: {'stop': False, 'left_tof': 8.1, 'middle_tof': 35.42, 'right_tof': 9.98, 'left_line': 1, 'right_line': 3}
+TOP: 79.58, BOTTOM: 75.88
+BaseState.START: {'stop': False, 'left_tof': 8.12, 'middle_tof': 35.06, 'right_tof': 10.02, 'left_line': 1, 'right_line': 3}
+TOP: 79.3, BOTTOM: 75.7
+======== START STATE ENDED ========
+=== State Change Occurred ===
+BaseState.START -> BaseState.VEER_RIGHT
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.139999999999999, 'middle_tof': 34.7, 'right_tof': 9.879999999999999, 'left_line': 1, 'right_line': 3}
+TOP: 79.02, BOTTOM: 75.58
+======== VEERING RIGHT FOR A WHILE WHEN IT SHOULDN'T HAVE BEEN ========
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.540000000000001, 'middle_tof': 26.2, 'right_tof': 41.0, 'left_line': 1, 'right_line': 1}
+TOP: 78.25999999999999, BOTTOM: 75.56
+=== State Change Occurred ===
+BaseState.VEER_RIGHT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.66, 'middle_tof': 25.82, 'right_tof': 42.08, 'left_line': 3, 'right_line': 1}
+TOP: 78.22, BOTTOM: 75.66
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 8.78, 'middle_tof': 25.400000000000002, 'right_tof': 43.160000000000004, 'left_line': 3, 'right_line': 1}
+TOP: 78.18, BOTTOM: 75.75999999999999
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 8.9, 'middle_tof': 24.98, 'right_tof': 43.86, 'left_line': 3, 'right_line': 1}
+TOP: 78.14, BOTTOM: 67.89999999999999
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.02, 'middle_tof': 24.56, 'right_tof': 44.56, 'left_line': 3, 'right_line': 1}
+TOP: 69.02000000000001, BOTTOM: 60.04
+======== FIRST TREE ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.1, 'middle_tof': 24.22, 'right_tof': 45.480000000000004, 'left_line': 3, 'right_line': 1}
+TOP: 59.900000000000006, BOTTOM: 48.76
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.18, 'middle_tof': 23.88, 'right_tof': 46.4, 'left_line': 3, 'right_line': 1}
+TOP: 48.24, BOTTOM: 37.48
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.22, 'middle_tof': 23.56, 'right_tof': 47.54, 'left_line': 3, 'right_line': 1}
+TOP: 36.58, BOTTOM: 26.2
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.3, 'middle_tof': 20.759999999999998, 'right_tof': 53.06, 'left_line': 3, 'right_line': 1}
+TOP: 16.32, BOTTOM: 15.08
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.24, 'middle_tof': 20.34, 'right_tof': 52.82, 'left_line': 3, 'right_line': 1}
+TOP: 16.36, BOTTOM: 15.18
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.2, 'middle_tof': 18.759999999999998, 'right_tof': 55.26, 'left_line': 3, 'right_line': 3}
+TOP: 17.240000000000002, BOTTOM: 17.22
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.299999999999999, 'middle_tof': 18.38, 'right_tof': 57.339999999999996, 'left_line': 3, 'right_line': 10}
+TOP: 18.26, BOTTOM: 18.2
+line following sensor error occurred, resetting
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.42, 'middle_tof': 17.66, 'right_tof': 60.78, 'left_line': 3, 'right_line': 10}
+TOP: 20.3, BOTTOM: 26.599999999999998
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.44, 'middle_tof': 17.299999999999997, 'right_tof': 62.5, 'left_line': 3, 'right_line': 10}
+TOP: 28.759999999999998, BOTTOM: 34.019999999999996
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.28, 'middle_tof': 16.5, 'right_tof': 60.46, 'left_line': 3, 'right_line': 10}
+TOP: 49.44, BOTTOM: 52.76
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.2, 'middle_tof': 16.14, 'right_tof': 59.82, 'left_line': 1, 'right_line': 10}
+======== END FIRST TREE ========
+TOP: 61.66, BOTTOM: 64.74
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.26, 'middle_tof': 15.78, 'right_tof': 59.18, 'left_line': 0, 'right_line': 7}
+TOP: 74.1, BOTTOM: 70.02
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.32, 'middle_tof': 15.42, 'right_tof': 58.54, 'left_line': 0, 'right_line': 0}
+TOP: 78.78, BOTTOM: 75.3
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.379999999999999, 'middle_tof': 15.12, 'right_tof': 58.38, 'left_line': 0, 'right_line': 0}
+TOP: 83.46000000000001, BOTTOM: 80.58
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.44, 'middle_tof': 14.82, 'right_tof': 58.22, 'left_line': 0, 'right_line': 0}
+TOP: 83.68, BOTTOM: 80.8
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.5, 'middle_tof': 14.44, 'right_tof': 56.300000000000004, 'left_line': 0, 'right_line': 0}
+TOP: 83.9, BOTTOM: 81.02
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.58, 'middle_tof': 14.06, 'right_tof': 54.38, 'left_line': 0, 'right_line': 0}
+TOP: 84.10000000000001, BOTTOM: 77.54
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.66, 'middle_tof': 13.68, 'right_tof': 52.46, 'left_line': 0, 'right_line': 0}
+TOP: 84.30000000000001, BOTTOM: 74.06
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.84, 'middle_tof': 13.28, 'right_tof': 50.800000000000004, 'left_line': 0, 'right_line': 0}
+TOP: 84.5, BOTTOM: 70.58
+======== BEGIN SECOND CUP ========
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 10.02, 'middle_tof': 12.879999999999999, 'right_tof': 49.14, 'left_line': 0, 'right_line': 0}
+TOP: 84.82000000000001, BOTTOM: 58.72
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 10.4, 'middle_tof': 12.24, 'right_tof': 46.7, 'left_line': 0, 'right_line': 0}
+TOP: 85.26, BOTTOM: 37.64
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 10.96, 'middle_tof': 11.28, 'right_tof': 43.32, 'left_line': 0, 'right_line': 0}
+TOP: 85.54, BOTTOM: 17.78
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.14, 'middle_tof': 11.06, 'right_tof': 41.82, 'left_line': 0, 'right_line': 0}
+TOP: 85.58, BOTTOM: 16.36
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.42, 'middle_tof': 10.620000000000001, 'right_tof': 38.82, 'left_line': 0, 'right_line': 0}
+TOP: 86.18, BOTTOM: 15.28
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.620000000000001, 'middle_tof': 10.1, 'right_tof': 37.46, 'left_line': 0, 'right_line': 0}
+TOP: 86.64, BOTTOM: 14.459999999999999
+======== START TURN RIGHT ========
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.TURN_RIGHT
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 11.72, 'middle_tof': 9.74, 'right_tof': 37.58, 'left_line': 0, 'right_line': 0}
+TOP: 86.8, BOTTOM: 14.18
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 11.620000000000001, 'middle_tof': 7.06, 'right_tof': 50.199999999999996, 'left_line': 0, 'right_line': 0}
+TOP: 92.88, BOTTOM: 15.96
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 12.1, 'middle_tof': 7.4799999999999995, 'right_tof': 55.8, 'left_line': 0, 'right_line': 0}
+TOP: 92.72, BOTTOM: 35.6
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 12.66, 'middle_tof': 7.699999999999999, 'right_tof': 54.26, 'left_line': 0, 'right_line': 0}
+TOP: 92.58, BOTTOM: 47.72
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 13.22, 'middle_tof': 7.92, 'right_tof': 52.72, 'left_line': 0, 'right_line': 0}
+TOP: 91.9, BOTTOM: 59.260000000000005
+======== END SECOND CUP ========
+======== BEGIN BACK ON LINE ========
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 8.54, 'middle_tof': 16.7, 'right_tof': 19.24, 'left_line': 0, 'right_line': 4}
+TOP: 220.76000000000002, BOTTOM: 223.16
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 8.18, 'middle_tof': 17.56, 'right_tof': 18.56, 'left_line': 0, 'right_line': 4}
+TOP: 233.70000000000002, BOTTOM: 234.66
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.82, 'middle_tof': 17.94, 'right_tof': 18.240000000000002, 'left_line': 0, 'right_line': 7}
+TOP: 239.9, BOTTOM: 239.14
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.68, 'middle_tof': 19.44, 'right_tof': 17.84, 'left_line': 0, 'right_line': 7}
+TOP: 245.98000000000002, BOTTOM: 247.5
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.66, 'middle_tof': 20.94, 'right_tof': 17.44, 'left_line': 0, 'right_line': 7}
+TOP: 252.06, BOTTOM: 255.85999999999999
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.640000000000001, 'middle_tof': 23.66, 'right_tof': 17.84, 'left_line': 0, 'right_line': 7}
+TOP: 251.94, BOTTOM: 259.74
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.76, 'middle_tof': 26.38, 'right_tof': 18.240000000000002, 'left_line': 0, 'right_line': 7}
+TOP: 205.2, BOTTOM: 269.68
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.82, 'middle_tof': 29.099999999999998, 'right_tof': 18.64, 'left_line': 0, 'right_line': 9}
+TOP: 158.45999999999998, BOTTOM: 279.62
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.88, 'middle_tof': 32.099999999999994, 'right_tof': 20.2, 'left_line': 0, 'right_line': 9}
+TOP: 111.84, BOTTOM: 271.3
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.84, 'middle_tof': 35.099999999999994, 'right_tof': 21.76, 'left_line': 0, 'right_line': 5}
+TOP: 64.82, BOTTOM: 262.98
+======== BEGIN FIRST NET ========
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.8, 'middle_tof': 37.58, 'right_tof': 25.14, 'left_line': 0, 'right_line': 5}
+TOP: 17.8, BOTTOM: 254.66
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.96, 'middle_tof': 48.92, 'right_tof': 41.839999999999996, 'left_line': 0, 'right_line': 3}
+TOP: 17.86, BOTTOM: 57.38
+======== FIRST NET COMPLETELY CAPTURED ========
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.98, 'middle_tof': 51.26, 'right_tof': 43.86, 'left_line': 0, 'right_line': 3}
+TOP: 18.4, BOTTOM: 15.14
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.98, 'middle_tof': 53.6, 'right_tof': 45.88, 'left_line': 1, 'right_line': 3}
+TOP: 18.94, BOTTOM: 15.04
+BaseState.TURN_RIGHT: {'stop': False, 'left_tof': 7.98, 'middle_tof': 55.08, 'right_tof': 46.34, 'left_line': 1, 'right_line': 3}
+TOP: 19.48, BOTTOM: 14.94
+======== END RIGHT TURN ========
+=== State Change Occurred ===
+BaseState.TURN_RIGHT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.02, 'middle_tof': 56.559999999999995, 'right_tof': 46.800000000000004, 'left_line': 1, 'right_line': 1}
+TOP: 19.02, BOTTOM: 15.54
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.16, 'middle_tof': 50.44, 'right_tof': 47.04, 'left_line': 1, 'right_line': 1}
+TOP: 17.080000000000002, BOTTOM: 70.14
+======== END FIRST NET COMPLETELY CAPTURED ========
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.22, 'middle_tof': 46.72, 'right_tof': 46.96, 'left_line': 1, 'right_line': 1}
+TOP: 16.34, BOTTOM: 123.54
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.32, 'middle_tof': 43.0, 'right_tof': 46.88, 'left_line': 1, 'right_line': 1}
+TOP: 16.2, BOTTOM: 176.74
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.42, 'middle_tof': 40.440000000000005, 'right_tof': 46.86, 'left_line': 1, 'right_line': 1}
+TOP: 16.060000000000002, BOTTOM: 229.94
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.52, 'middle_tof': 37.88, 'right_tof': 46.84, 'left_line': 1, 'right_line': 1}
+TOP: 16.28, BOTTOM: 283.14
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.58, 'middle_tof': 35.32, 'right_tof': 46.82, 'left_line': 1, 'right_line': 1}
+TOP: 16.5, BOTTOM: 283.4
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.639999999999999, 'middle_tof': 34.5, 'right_tof': 46.8, 'left_line': 1, 'right_line': 1}
+TOP: 16.72, BOTTOM: 283.66
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.66, 'middle_tof': 33.68, 'right_tof': 46.78, 'left_line': 1, 'right_line': 1}
+TOP: 17.080000000000002, BOTTOM: 283.32
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.66, 'middle_tof': 34.04, 'right_tof': 46.76, 'left_line': 1, 'right_line': 1}
+TOP: 17.44, BOTTOM: 282.98
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.66, 'middle_tof': 34.4, 'right_tof': 46.74, 'left_line': 1, 'right_line': 1}
+TOP: 18.64, BOTTOM: 282.64
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.68, 'middle_tof': 34.760000000000005, 'right_tof': 46.72, 'left_line': 1, 'right_line': 1}
+TOP: 19.84, BOTTOM: 282.4
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.7, 'middle_tof': 34.5, 'right_tof': 46.68, 'left_line': 1, 'right_line': 1}
+TOP: 21.04, BOTTOM: 282.15999999999997
+======== END FIRST NET ========
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.72, 'middle_tof': 34.24, 'right_tof': 46.64, 'left_line': 1, 'right_line': 1}
+TOP: 74.14, BOTTOM: 282.15999999999997
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.76, 'middle_tof': 33.88, 'right_tof': 46.559999999999995, 'left_line': 1, 'right_line': 1}
+TOP: 127.24000000000001, BOTTOM: 282.15999999999997
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.8, 'middle_tof': 33.519999999999996, 'right_tof': 46.48, 'left_line': 1, 'right_line': 1}
+TOP: 179.76000000000002, BOTTOM: 282.15999999999997
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.780000000000001, 'middle_tof': 33.16, 'right_tof': 46.4, 'left_line': 1, 'right_line': 1}
+TOP: 232.28000000000003, BOTTOM: 282.18
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.76, 'middle_tof': 33.16, 'right_tof': 46.339999999999996, 'left_line': 1, 'right_line': 1}
+TOP: 284.8, BOTTOM: 282.2
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 8.74, 'middle_tof': 33.16, 'right_tof': 46.28, 'left_line': 3, 'right_line': 1}
+TOP: 285.0, BOTTOM: 281.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.12, 'middle_tof': 40.0, 'right_tof': 8.62, 'left_line': 1, 'right_line': 1}
+TOP: 266.32, BOTTOM: 240.8
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 8.98, 'middle_tof': 66.58, 'right_tof': 9.459999999999999, 'left_line': 1, 'right_line': 1}
+TOP: 196.29999999999998, BOTTOM: 79.60000000000001
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.08, 'middle_tof': 65.48, 'right_tof': 9.54, 'left_line': 1, 'right_line': 1}
+TOP: 194.89999999999998, BOTTOM: 49.480000000000004
+======== BEGIN THIRD CUP ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.18, 'middle_tof': 64.38, 'right_tof': 9.6, 'left_line': 1, 'right_line': 1}
+TOP: 193.5, BOTTOM: 19.36
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.28, 'middle_tof': 68.06, 'right_tof': 9.66, 'left_line': 1, 'right_line': 1}
+TOP: 193.82, BOTTOM: 17.2
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.4, 'middle_tof': 71.74, 'right_tof': 9.7, 'left_line': 1, 'right_line': 1}
+TOP: 194.14, BOTTOM: 15.040000000000001
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.52, 'middle_tof': 73.39999999999999, 'right_tof': 9.72, 'left_line': 1, 'right_line': 1}
+TOP: 194.56, BOTTOM: 14.42
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.6, 'middle_tof': 75.06, 'right_tof': 9.74, 'left_line': 1, 'right_line': 1}
+TOP: 194.58, BOTTOM: 13.8
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.68, 'middle_tof': 76.72, 'right_tof': 9.66, 'left_line': 1, 'right_line': 1}
+TOP: 194.60000000000002, BOTTOM: 13.18
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.76, 'middle_tof': 77.56, 'right_tof': 9.58, 'left_line': 1, 'right_line': 1}
+TOP: 195.24, BOTTOM: 12.78
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.86, 'middle_tof': 78.39999999999999, 'right_tof': 9.58, 'left_line': 1, 'right_line': 1}
+TOP: 195.88, BOTTOM: 12.379999999999999
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.96, 'middle_tof': 79.82, 'right_tof': 9.58, 'left_line': 1, 'right_line': 1}
+TOP: 197.5, BOTTOM: 12.08
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 10.0, 'middle_tof': 81.24, 'right_tof': 9.58, 'left_line': 1, 'right_line': 3}
+TOP: 199.12, BOTTOM: 11.78
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_RIGHT
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 10.04, 'middle_tof': 82.66, 'right_tof': 9.7, 'left_line': 1, 'right_line': 3}
+TOP: 200.74, BOTTOM: 11.48
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 10.08, 'middle_tof': 83.14, 'right_tof': 9.82, 'left_line': 1, 'right_line': 3}
+TOP: 199.02, BOTTOM: 11.4
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.7, 'middle_tof': 69.44, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+TOP: 181.08, BOTTOM: 12.219999999999999
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.68, 'middle_tof': 68.88000000000001, 'right_tof': 9.28, 'left_line': 1, 'right_line': 1}
+TOP: 181.5, BOTTOM: 12.44
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.66, 'middle_tof': 68.18, 'right_tof': 9.32, 'left_line': 1, 'right_line': 1}
+TOP: 182.56, BOTTOM: 12.9
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.42, 'middle_tof': 65.96000000000001, 'right_tof': 9.26, 'left_line': 1, 'right_line': 1}
+TOP: 183.62, BOTTOM: 15.04
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.38, 'middle_tof': 65.2, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+TOP: 183.62, BOTTOM: 16.259999999999998
+======== END THIRD CUP ========
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.34, 'middle_tof': 64.80000000000001, 'right_tof': 9.22, 'left_line': 1, 'right_line': 1}
+TOP: 182.92000000000002, BOTTOM: 41.099999999999994
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.360000000000001, 'middle_tof': 64.4, 'right_tof': 9.22, 'left_line': 1, 'right_line': 1}
+TOP: 182.22, BOTTOM: 65.94
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.64, 'middle_tof': 58.42, 'right_tof': 8.98, 'left_line': 1, 'right_line': 1}
+TOP: 176.66, BOTTOM: 167.0
+=== State Change Occurred ===
+BaseState.VEER_RIGHT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.74, 'middle_tof': 57.339999999999996, 'right_tof': 8.96, 'left_line': 3, 'right_line': 1}
+TOP: 175.92000000000002, BOTTOM: 167.16
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 8.78, 'middle_tof': 56.26, 'right_tof': 9.0, 'left_line': 3, 'right_line': 1}
+TOP: 175.56, BOTTOM: 167.32
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.66, 'middle_tof': 60.94, 'right_tof': 8.8, 'left_line': 3, 'right_line': 1}
+TOP: 124.24000000000001, BOTTOM: 107.66
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.66, 'middle_tof': 61.62, 'right_tof': 8.78, 'left_line': 3, 'right_line': 1}
+TOP: 92.80000000000001, BOTTOM: 78.6
+======== BEGIN POWER POLE ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.66, 'middle_tof': 62.3, 'right_tof': 8.76, 'left_line': 3, 'right_line': 1}
+TOP: 61.36, BOTTOM: 50.32
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.719999999999999, 'middle_tof': 63.56, 'right_tof': 8.74, 'left_line': 3, 'right_line': 1}
+TOP: 47.32, BOTTOM: 22.04
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.78, 'middle_tof': 64.2, 'right_tof': 8.72, 'left_line': 3, 'right_line': 1}
+TOP: 33.28, BOTTOM: 20.36
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.84, 'middle_tof': 64.84, 'right_tof': 8.780000000000001, 'left_line': 3, 'right_line': 1}
+TOP: 19.240000000000002, BOTTOM: 18.68
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.9, 'middle_tof': 65.26, 'right_tof': 8.84, 'left_line': 3, 'right_line': 1}
+TOP: 18.42, BOTTOM: 17.0
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.379999999999999, 'middle_tof': 63.76, 'right_tof': 9.139999999999999, 'left_line': 3, 'right_line': 1}
+TOP: 16.76, BOTTOM: 15.94
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.36, 'middle_tof': 64.16, 'right_tof': 9.16, 'left_line': 3, 'right_line': 1}
+TOP: 17.32, BOTTOM: 16.54
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.34, 'middle_tof': 64.56, 'right_tof': 9.04, 'left_line': 3, 'right_line': 1}
+TOP: 17.88, BOTTOM: 18.26
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.32, 'middle_tof': 64.96, 'right_tof': 8.92, 'left_line': 3, 'right_line': 1}
+TOP: 25.66, BOTTOM: 19.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.38, 'middle_tof': 64.92, 'right_tof': 8.799999999999999, 'left_line': 3, 'right_line': 1}
+TOP: 33.44, BOTTOM: 21.7
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.44, 'middle_tof': 64.88000000000001, 'right_tof': 8.66, 'left_line': 3, 'right_line': 1}
+TOP: 41.22, BOTTOM: 52.92
+======== END POWER POLE ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.48, 'middle_tof': 65.04, 'right_tof': 8.52, 'left_line': 3, 'right_line': 1}
+TOP: 74.72, BOTTOM: 84.14
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.52, 'middle_tof': 65.2, 'right_tof': 8.42, 'left_line': 3, 'right_line': 1}
+TOP: 108.22, BOTTOM: 114.32
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.56, 'middle_tof': 65.36, 'right_tof': 8.32, 'left_line': 3, 'right_line': 1}
+TOP: 134.68, BOTTOM: 144.5
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.54, 'middle_tof': 65.72, 'right_tof': 8.22, 'left_line': 3, 'right_line': 1}
+TOP: 161.14000000000001, BOTTOM: 174.68
+======== BEGIN SECOND TREE ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.5, 'middle_tof': 44.44, 'right_tof': 7.76, 'left_line': 3, 'right_line': 0}
+TOP: 122.44000000000001, BOTTOM: 83.34
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.46, 'middle_tof': 44.199999999999996, 'right_tof': 7.74, 'left_line': 3, 'right_line': 0}
+TOP: 88.98, BOTTOM: 32.88
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.42, 'middle_tof': 43.98, 'right_tof': 7.72, 'left_line': 3, 'right_line': 0}
+TOP: 55.52, BOTTOM: 25.900000000000002
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.38, 'middle_tof': 43.76, 'right_tof': 7.66, 'left_line': 3, 'right_line': 0}
+TOP: 22.06, BOTTOM: 18.92
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.26, 'middle_tof': 43.28, 'right_tof': 7.62, 'left_line': 3, 'right_line': 0}
+TOP: 19.02, BOTTOM: 17.6
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.08, 'middle_tof': 39.32, 'right_tof': 7.82, 'left_line': 3, 'right_line': 0}
+TOP: 17.2, BOTTOM: 16.64
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.02, 'middle_tof': 39.0, 'right_tof': 7.8, 'left_line': 3, 'right_line': 0}
+TOP: 17.580000000000002, BOTTOM: 17.14
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.92, 'middle_tof': 38.46, 'right_tof': 7.76, 'left_line': 3, 'right_line': 0}
+TOP: 18.740000000000002, BOTTOM: 18.9
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.84, 'middle_tof': 38.04, 'right_tof': 7.7, 'left_line': 3, 'right_line': 0}
+TOP: 19.98, BOTTOM: 41.32
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.78, 'middle_tof': 37.76, 'right_tof': 7.68, 'left_line': 3, 'right_line': 0}
+TOP: 55.86, BOTTOM: 63.32000000000001
+======== END SECOND TREE ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.72, 'middle_tof': 37.480000000000004, 'right_tof': 7.66, 'left_line': 3, 'right_line': 0}
+TOP: 91.74, BOTTOM: 84.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.74, 'middle_tof': 37.28, 'right_tof': 7.7, 'left_line': 3, 'right_line': 0}
+TOP: 127.62, BOTTOM: 136.8
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.76, 'middle_tof': 37.08, 'right_tof': 7.74, 'left_line': 3, 'right_line': 0}
+TOP: 179.42000000000002, BOTTOM: 188.62
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.84, 'middle_tof': 37.02, 'right_tof': 7.76, 'left_line': 3, 'right_line': 0}
+TOP: 231.22, BOTTOM: 218.58
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.92, 'middle_tof': 36.76, 'right_tof': 7.72, 'left_line': 3, 'right_line': 0}
+TOP: 247.58, BOTTOM: 248.54000000000002
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.66, 'middle_tof': 30.36, 'right_tof': 7.74, 'left_line': 3, 'right_line': 0}
+======== BEGIN SECOND NET ========
+TOP: 143.18, BOTTOM: 276.96
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.52, 'middle_tof': 29.98, 'right_tof': 7.8, 'left_line': 3, 'right_line': 0}
+TOP: 93.53999999999999, BOTTOM: 275.62
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.58, 'middle_tof': 29.419999999999998, 'right_tof': 7.82, 'left_line': 3, 'right_line': 0}
+TOP: 43.9, BOTTOM: 265.65999999999997
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.62, 'middle_tof': 27.94, 'right_tof': 7.82, 'left_line': 3, 'right_line': 0}
+TOP: 22.02, BOTTOM: 157.42
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.38, 'middle_tof': 27.6, 'right_tof': 7.82, 'left_line': 3, 'right_line': 0}
+TOP: 21.200000000000003, BOTTOM: 119.38
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.36, 'middle_tof': 27.26, 'right_tof': 7.82, 'left_line': 3, 'right_line': 0}
+TOP: 20.82, BOTTOM: 81.34
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.14, 'middle_tof': 24.58, 'right_tof': 8.64, 'left_line': 3, 'right_line': 0}
+TOP: 19.32, BOTTOM: 29.06
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.26, 'middle_tof': 24.42, 'right_tof': 8.72, 'left_line': 3, 'right_line': 0}
+TOP: 19.34, BOTTOM: 27.48
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.36, 'middle_tof': 24.16, 'right_tof': 8.8, 'left_line': 3, 'right_line': 0}
+TOP: 19.3, BOTTOM: 25.9
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.0, 'middle_tof': 21.12, 'right_tof': 10.12, 'left_line': 3, 'right_line': 0}
+TOP: 20.36, BOTTOM: 17.18
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.959999999999999, 'middle_tof': 16.86, 'right_tof': 8.66, 'left_line': 3, 'right_line': 1}
+TOP: 20.02, BOTTOM: 17.06
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.879999999999999, 'middle_tof': 16.42, 'right_tof': 8.48, 'left_line': 3, 'right_line': 1}
+TOP: 19.56, BOTTOM: 17.54
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.84, 'middle_tof': 16.1, 'right_tof': 8.379999999999999, 'left_line': 3, 'right_line': 1}
+TOP: 19.16, BOTTOM: 17.88
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.8, 'middle_tof': 15.780000000000001, 'right_tof': 8.28, 'left_line': 3, 'right_line': 1}
+TOP: 18.759999999999998, BOTTOM: 18.22
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.76, 'middle_tof': 15.540000000000001, 'right_tof': 8.2, 'left_line': 3, 'right_line': 1}
+TOP: 18.36, BOTTOM: 18.8
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.700000000000001, 'middle_tof': 15.3, 'right_tof': 8.12, 'left_line': 3, 'right_line': 1}
+TOP: 18.06, BOTTOM: 19.38
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.64, 'middle_tof': 15.06, 'right_tof': 8.08, 'left_line': 3, 'right_line': 1}
+TOP: 17.759999999999998, BOTTOM: 19.96
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.58, 'middle_tof': 14.780000000000001, 'right_tof': 8.04, 'left_line': 3, 'right_line': 1}
+TOP: 17.56, BOTTOM: 21.36
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.52, 'middle_tof': 14.5, 'right_tof': 8.0, 'left_line': 3, 'right_line': 1}
+TOP: 17.36, BOTTOM: 22.76
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.46, 'middle_tof': 14.1, 'right_tof': 7.98, 'left_line': 3, 'right_line': 1}
+TOP: 17.16, BOTTOM: 24.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.46, 'middle_tof': 13.700000000000001, 'right_tof': 7.96, 'left_line': 3, 'right_line': 1}
+TOP: 17.06, BOTTOM: 27.2
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.46, 'middle_tof': 13.3, 'right_tof': 7.96, 'left_line': 3, 'right_line': 1}
+TOP: 16.96, BOTTOM: 29.419999999999998
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.5, 'middle_tof': 11.02, 'right_tof': 7.94, 'left_line': 3, 'right_line': 1}
+TOP: 17.94, BOTTOM: 258.8
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.48, 'middle_tof': 10.5, 'right_tof': 7.9, 'left_line': 3, 'right_line': 1}
+TOP: 18.52, BOTTOM: 268.56
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.48, 'middle_tof': 10.24, 'right_tof': 7.88, 'left_line': 3, 'right_line': 1}
+TOP: 18.94, BOTTOM: 273.44
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.56, 'middle_tof': 10.02, 'right_tof': 7.86, 'left_line': 3, 'right_line': 1}
+TOP: 33.56, BOTTOM: 274.14
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.64, 'middle_tof': 9.799999999999999, 'right_tof': 7.84, 'left_line': 3, 'right_line': 1}
+TOP: 48.18, BOTTOM: 274.84
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.72, 'middle_tof': 9.42, 'right_tof': 7.82, 'left_line': 3, 'right_line': 1}
+TOP: 100.42, BOTTOM: 275.2
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.72, 'middle_tof': 9.04, 'right_tof': 7.8, 'left_line': 3, 'right_line': 1}
+TOP: 152.34, BOTTOM: 275.56
+======== END SECOND NET ========
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.72, 'middle_tof': 8.46, 'right_tof': 7.84, 'left_line': 3, 'right_line': 1}
+TOP: 204.26, BOTTOM: 275.92
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.START_TURN_AROUND
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 9.74, 'middle_tof': 5.8999999999999995, 'right_tof': 7.92, 'left_line': 3, 'right_line': 0}
+TOP: 281.88, BOTTOM: 274.38
+=== State Change Occurred ===
+BaseState.START_TURN_AROUND -> BaseState.TURN_AROUND
+BaseState.TURN_AROUND: {'stop': False, 'left_tof': 9.719999999999999, 'middle_tof': 5.46, 'right_tof': 7.96, 'left_line': 3, 'right_line': 0}
+TOP: 281.96, BOTTOM: 273.76
+=== State Change Occurred ===
+BaseState.TURN_AROUND -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.7, 'middle_tof': 5.2, 'right_tof': 8.0, 'left_line': 3, 'right_line': 1}
+TOP: 281.76, BOTTOM: 272.8
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.START_TURN_AROUND
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 9.66, 'middle_tof': 4.9399999999999995, 'right_tof': 8.04, 'left_line': 3, 'right_line': 1}
+TOP: 281.56, BOTTOM: 271.84
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 9.62, 'middle_tof': 4.64, 'right_tof': 8.06, 'left_line': 3, 'right_line': 1}
+TOP: 281.36, BOTTOM: 270.88
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 8.44, 'middle_tof': 4.5200000000000005, 'right_tof': 10.74, 'left_line': 0, 'right_line': 5}
+TOP: 19.32, BOTTOM: 72.08
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 8.46, 'middle_tof': 4.7, 'right_tof': 10.92, 'left_line': 0, 'right_line': 9}
+TOP: 18.94, BOTTOM: 47.3
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 8.48, 'middle_tof': 4.82, 'right_tof': 11.120000000000001, 'left_line': 0, 'right_line': 9}
+TOP: 18.56, BOTTOM: 22.52
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 8.68, 'middle_tof': 4.94, 'right_tof': 11.32, 'left_line': 0, 'right_line': 7}
+TOP: 19.02, BOTTOM: 20.46
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 9.02, 'middle_tof': 7.319999999999999, 'right_tof': 11.58, 'left_line': 0, 'right_line': 4}
+TOP: 22.36, BOTTOM: 21.84
+BaseState.START_TURN_AROUND: {'stop': False, 'left_tof': 9.24, 'middle_tof': 7.8, 'right_tof': 10.76, 'left_line': 0, 'right_line': 4}
+TOP: 22.56, BOTTOM: 58.18
+=== State Change Occurred ===
+BaseState.START_TURN_AROUND -> BaseState.TURN_AROUND
+BaseState.TURN_AROUND: {'stop': False, 'left_tof': 9.36, 'middle_tof': 8.28, 'right_tof': 9.94, 'left_line': 0, 'right_line': 0}
+TOP: 22.84, BOTTOM: 93.78
+BaseState.TURN_AROUND: {'stop': False, 'left_tof': 19.4, 'middle_tof': 20.58, 'right_tof': 10.5, 'left_line': 4, 'right_line': 0}
+TOP: 299.88, BOTTOM: 309.26
+BaseState.TURN_AROUND: {'stop': False, 'left_tof': 18.599999999999998, 'middle_tof': 21.34, 'right_tof': 10.18, 'left_line': 4, 'right_line': 0}
+TOP: 297.21999999999997, BOTTOM: 303.06
+BaseState.TURN_AROUND: {'stop': False, 'left_tof': 18.02, 'middle_tof': 22.099999999999998, 'right_tof': 9.9, 'left_line': 4, 'right_line': 0}
+TOP: 287.2, BOTTOM: 296.86
+BaseState.TURN_AROUND: {'stop': False, 'left_tof': 17.439999999999998, 'middle_tof': 23.04, 'right_tof': 9.62, 'left_line': 4, 'right_line': 0}
+TOP: 277.18, BOTTOM: 292.74
+=== State Change Occurred ===
+BaseState.TURN_AROUND -> BaseState.TURN_LEFT
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 16.86, 'middle_tof': 23.98, 'right_tof': 9.36, 'left_line': 7, 'right_line': 0}
+TOP: 269.82, BOTTOM: 277.2
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 16.4, 'middle_tof': 25.56, 'right_tof': 9.1, 'left_line': 7, 'right_line': 0}
+TOP: 245.73999999999998, BOTTOM: 261.66
+======== BEGIN FOURTH CUP ========
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 13.299999999999999, 'middle_tof': 40.68, 'right_tof': 8.72, 'left_line': 9, 'right_line': 0}
+TOP: 153.26000000000002, BOTTOM: 77.64
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 13.02, 'middle_tof': 46.76, 'right_tof': 8.780000000000001, 'left_line': 9, 'right_line': 0}
+TOP: 151.42000000000002, BOTTOM: 48.58
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 12.74, 'middle_tof': 51.26, 'right_tof': 8.84, 'left_line': 5, 'right_line': 0}
+TOP: 149.58, BOTTOM: 19.52
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 12.46, 'middle_tof': 55.76, 'right_tof': 8.76, 'left_line': 5, 'right_line': 0}
+TOP: 147.74, BOTTOM: 17.12
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 11.7, 'middle_tof': 80.10000000000001, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+TOP: 184.82, BOTTOM: 13.82
+=== State Change Occurred ===
+BaseState.TURN_LEFT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.44, 'middle_tof': 74.1, 'right_tof': 8.58, 'left_line': 1, 'right_line': 1}
+TOP: 201.36, BOTTOM: 13.98
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.04, 'middle_tof': 62.3, 'right_tof': 8.7, 'left_line': 1, 'right_line': 1}
+TOP: 214.9, BOTTOM: 14.14
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 9.639999999999999, 'middle_tof': 43.82, 'right_tof': 9.139999999999999, 'left_line': 1, 'right_line': 1}
+TOP: 232.66, BOTTOM: 14.26
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.76, 'middle_tof': 43.68, 'right_tof': 9.12, 'left_line': 3, 'right_line': 1}
+TOP: 232.3, BOTTOM: 13.56
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.42, 'middle_tof': 44.04, 'right_tof': 9.4, 'left_line': 3, 'right_line': 1}
+TOP: 230.28, BOTTOM: 12.12
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.16, 'middle_tof': 44.22, 'right_tof': 9.32, 'left_line': 3, 'right_line': 1}
+TOP: 230.34, BOTTOM: 12.040000000000001
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.06, 'middle_tof': 44.4, 'right_tof': 9.32, 'left_line': 3, 'right_line': 1}
+TOP: 230.4, BOTTOM: 11.96
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.96, 'middle_tof': 44.58, 'right_tof': 9.32, 'left_line': 3, 'right_line': 1}
+TOP: 230.2, BOTTOM: 11.92
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.94, 'middle_tof': 44.339999999999996, 'right_tof': 9.34, 'left_line': 3, 'right_line': 1}
+TOP: 230.32, BOTTOM: 11.92
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.92, 'middle_tof': 44.1, 'right_tof': 9.280000000000001, 'left_line': 3, 'right_line': 1}
+TOP: 229.92, BOTTOM: 11.96
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.2, 'middle_tof': 45.26, 'right_tof': 8.88, 'left_line': 3, 'right_line': 1}
+TOP: 227.56, BOTTOM: 15.219999999999999
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.16, 'middle_tof': 45.56, 'right_tof': 8.82, 'left_line': 3, 'right_line': 1}
+TOP: 227.36, BOTTOM: 45.88
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.16, 'middle_tof': 45.96, 'right_tof': 8.56, 'left_line': 3, 'right_line': 1}
+TOP: 226.56, BOTTOM: 143.1
+======== END FOURTH CUP ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.18, 'middle_tof': 45.58, 'right_tof': 8.46, 'left_line': 3, 'right_line': 1}
+TOP: 226.32, BOTTOM: 179.0
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.7, 'middle_tof': 85.25999999999999, 'right_tof': 9.18, 'left_line': 1, 'right_line': 1}
+TOP: 144.14000000000001, BOTTOM: 133.64
+======== BEGIN POWER POLE ========
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.78, 'middle_tof': 84.94, 'right_tof': 9.1, 'left_line': 1, 'right_line': 1}
+TOP: 119.94000000000001, BOTTOM: 107.38
+BaseState.VEER_RIGHT: {'stop': False, 'left_tof': 8.86, 'middle_tof': 84.62, 'right_tof': 9.02, 'left_line': 1, 'right_line': 1}
+TOP: 95.74000000000001, BOTTOM: 81.12
+=== State Change Occurred ===
+BaseState.VEER_RIGHT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 8.94, 'middle_tof': 84.56, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+TOP: 71.22, BOTTOM: 54.86
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.06, 'middle_tof': 84.5, 'right_tof': 8.94, 'left_line': 3, 'right_line': 1}
+TOP: 46.7, BOTTOM: 37.08
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.18, 'middle_tof': 84.3, 'right_tof': 8.98, 'left_line': 3, 'right_line': 1}
+TOP: 22.18, BOTTOM: 19.3
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.2, 'middle_tof': 81.76, 'right_tof': 9.639999999999999, 'left_line': 3, 'right_line': 1}
+TOP: 15.6, BOTTOM: 14.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.2, 'middle_tof': 81.74000000000001, 'right_tof': 9.7, 'left_line': 3, 'right_line': 1}
+TOP: 15.879999999999999, BOTTOM: 15.36
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.26, 'middle_tof': 81.7, 'right_tof': 9.7, 'left_line': 3, 'right_line': 1}
+TOP: 16.16, BOTTOM: 15.74
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.32, 'middle_tof': 81.62, 'right_tof': 9.7, 'left_line': 3, 'right_line': 1}
+TOP: 17.16, BOTTOM: 17.3
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.32, 'middle_tof': 81.68, 'right_tof': 9.68, 'left_line': 3, 'right_line': 1}
+TOP: 18.38, BOTTOM: 18.08
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.32, 'middle_tof': 81.74, 'right_tof': 9.66, 'left_line': 3, 'right_line': 1}
+TOP: 19.6, BOTTOM: 26.759999999999998
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.26, 'middle_tof': 81.68, 'right_tof': 9.559999999999999, 'left_line': 3, 'right_line': 1}
+TOP: 20.82, BOTTOM: 35.44
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.2, 'middle_tof': 81.62, 'right_tof': 9.459999999999999, 'left_line': 3, 'right_line': 1}
+TOP: 47.72, BOTTOM: 72.2
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.28, 'middle_tof': 81.56, 'right_tof': 9.36, 'left_line': 3, 'right_line': 1}
+TOP: 74.62, BOTTOM: 108.96
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.36, 'middle_tof': 81.24000000000001, 'right_tof': 9.2, 'left_line': 3, 'right_line': 1}
+TOP: 110.66, BOTTOM: 145.72
+======== END POWER POLE ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.44, 'middle_tof': 80.92, 'right_tof': 9.04, 'left_line': 3, 'right_line': 1}
+TOP: 146.7, BOTTOM: 174.84
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.46, 'middle_tof': 78.62, 'right_tof': 8.34, 'left_line': 3, 'right_line': 0}
+TOP: 160.4, BOTTOM: 202.4
+======== BEGIN THIRD NET ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.52, 'middle_tof': 78.48, 'right_tof': 8.32, 'left_line': 3, 'right_line': 0}
+TOP: 133.66, BOTTOM: 201.79999999999998
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.58, 'middle_tof': 78.34, 'right_tof': 8.3, 'left_line': 3, 'right_line': 0}
+TOP: 106.92, BOTTOM: 199.06
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.78, 'middle_tof': 75.76, 'right_tof': 8.06, 'left_line': 3, 'right_line': 0}
+TOP: 22.18, BOTTOM: 41.08
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.82, 'middle_tof': 75.64, 'right_tof': 8.0, 'left_line': 3, 'right_line': 0}
+TOP: 21.3, BOTTOM: 39.28
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.86, 'middle_tof': 75.36, 'right_tof': 7.9399999999999995, 'left_line': 3, 'right_line': 0}
+TOP: 20.72, BOTTOM: 37.480000000000004
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.9, 'middle_tof': 75.08, 'right_tof': 7.88, 'left_line': 3, 'right_line': 0}
+TOP: 20.14, BOTTOM: 36.160000000000004
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.9, 'middle_tof': 74.68, 'right_tof': 7.86, 'left_line': 3, 'right_line': 0}
+TOP: 19.82, BOTTOM: 34.84
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.9, 'middle_tof': 74.28, 'right_tof': 7.84, 'left_line': 3, 'right_line': 0}
+TOP: 19.5, BOTTOM: 34.26
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.02, 'middle_tof': 73.88, 'right_tof': 7.82, 'left_line': 3, 'right_line': 0}
+TOP: 19.18, BOTTOM: 33.120000000000005
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.14, 'middle_tof': 73.74000000000001, 'right_tof': 7.8, 'left_line': 3, 'right_line': 0}
+TOP: 18.88, BOTTOM: 31.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.26, 'middle_tof': 73.60000000000001, 'right_tof': 7.78, 'left_line': 3, 'right_line': 0}
+TOP: 18.58, BOTTOM: 30.44
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.42, 'middle_tof': 73.46000000000001, 'right_tof': 7.76, 'left_line': 3, 'right_line': 0}
+TOP: 18.46, BOTTOM: 28.9
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.58, 'middle_tof': 73.32000000000001, 'right_tof': 7.74, 'left_line': 3, 'right_line': 0}
+TOP: 18.34, BOTTOM: 27.36
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.6, 'middle_tof': 73.18, 'right_tof': 7.72, 'left_line': 3, 'right_line': 0}
+TOP: 18.220000000000002, BOTTOM: 25.62
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.62, 'middle_tof': 72.94, 'right_tof': 7.7, 'left_line': 3, 'right_line': 0}
+TOP: 18.220000000000002, BOTTOM: 23.88
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.639999999999999, 'middle_tof': 72.7, 'right_tof': 7.68, 'left_line': 3, 'right_line': 0}
+TOP: 18.220000000000002, BOTTOM: 22.64
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.24, 'middle_tof': 71.4, 'right_tof': 8.46, 'left_line': 6, 'right_line': 0}
+TOP: 19.56, BOTTOM: 17.439999999999998
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.26, 'middle_tof': 71.16, 'right_tof': 8.58, 'left_line': 6, 'right_line': 0}
+TOP: 19.82, BOTTOM: 17.279999999999998
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.32, 'middle_tof': 70.92, 'right_tof': 8.7, 'left_line': 6, 'right_line': 0}
+TOP: 20.1, BOTTOM: 17.119999999999997
+DETECTED OBJECT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.38, 'middle_tof': 70.68, 'right_tof': 8.82, 'left_line': 6, 'right_line': 0}
+TOP: 20.380000000000003, BOTTOM: 17.24
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.48, 'middle_tof': 70.3, 'right_tof': 9.1, 'left_line': 6, 'right_line': 0}
+TOP: 20.560000000000002, BOTTOM: 17.439999999999998
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.58, 'middle_tof': 69.92, 'right_tof': 9.38, 'left_line': 6, 'right_line': 0}
+TOP: 20.740000000000002, BOTTOM: 17.64
+TOP: 20.92, BOTTOM: 18.0
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.74, 'middle_tof': 69.44, 'right_tof': 9.78, 'left_line': 6, 'right_line': 0}
+TOP: 20.96, BOTTOM: 18.36
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.8, 'middle_tof': 69.34, 'right_tof': 9.96, 'left_line': 6, 'right_line': 0}
+TOP: 21.0, BOTTOM: 18.54
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.76, 'middle_tof': 69.38, 'right_tof': 9.9, 'left_line': 6, 'right_line': 0}
+TOP: 20.94, BOTTOM: 18.64
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.72, 'middle_tof': 69.42, 'right_tof': 9.84, 'left_line': 6, 'right_line': 0}
+TOP: 20.88, BOTTOM: 18.74
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.68, 'middle_tof': 69.46, 'right_tof': 9.72, 'left_line': 6, 'right_line': 0}
+TOP: 20.82, BOTTOM: 18.96
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.459999999999999, 'middle_tof': 69.2, 'right_tof': 9.600000000000001, 'left_line': 6, 'right_line': 0}
+TOP: 20.62, BOTTOM: 19.18
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.24, 'middle_tof': 68.94, 'right_tof': 9.48, 'left_line': 6, 'right_line': 0}
+TOP: 20.419999999999998, BOTTOM: 19.76
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.16, 'middle_tof': 68.76, 'right_tof': 9.36, 'left_line': 6, 'right_line': 0}
+TOP: 20.24, BOTTOM: 20.34
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.08, 'middle_tof': 68.58, 'right_tof': 9.24, 'left_line': 6, 'right_line': 0}
+TOP: 20.06, BOTTOM: 20.92
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.0, 'middle_tof': 68.4, 'right_tof': 9.18, 'left_line': 6, 'right_line': 0}
+TOP: 19.740000000000002, BOTTOM: 23.5
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.94, 'middle_tof': 68.28, 'right_tof': 9.12, 'left_line': 6, 'right_line': 0}
+TOP: 19.560000000000002, BOTTOM: 26.080000000000002
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.879999999999999, 'middle_tof': 68.16, 'right_tof': 8.959999999999999, 'left_line': 6, 'right_line': 0}
+TOP: 19.380000000000003, BOTTOM: 61.28
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.72, 'middle_tof': 67.9, 'right_tof': 8.8, 'left_line': 6, 'right_line': 0}
+TOP: 19.3, BOTTOM: 96.48
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.56, 'middle_tof': 67.64, 'right_tof': 8.64, 'left_line': 6, 'right_line': 0}
+TOP: 19.22, BOTTOM: 131.68
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.4, 'middle_tof': 67.38, 'right_tof': 8.42, 'left_line': 6, 'right_line': 0}
+TOP: 19.36, BOTTOM: 167.08
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.42, 'middle_tof': 67.08, 'right_tof': 8.200000000000001, 'left_line': 6, 'right_line': 0}
+TOP: 19.5, BOTTOM: 202.48000000000002
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.1, 'middle_tof': 63.56, 'right_tof': 7.12, 'left_line': 6, 'right_line': 0}
+TOP: 28.36, BOTTOM: 212.58
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.08, 'middle_tof': 63.44, 'right_tof': 7.14, 'left_line': 6, 'right_line': 0}
+TOP: 58.3, BOTTOM: 212.68
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.96, 'middle_tof': 63.22, 'right_tof': 7.16, 'left_line': 6, 'right_line': 0}
+TOP: 88.24, BOTTOM: 212.78
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.84, 'middle_tof': 63.0, 'right_tof': 7.16, 'left_line': 6, 'right_line': 0}
+TOP: 118.17999999999999, BOTTOM: 212.72
+======== END THIRD NET ========
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.72, 'middle_tof': 62.78, 'right_tof': 7.16, 'left_line': 6, 'right_line': 0}
+TOP: 154.82, BOTTOM: 212.68
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 9.92, 'middle_tof': 62.56, 'right_tof': 7.16, 'left_line': 5, 'right_line': 0}
+TOP: 191.45999999999998, BOTTOM: 212.64
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 47.36, 'middle_tof': 9.64, 'right_tof': 6.38, 'left_line': 0, 'right_line': 0}
+TOP: 237.84, BOTTOM: 226.42000000000002
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.TURN_LEFT
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 47.34, 'middle_tof': 9.200000000000001, 'right_tof': 6.3, 'left_line': 0, 'right_line': 0}
+TOP: 237.95999999999998, BOTTOM: 226.56
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 47.32, 'middle_tof': 8.76, 'right_tof': 6.22, 'left_line': 0, 'right_line': 0}
+TOP: 237.79999999999998, BOTTOM: 226.7
+BaseState.TURN_LEFT: {'stop': False, 'left_tof': 50.72, 'middle_tof': 45.22, 'right_tof': 9.26, 'left_line': 3, 'right_line': 1}
+TOP: 187.54, BOTTOM: 81.08
+=== State Change Occurred ===
+BaseState.TURN_LEFT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 50.28, 'middle_tof': 45.339999999999996, 'right_tof': 9.22, 'left_line': 1, 'right_line': 1}
+TOP: 250.1, BOTTOM: 122.12
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 49.84, 'middle_tof': 45.46, 'right_tof': 9.18, 'left_line': 1, 'right_line': 1}
+TOP: 312.65999999999997, BOTTOM: 163.16
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 49.4, 'middle_tof': 45.48, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+TOP: 373.48, BOTTOM: 204.20000000000002
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 48.7, 'middle_tof': 45.5, 'right_tof': 9.3, 'left_line': 1, 'right_line': 1}
+TOP: 377.48, BOTTOM: 231.06
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 48.0, 'middle_tof': 45.38, 'right_tof': 9.32, 'left_line': 1, 'right_line': 1}
+TOP: 381.26, BOTTOM: 257.92
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 48.56, 'middle_tof': 45.26, 'right_tof': 9.34, 'left_line': 1, 'right_line': 1}
+TOP: 379.3, BOTTOM: 276.46000000000004
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 49.12, 'middle_tof': 45.14, 'right_tof': 9.360000000000001, 'left_line': 1, 'right_line': 1}
+TOP: 377.34, BOTTOM: 295.0
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 49.68, 'middle_tof': 44.9, 'right_tof': 9.32, 'left_line': 1, 'right_line': 1}
+TOP: 377.7, BOTTOM: 313.54
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 55.3, 'middle_tof': 44.66, 'right_tof': 9.28, 'left_line': 1, 'right_line': 1}
+TOP: 378.06, BOTTOM: 326.72
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 60.919999999999995, 'middle_tof': 44.44, 'right_tof': 9.24, 'left_line': 1, 'right_line': 1}
+TOP: 378.64, BOTTOM: 339.90000000000003
+=== State Change Occurred ===
+BaseState.STRAIGHT -> BaseState.VEER_LEFT
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 64.52, 'middle_tof': 44.22, 'right_tof': 9.2, 'left_line': 3, 'right_line': 1}
+TOP: 379.82, BOTTOM: 326.28000000000003
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.18, 'middle_tof': 28.86, 'right_tof': 7.72, 'left_line': 3, 'right_line': 0}
+TOP: 56.120000000000005, BOTTOM: 56.38
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.22, 'middle_tof': 28.56, 'right_tof': 7.62, 'left_line': 10, 'right_line': 0}
+TOP: 55.42, BOTTOM: 55.98
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.280000000000001, 'middle_tof': 28.26, 'right_tof': 7.62, 'left_line': 10, 'right_line': 1}
+TOP: 54.72, BOTTOM: 55.58
+BaseState.VEER_LEFT: {'stop': False, 'left_tof': 10.34, 'middle_tof': 27.96, 'right_tof': 7.62, 'left_line': 10, 'right_line': 6}
+TOP: 54.24, BOTTOM: 55.18
+=== State Change Occurred ===
+BaseState.VEER_LEFT -> BaseState.STRAIGHT
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 10.360000000000001, 'middle_tof': 27.66, 'right_tof': 7.62, 'left_line': 10, 'right_line': 10}
+TOP: 53.760000000000005, BOTTOM: 54.96
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.620000000000001, 'middle_tof': 9.84, 'right_tof': 6.22, 'left_line': 10, 'right_line': 10}
+TOP: 51.800000000000004, BOTTOM: 50.48
+BaseState.STRAIGHT: {'stop': False, 'left_tof': 11.68, 'middle_tof': 9.58, 'right_tof': 6.22, 'left_line': 10, 'right_line': 10}
+TOP: 51.78, BOTTOM: 50.32
+error occurred, resetting sensors

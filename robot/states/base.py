@@ -13,19 +13,13 @@ class BaseStateMachine():
     """State machine for managing movement of robot base"""
 
     outputs: Dict[BaseState, BaseOutput] = {
-        BaseState.REST: {
-            'left_pwm': PWM.OFF,
-            'left_dir': GPIOOutput.HIGH,
-            'right_pwm': PWM.OFF,
-            'right_dir': GPIOOutput.HIGH,
-            'pauseable': False,
-        },
         BaseState.START: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
             'pauseable': False,
+            'finish': False,
         },
         BaseState.STRAIGHT: {
             'left_pwm': PWM.HIGH,
@@ -33,34 +27,39 @@ class BaseStateMachine():
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
             'pauseable': True,
+            'finish': False,
         },
         BaseState.START_TURN_AROUND: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
-            'pauseable': False
+            'pauseable': False,
+            'finish': False,
         },
         BaseState.TURN_AROUND: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
-            'pauseable': False
+            'pauseable': False,
+            'finish': False,
         },
         BaseState.VEER_LEFT: {
             'left_pwm': PWM.LOW,
             'left_dir': GPIOOutput.HIGH,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
-            'pauseable': True
+            'pauseable': True,
+            'finish': False,
         },
         BaseState.TURN_LEFT: {
             'left_pwm': PWM.HIGH,
             'left_dir': GPIOOutput.LOW,
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.HIGH,
-            'pauseable': False
+            'pauseable': False,
+            'finish': False,
         },
         BaseState.VEER_RIGHT: {
             'left_pwm': PWM.HIGH,
@@ -68,6 +67,7 @@ class BaseStateMachine():
             'right_pwm': PWM.LOW,
             'right_dir': GPIOOutput.HIGH,
             'pauseable': True,
+            'finish': False,
         },
         BaseState.TURN_RIGHT: {
             'left_pwm': PWM.HIGH,
@@ -75,6 +75,7 @@ class BaseStateMachine():
             'right_pwm': PWM.HIGH,
             'right_dir': GPIOOutput.LOW,
             'pauseable': False,
+            'finish': False,
         },
         BaseState.FINISH: {
             'left_pwm': PWM.OFF,
@@ -82,6 +83,7 @@ class BaseStateMachine():
             'right_pwm': PWM.OFF,
             'right_dir': GPIOOutput.HIGH,
             'pauseable': False,
+            'finish': True,
         }
     }
 
@@ -89,7 +91,6 @@ class BaseStateMachine():
         """Initialize starting state and state transition dictionary"""
         self.state: BaseState = BaseState.START
         self.transitions: Dict[BaseState, Callable[[BaseInput], None]] = {
-            BaseState.REST: self.transition_from_rest,
             BaseState.START: self.transition_from_start,
             BaseState.STRAIGHT: self.transition_from_straight,
             BaseState.START_TURN_AROUND: self.transition_from_start_turn_around,
@@ -105,10 +106,6 @@ class BaseStateMachine():
         """Perform transition and return output of new state"""
         self.transitions[self.state](input)
         return self.outputs[self.state]
-
-    def transition_from_rest(self, input: BaseInput) -> None:
-        """Transition from REST state to next state"""
-        return
 
     def transition_from_start(self, input: BaseInput) -> None:
         """Transition from START state to next state"""
@@ -161,7 +158,7 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         middle_tof = input['middle_tof']
         magnitude = right - left
-        if left == 10 and right == 10:
+        if (left == 10 and right == 10) or (left == 1 and right == 1):
             self.state = BaseState.STRAIGHT
         elif left < 1 and right > 0:
             self.state = BaseState.VEER_RIGHT
@@ -173,7 +170,7 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         middle_tof = input['middle_tof']
         magnitude = right - left
-        if right == 10 and left == 10:
+        if (right == 10 and left == 10) and (left == 1 and right == 1):
             self.state = BaseState.STRAIGHT
         elif right < 1 and left > 0:
             self.state = BaseState.VEER_LEFT
