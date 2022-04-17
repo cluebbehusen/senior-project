@@ -136,7 +136,7 @@ class RobotStateMachine():
         """Transition from EXPECT_CUP_NET state to next state"""
         top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
         pauseable = input['pauseable']
-        if not pauseable:
+        if not pauseable or self.cup_net_count >= 6:
             return
         if (bottom_tof < self.bottom_detection_threshold and self.cup_net_count == 0):
             self.cup_net_count += 1
@@ -183,10 +183,7 @@ class RobotStateMachine():
         self.launcher.run()
         self.grabber.dispense_beads()
         self.launcher.stop()
-        if (self.cup_net_count == 3 or self.cup_net_count == 5):
-            self.state = RobotState.EXPECT_POLE
-        else:
-            self.state = RobotState.EXPECT_CUP_NET
+        self.state = RobotState.IGNORE_CUP_NET
 
     def transition_from_ignore_cup_net(self, input: RobotInput) -> None:
         """Transition from IGNORE_CUP_NET state to next state"""
