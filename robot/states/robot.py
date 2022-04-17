@@ -14,10 +14,10 @@ class RobotStateMachine():
     """State machine for managing robot's beads subsystems"""
 
     bottom_detection_threshold: float = 16.5
-    top_detection_threshold: float = 19.0
-    rejection_threshold: float = 21.0
+    top_detection_threshold: float = 21.0
+    rejection_threshold: float = 22.0
     tree_advance: int = 9
-    cup_advance: int = 13
+    cup_advance: int = 15
     net_advance: int = 4
 
     outputs: Dict[RobotState, RobotOutput] = {

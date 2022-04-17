@@ -22,7 +22,9 @@ class TOF:
             # distance returned is running average of the past five distances
             if len(self.distances) == 5:
                 self.distances.pop(0)
-            self.distances.append(self.device.distance)
+            distance = self.device.distance
+            if distance != 0:
+                self.distances.append(self.device.distance)
         if len(self.distances) != 0:
             return mean(self.distances)
         return 0

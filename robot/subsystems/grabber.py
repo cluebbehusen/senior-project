@@ -10,8 +10,8 @@ class Grabber:
 
     grab_initial_delay: float = 0.3
     grab_actuator_min_pwm: int = 75
-    grab_actuator_max_pwm: int = 195
-    grab_motor_pwm: int = 140  # 180
+    grab_actuator_max_pwm: int = 210
+    grab_motor_pwm: int = 160  # 180
     grab_extension_delay: float = .03
     grab_end_delay: float = 1.0
     retract_delay: float = 3.0
