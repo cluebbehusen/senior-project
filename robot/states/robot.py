@@ -13,8 +13,11 @@ from robot.subsystems.lift import Lift
 class RobotStateMachine():
     """State machine for managing robot's beads subsystems"""
 
-    detection_threshold: float = 15.5
+    detection_threshold: float = 16.5
     rejection_threshold: float = 21.0
+    tree_advance: int = 10
+    cup_advance: int = 10
+    net_advance: int = 10
 
     outputs: Dict[RobotState, RobotOutput] = {
         RobotState.EXPECT_TREE: {
@@ -97,14 +100,22 @@ class RobotStateMachine():
 
     def transition_from_expect_tree(self, input: RobotInput) -> None:
         """Transition from EXPECT_TREE state to next state"""
-        pass
+        top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
+        pauseable = input['pauseable']
+        if not pauseable:
+            return
+        if (top_tof < self.detection_threshold and bottom_tof <
+                self.detection_threshold):
+            self.state = RobotState.ADVANCE_TREE
 
     def transition_from_advance_tree(self, input: RobotInput) -> None:
         """Transition from ADVANCE_TREE state to next state"""
-        pass
+        if self.advance_count > self.tree_advance:
+            self.state = RobotState.READY_GRAB
 
     def transition_from_ready_grab(self, input: RobotInput) -> None:
         """Transition from READY_GRAB state to next state"""
+        self.advance_count = 0
         self.state = RobotState.GRAB
 
     def transition_from_grab(self, input: RobotInput) -> None:
@@ -114,22 +125,38 @@ class RobotStateMachine():
         self.lift.incremement()
         self.grabber.retract()
         self.lift.lower()
-        # TRANSITION BASED ON COUNT
+        self.state = RobotState.EXPECT_CUP_NET
 
     def transition_from_expect_cup_net(self, input: RobotInput) -> None:
         """Transition from EXPECT_CUP_NET state to next state"""
-        pass
+        top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
+        pauseable = input['pauseable']
+        if not pauseable:
+            return
+        if (bottom_tof < self.detection_threshold and self.cup_net_count == 0):
+            self.cup_net_count += 1
+            self.state = RobotState.IGNORE_CUP_NET
+        if (bottom_tof < self.detection_threshold and top_tof <
+                self.detection_threshold):
+            self.cup_net_count += 1
+            self.state = RobotState.ADVANCE_NET
+        elif (bottom_tof < self.detection_threshold):
+            self.cup_net_count += 1
+            self.state = RobotState.ADVANCE_CUP
 
     def transition_from_advance_cup(self, input: RobotInput) -> None:
         """Transition from ADVANCE_CUP state to next state"""
-        pass
+        if self.advance_count > self.cup_advance:
+            self.state = RobotState.READY_DROP
 
     def transition_from_advance_net(self, input: RobotInput) -> None:
         """Transition from ADVANCE_CUP state to next state"""
-        pass
+        if self.advance_count > self.net_advance:
+            self.state = RobotState.READY_LAUNCH
 
     def transition_from_ready_drop(self, input: RobotInput) -> None:
         """Transition from READY_DROP state to next state"""
+        self.advance_count = 0
         self.state = RobotState.DROP
 
     def transition_from_drop(self, input: RobotInput) -> None:
@@ -137,10 +164,11 @@ class RobotStateMachine():
         self.grabber.extend_to_cup()
         self.grabber.dispense_beads()
         self.grabber.retract()
-        # TRANSITION BASED ON COUNT
+        self.state = RobotState.IGNORE_CUP_NET
 
     def transition_from_ready_launch(self, input: RobotInput) -> None:
         """Transition from READY_LAUNCH state to next state"""
+        self.advance_count = 0
         self.state = RobotState.LAUNCH
 
     def transition_from_launch(self, input: RobotInput) -> None:
@@ -148,16 +176,36 @@ class RobotStateMachine():
         self.launcher.run()
         self.grabber.dispense_beads()
         self.launcher.stop()
-        # TRANSITION BASED ON COUNT
+        if (self.cup_net_count == 3 or self.cup_net_count == 5):
+            self.state = RobotState.EXPECT_POLE
+        else:
+            self.state = RobotState.EXPECT_CUP_NET
 
     def transition_from_ignore_cup_net(self, input: RobotInput) -> None:
         """Transition from IGNORE_CUP_NET state to next state"""
-        pass
+        bottom_tof = input['bottom_tof']
+        pauseable = input['pauseable']
+        if (bottom_tof > self.rejection_threshold or not pauseable):
+            if (self.cup_net_count == 3 or self.cup_net_count == 5):
+                self.state = RobotState.EXPECT_POLE
+            else:
+                self.state = RobotState.EXPECT_CUP_NET
 
     def transition_from_expect_pole(self, input: RobotInput) -> None:
         """Transition from EXPECT_POLE state to next state"""
-        pass
+        top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
+        pauseable = input['pauseable']
+        if (top_tof < self.detection_threshold and bottom_tof <
+                self.detection_threshold and pauseable):
+            self.state = RobotState.IGNORE_POLE
 
     def transition_from_ignore_pole(self, input: RobotInput) -> None:
         """Transition from IGNORE_POLE state to next state"""
-        pass
+        top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
+        pauseable = input['pauseable']
+        if ((bottom_tof > self.rejection_threshold and top_tof >
+                self.rejection_threshold) or not pauseable):
+            if self.cup_net_count == 3:
+                self.state = RobotState.EXPECT_TREE
+            else:
+                self.state = RobotState.EXPECT_CUP_NET
