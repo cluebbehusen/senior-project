@@ -105,10 +105,16 @@ class RobotStateMachine():
 
     def transition_from_ready_grab(self, input: RobotInput) -> None:
         """Transition from READY_GRAB state to next state"""
+        self.state = RobotState.GRAB
 
     def transition_from_grab(self, input: RobotInput) -> None:
         """Transition from GRAB state to next state"""
-        pass
+        self.lift.rise()
+        self.grabber.grab()
+        self.lift.incremement()
+        self.grabber.retract()
+        self.lift.lower()
+        # TRANSITION BASED ON COUNT
 
     def transition_from_expect_cup_net(self, input: RobotInput) -> None:
         """Transition from EXPECT_CUP_NET state to next state"""
@@ -124,19 +130,25 @@ class RobotStateMachine():
 
     def transition_from_ready_drop(self, input: RobotInput) -> None:
         """Transition from READY_DROP state to next state"""
-        pass
+        self.state = RobotState.DROP
 
     def transition_from_drop(self, input: RobotInput) -> None:
         """Transition from DROP state to next state"""
-        pass
+        self.grabber.extend_to_cup()
+        self.grabber.dispense_beads()
+        self.grabber.retract()
+        # TRANSITION BASED ON COUNT
 
     def transition_from_ready_launch(self, input: RobotInput) -> None:
         """Transition from READY_LAUNCH state to next state"""
-        pass
+        self.state = RobotState.LAUNCH
 
     def transition_from_launch(self, input: RobotInput) -> None:
         """Transition from LAUNCH state to next state"""
-        pass
+        self.launcher.run()
+        self.grabber.dispense_beads()
+        self.launcher.stop()
+        # TRANSITION BASED ON COUNT
 
     def transition_from_ignore_cup_net(self, input: RobotInput) -> None:
         """Transition from IGNORE_CUP_NET state to next state"""

@@ -14,11 +14,12 @@ class Grabber:
     grab_motor_pwm: int = 191
     grab_extension_delay: float = .03
     grab_end_delay: float = 1.0
-    retract_delay: float = 0.0
-    cup_distance: int = 0
-    cup_extension_delay: float = 0.0
-    dispense_pwm: int = 0
-    dispense_time: float = 0.0
+    retract_delay: float = 1.5
+    cup_extension_actuator_pwm: int = 150
+    cup_extension_delay: float = 1.5
+    dispense_pwm: int = 100
+    dispense_time: float = 5.0
+    dispense_end_delay: float = 0.5
 
     def __init__(
             self,
@@ -59,7 +60,7 @@ class Grabber:
 
     def extend_to_cup(self) -> None:
         """Extend grabbing mechanism to hover over cup"""
-        self.actuator.set_extension_percent(self.cup_distance)
+        self.actuator.set_extension_percent(self.cup_extension_actuator_pwm)
         time.sleep(self.cup_extension_delay)
 
     def dispense_beads(self) -> None:
@@ -69,7 +70,9 @@ class Grabber:
         time.sleep(self.dispense_time)
         self.motor.set_motor_pwm(0)
         self.motor.set_direction_forward()
+        time.sleep(self.dispense_end_delay)
 
     def stop(self) -> None:
+        """Retract actuator and stop coil"""
         self.actuator.set_extension_minimum()
         self.motor.set_motor_pwm(0)

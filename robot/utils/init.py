@@ -28,8 +28,8 @@ linear_actuator_pwm_pin = 12
 launcher_pwm_pin = 22
 launcher_dir_pin = 23
 
-phase_a_pins = (0, 0)
-phase_b_pins = (0, 0)
+phase_a_pins = (17, 18)
+phase_b_pins = (27, 22)
 
 
 class TOFDevices(TypedDict):

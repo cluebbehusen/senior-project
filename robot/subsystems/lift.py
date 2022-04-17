@@ -8,7 +8,7 @@ class Lift:
 
     rise_steps: int = 1800
     increment_steps: int = 200
-    lower_steps: int = 1500
+    lower_steps: int = 1400
 
     def __init__(
         self,
@@ -38,4 +38,5 @@ class Lift:
             self.lower_steps)
 
     def stop(self) -> None:
+        """Wrapper for resetting stepper motor phase"""
         self.stepper.reset_phase()
