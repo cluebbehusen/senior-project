@@ -13,7 +13,7 @@ from robot.subsystems.lift import Lift
 class RobotStateMachine():
     """State machine for managing robot's beads subsystems"""
 
-    bottom_detection_threshold: float = 16.5
+    bottom_detection_threshold: float = 17.5
     top_detection_threshold: float = 21.0
     rejection_threshold: float = 22.0
     tree_advance: int = 9

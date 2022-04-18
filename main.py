@@ -1,3 +1,4 @@
+from multiprocessing.managers import RemoteError
 import board
 import time
 import pigpio
@@ -23,15 +24,15 @@ def run_course():
         subsystems['launcher'],
         subsystems['lift'])
 
-    while True:
-        try:
+    try:
+        while True:
             try:
                 left_tof = tof_devices['left'].get_distance()
                 middle_tof = tof_devices['middle'].get_distance()
                 right_tof = tof_devices['right'].get_distance()
                 top_tof = tof_devices['top'].get_distance()
                 bottom_tof = tof_devices['bottom'].get_distance()
-            except BaseException:
+            except RemoteError:
                 print('[!] ToF error occurred, resetting sensors')
                 left_motor.set_motor_pwm(0)
                 right_motor.set_motor_pwm(0)
@@ -40,7 +41,7 @@ def run_course():
             try:
                 line = line_follower.get_sensor_reading_magnitudes()
                 left_line, right_line = line
-            except BaseException:
+            except RemoteError:
                 print('[!] Line follower array error occurred')
                 left_motor.set_motor_pwm(0)
                 right_motor.set_motor_pwm(0)
@@ -90,9 +91,9 @@ def run_course():
             if finish:
                 break
             time.sleep(1 / 60)
-        except BaseException as e:
-            print(e)
-            stop_subsystems(subsystems)
+    except BaseException as e:
+        print(e)
+        stop_subsystems(subsystems)
 
 
 if __name__ == '__main__':
