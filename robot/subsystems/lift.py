@@ -46,6 +46,7 @@ class Lift:
         """Lower scissor lift back to starting height"""
         self.stepper.step_backward(
             self.rise_steps +
+            self.clear_steps +
             self.increment_steps -
             self.lower_steps)
 
