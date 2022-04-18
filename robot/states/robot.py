@@ -16,9 +16,9 @@ class RobotStateMachine():
     bottom_detection_threshold: float = 17.5
     top_detection_threshold: float = 21.0
     rejection_threshold: float = 22.0
-    tree_advance: int = 9
-    cup_advance: int = 15
-    net_advance: int = 4
+    tree_advance: int = 10
+    cup_advance: int = 19
+    net_advance: int = 3
 
     outputs: Dict[RobotState, RobotOutput] = {
         RobotState.EXPECT_TREE: {
@@ -129,6 +129,7 @@ class RobotStateMachine():
         self.grabber.grab()
         self.lift.incremement()
         self.grabber.retract()
+        self.lift.clear()
         self.lift.lower()
         self.state = RobotState.EXPECT_CUP_NET
 

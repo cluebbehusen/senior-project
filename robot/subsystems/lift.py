@@ -8,7 +8,8 @@ class Lift:
 
     rise_steps: int = 1650
     increment_steps: int = 200
-    lower_steps: int = 1500
+    clear_steps: int = 600
+    lower_steps: int = 2000
 
     def __init__(
         self,
@@ -24,11 +25,18 @@ class Lift:
 
     def second_rise(self) -> None:
         """Lift scissor lift from run height to default height"""
-        self.stepper.step_forward(self.lower_steps - self.increment_steps)
+        self.stepper.step_forward(
+            self.lower_steps -
+            self.increment_steps -
+            self.clear_steps)
 
     def incremement(self) -> None:
         """Lift scissor lift an additional small amount"""
         self.stepper.step_forward(self.increment_steps)
+
+    def clear(self) -> None:
+        """Lift scissor lift to clear beads from hook"""
+        self.stepper.step_forward(self.clear_steps)
 
     def lower(self) -> None:
         """Lower scissor lift to default height"""

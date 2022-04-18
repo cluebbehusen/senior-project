@@ -7,6 +7,7 @@ from robot.states.base import BaseStateMachine
 from robot.states.robot import RobotStateMachine
 from robot.states.state_types import BaseInput, RobotInput
 from robot.utils.init import init_tof, init_subsystems, stop_subsystems
+from robot.utils.play_song import play_song, stop_song
 
 
 def run_course():
@@ -24,6 +25,8 @@ def run_course():
         subsystems['launcher'],
         subsystems['lift'])
 
+    media_player = play_song('dancing.mp4')
+
     try:
         while True:
             try:
@@ -32,7 +35,7 @@ def run_course():
                 right_tof = tof_devices['right'].get_distance()
                 top_tof = tof_devices['top'].get_distance()
                 bottom_tof = tof_devices['bottom'].get_distance()
-            except RemoteError:
+            except BaseException:
                 print('[!] ToF error occurred, resetting sensors')
                 left_motor.set_motor_pwm(0)
                 right_motor.set_motor_pwm(0)
@@ -41,7 +44,7 @@ def run_course():
             try:
                 line = line_follower.get_sensor_reading_magnitudes()
                 left_line, right_line = line
-            except RemoteError:
+            except BaseException:
                 print('[!] Line follower array error occurred')
                 left_motor.set_motor_pwm(0)
                 right_motor.set_motor_pwm(0)
@@ -93,7 +96,10 @@ def run_course():
             time.sleep(1 / 60)
     except BaseException as e:
         print(e)
+        stop_song(media_player)
         stop_subsystems(subsystems)
+    stop_song(media_player)
+    stop_subsystems(subsystems)
 
 
 if __name__ == '__main__':
