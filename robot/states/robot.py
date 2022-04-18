@@ -17,6 +17,7 @@ class RobotStateMachine():
     top_detection_threshold: float = 21.0
     rejection_threshold: float = 22.0
     tree_advance: int = 10
+    second_tree_advance: int = 15
     cup_advance: int = 19
     net_advance: int = 3
 
@@ -72,6 +73,7 @@ class RobotStateMachine():
             lift: Lift):
         """Initialize starting state, state transition dictionary, and subsystems"""
         self.cup_net_count: int = 0
+        self.tree_count: int = 0
         self.advance_count: int = 0
         self.grabber: Grabber = grabber
         self.launcher: Launcher = launcher
@@ -112,7 +114,9 @@ class RobotStateMachine():
     def transition_from_advance_tree(self, input: RobotInput) -> None:
         """Transition from ADVANCE_TREE state to next state"""
         self.advance_count += 1
-        if self.advance_count > self.tree_advance:
+        if self.tree_count == 0 and self.advance_count > self.tree_advance:
+            self.state = RobotState.READY_GRAB
+        elif self.tree_count > 0 and self.advance_count > self.second_tree_advance:
             self.state = RobotState.READY_GRAB
 
     def transition_from_ready_grab(self, input: RobotInput) -> None:
@@ -131,6 +135,7 @@ class RobotStateMachine():
         self.grabber.retract()
         self.lift.clear()
         self.lift.lower()
+        self.tree_count += 1
         self.state = RobotState.EXPECT_CUP_NET
 
     def transition_from_expect_cup_net(self, input: RobotInput) -> None:
