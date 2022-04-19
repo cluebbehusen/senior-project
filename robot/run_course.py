@@ -24,7 +24,7 @@ def run_course():
         subsystems['launcher'],
         subsystems['lift'])
 
-    media_player = play_song('dancing.mp4')
+    media_player = play_song('miles.mp4')
 
     try:
         while True:

@@ -19,7 +19,7 @@ class Grabber:
     cup_extension_actuator_pwm: int = 230
     cup_extension_delay: float = 3
     dispense_pwm: int = 100
-    dispense_time: float = 5.0
+    dispense_time: float = 4.5
     dispense_end_delay: float = 0.5
 
     def __init__(

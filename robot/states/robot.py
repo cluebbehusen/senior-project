@@ -13,13 +13,13 @@ from robot.subsystems.lift import Lift
 class RobotStateMachine():
     """State machine for managing robot's beads subsystems"""
 
-    bottom_detection_threshold: float = 17.5
-    top_detection_threshold: float = 21.0
-    rejection_threshold: float = 22.0
-    tree_advance: int = 10
+    bottom_detection_threshold: float = 18.5
+    top_detection_threshold: float = 22.0
+    rejection_threshold: float = 25.0
+    tree_advance: int = 9
     second_tree_advance: int = 14
     cup_advance: int = 19
-    net_advance: int = 3
+    net_advance: int = 5
 
     outputs: Dict[RobotState, RobotOutput] = {
         RobotState.EXPECT_TREE: {
