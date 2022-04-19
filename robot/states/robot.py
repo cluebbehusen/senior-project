@@ -19,7 +19,7 @@ class RobotStateMachine():
     tree_advance: int = 9
     second_tree_advance: int = 14
     cup_advance: int = 19
-    net_advance: int = 5
+    net_advance: int = 4
 
     outputs: Dict[RobotState, RobotOutput] = {
         RobotState.EXPECT_TREE: {

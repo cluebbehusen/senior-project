@@ -16,7 +16,7 @@ class Grabber:
     grab_end_delay: float = 1.0
     retract_delay: float = 3.0
     loosen_delay: float = 1.0
-    cup_extension_actuator_pwm: int = 230
+    cup_extension_actuator_pwm: int = 240
     cup_extension_delay: float = 3
     dispense_pwm: int = 100
     dispense_time: float = 4.5
