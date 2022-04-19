@@ -30,10 +30,15 @@ def run_course():
         while True:
             try:
                 left_tof = tof_devices['left'].get_distance()
+                print('read left')
                 middle_tof = tof_devices['middle'].get_distance()
+                print('read middle')
                 right_tof = tof_devices['right'].get_distance()
+                print('read right')
                 top_tof = tof_devices['top'].get_distance()
+                print('read top')
                 bottom_tof = tof_devices['bottom'].get_distance()
+                print('read bottom')
             except BaseException:
                 print('[!] ToF error occurred, resetting sensors')
                 left_motor.set_motor_pwm(0)

@@ -11,3 +11,4 @@ while True:  # Run forever
     if GPIO.input(4) == GPIO.HIGH:
         run_course()
         time.sleep(3)
+        break

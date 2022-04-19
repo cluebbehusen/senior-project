@@ -128,9 +128,9 @@ class BaseStateMachine():
             self.state = BaseState.FINISH
         elif boxed_in and middle_tof < 6 and middle_tof > 0 and left != 10 and right != 10:
             self.state = BaseState.START_TURN_AROUND
-        elif middle_tof < 10 and left_tof > 20:
+        elif middle_tof < 9 and left_tof > 20:
             self.state = BaseState.TURN_LEFT
-        elif middle_tof < 10 and right_tof > 20:
+        elif middle_tof < 9 and right_tof > 20:
             self.state = BaseState.TURN_RIGHT
         elif magnitude < 0 and middle_tof > 22:
             self.state = BaseState.VEER_LEFT

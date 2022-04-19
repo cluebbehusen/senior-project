@@ -13,7 +13,7 @@ class Grabber:
     grab_actuator_max_pwm: int = 210
     grab_motor_pwm: int = 180
     grab_extension_delay: float = .035  # 0.03
-    grab_end_delay: float = 1.0
+    grab_end_delay: float = 1
     retract_delay: float = 3.0
     loosen_delay: float = 1.0
     cup_extension_actuator_pwm: int = 240
