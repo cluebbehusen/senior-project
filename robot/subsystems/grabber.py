@@ -8,17 +8,18 @@ from robot.hardware.linear_actuator import LinearActuator
 class Grabber:
     """Class for cleanly controlling grabber subsystem"""
 
-    grab_initial_delay: float = 0.3
+    grab_initial_delay: float = 0.5
     grab_actuator_min_pwm: int = 75
     grab_actuator_max_pwm: int = 210
-    grab_motor_pwm: int = 170  # 180
+    grab_motor_pwm: int = 180
     grab_extension_delay: float = .035  # 0.03
     grab_end_delay: float = 1.0
     retract_delay: float = 3.0
+    loosen_delay: float = 1.0
     cup_extension_actuator_pwm: int = 230
     cup_extension_delay: float = 3
     dispense_pwm: int = 100
-    dispense_time: float = 4.0
+    dispense_time: float = 5.0
     dispense_end_delay: float = 0.5
 
     def __init__(

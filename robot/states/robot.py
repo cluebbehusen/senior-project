@@ -17,7 +17,7 @@ class RobotStateMachine():
     top_detection_threshold: float = 21.0
     rejection_threshold: float = 22.0
     tree_advance: int = 10
-    second_tree_advance: int = 12
+    second_tree_advance: int = 14
     cup_advance: int = 19
     net_advance: int = 3
 
@@ -105,7 +105,7 @@ class RobotStateMachine():
         """Transition from EXPECT_TREE state to next state"""
         top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
         pauseable = input['pauseable']
-        if not pauseable or self.bottom_detection_threshold == 0:
+        if not pauseable:
             return
         if (top_tof < self.top_detection_threshold and bottom_tof <
                 self.bottom_detection_threshold):
@@ -142,7 +142,7 @@ class RobotStateMachine():
         """Transition from EXPECT_CUP_NET state to next state"""
         top_tof, bottom_tof = input['top_tof'], input['bottom_tof']
         pauseable = input['pauseable']
-        if not pauseable or self.cup_net_count >= 6:
+        if not pauseable or self.cup_net_count >= 6 or bottom_tof == 0:
             return
         if (bottom_tof < self.bottom_detection_threshold and self.cup_net_count == 0):
             self.cup_net_count += 1
