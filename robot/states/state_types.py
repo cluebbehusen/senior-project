@@ -5,7 +5,7 @@ from typing import TypedDict
 class PWM(Enum):
     HIGH = 120
     MID = 110
-    LOW = 105
+    LOW = 100
     OFF = 0
 
 

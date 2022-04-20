@@ -8,7 +8,7 @@ class Lift:
 
     rise_steps: int = 1750
     increment_steps: int = 200
-    clear_steps: int = 600
+    clear_steps: int = 700
     lower_steps: int = 2100
 
     def __init__(
