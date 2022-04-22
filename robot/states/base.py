@@ -148,10 +148,6 @@ class BaseStateMachine():
         left, right = input['left_line'], input['right_line']
         if left != 0 and right != 0:
             self.state = BaseState.STRAIGHT
-        # elif right > 5:
-        #     self.state = BaseState.TURN_RIGHT
-        # elif left > 5:
-        #     self.state = BaseState.TURN_LEFT
 
     def transition_from_veer_left(self, input: BaseInput) -> None:
         """Transition from VEER_LEFT state to next state"""
