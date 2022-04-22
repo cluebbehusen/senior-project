@@ -115,8 +115,9 @@ class VL53L1X:
     @property
     def data_ready(self):
         """Returns true if new data is ready, otherwise false"""
+        value = self._read_register(_GPIO__TIO_HV_STATUS)
         if (
-            self._read_register(_GPIO__TIO_HV_STATUS)[0] & 0x01
+            value and value[0] & 0x01
             == self._interrupt_polarity
         ):
             return True
@@ -149,8 +150,6 @@ class VL53L1X:
         self._timing_budget = val
 
     def _change_address(self, i2c, addr):
-        print('changing address')
-        print(addr)
         self._write_register(_ADDRESS_REGISTER, addr.to_bytes(1, 'big'))
         self.i2c_device = i2c_device.I2CDevice(i2c, addr)
         time.sleep(0.01)

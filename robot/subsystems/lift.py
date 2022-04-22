@@ -6,8 +6,10 @@ from robot.hardware.stepper_motor import StepperMotor
 class Lift:
     """Class for cleanly controlling lift subsystem"""
 
-    rise_steps: int = 0
-    lower_steps: int = 0
+    rise_steps: int = 1750
+    increment_steps: int = 200
+    clear_steps: int = 700
+    lower_steps: int = 2100
 
     def __init__(
         self,
@@ -17,9 +19,24 @@ class Lift:
         """Initialize stepper motor for lift"""
         self.stepper = StepperMotor(phase_a_pins, phase_b_pins)
 
-    def rise(self) -> None:
+    def initial_rise(self) -> None:
         """Lift scissor lift to default height"""
         self.stepper.step_forward(self.rise_steps)
+
+    def second_rise(self) -> None:
+        """Lift scissor lift from run height to default height"""
+        self.stepper.step_forward(
+            self.lower_steps -
+            self.increment_steps -
+            self.clear_steps)
+
+    def incremement(self) -> None:
+        """Lift scissor lift an additional small amount"""
+        self.stepper.step_forward(self.increment_steps)
+
+    def clear(self) -> None:
+        """Lift scissor lift to clear beads from hook"""
+        self.stepper.step_forward(self.clear_steps)
 
     def lower(self) -> None:
         """Lower scissor lift to default height"""
@@ -27,7 +44,12 @@ class Lift:
 
     def reset(self) -> None:
         """Lower scissor lift back to starting height"""
-        self.stepper.step_backward(self.rise_steps - self.lower_steps)
+        self.stepper.step_backward(
+            self.rise_steps +
+            self.clear_steps +
+            self.increment_steps -
+            self.lower_steps)
 
     def stop(self) -> None:
+        """Wrapper for resetting stepper motor phase"""
         self.stepper.reset_phase()

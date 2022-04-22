@@ -12,14 +12,14 @@ from robot.subsystems.grabber import Grabber
 from robot.subsystems.launcher import Launcher
 from robot.subsystems.lift import Lift
 
-tof_pins = (17, 27, 22, 0, 0)
+tof_pins = (10, 9, 11, 19, 26)
 
 line_pins = [0, 1, 2, 3, 4, 5, 6, 7]
 
-left_pwm_pin = 18
+left_pwm_pin = 16
 right_pwm_pin = 13
-left_dir_pin = 23
-right_dir_pin = 24
+left_dir_pin = 20
+right_dir_pin = 21
 
 coil_pwm_pin = 15
 coil_dir_pin = 14
@@ -28,8 +28,8 @@ linear_actuator_pwm_pin = 12
 launcher_pwm_pin = 22
 launcher_dir_pin = 23
 
-phase_a_pins = (0, 0)
-phase_b_pins = (0, 0)
+phase_a_pins = (17, 18)
+phase_b_pins = (27, 22)
 
 
 class TOFDevices(TypedDict):
@@ -44,10 +44,10 @@ def init_tof(i2c: board.I2C) -> TOFDevices:
     for pin in tof_pins:
         GPIO.setup(pin, GPIO.OUT)
         GPIO.output(pin, GPIO.LOW)
-    time.sleep(0.02)
+    time.sleep(0.03)
     for pin in tof_pins:
         GPIO.output(pin, GPIO.HIGH)
-    time.sleep(0.02)
+    time.sleep(0.03)
     for pin in tof_pins:
         GPIO.output(pin, GPIO.LOW)
     GPIO.output(tof_pins[0], GPIO.HIGH)
@@ -100,5 +100,5 @@ def stop_subsystems(subsystems: Subsystems) -> None:
     left_motor.set_motor_pwm(0)
     right_motor.set_motor_pwm(0)
     subsystems['grabber'].stop()
-    subsystems['launcher'].stop()
+    subsystems['launcher'].emergency_stop()
     subsystems['lift'].stop()

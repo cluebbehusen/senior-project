@@ -20,7 +20,7 @@ class LinearActuator:
         """Sets extension by a percent (0-100)"""
         if percent < 0 or percent > 100:
             return
-        adj_pwm = int(percent * 255)
+        adj_pwm = int((percent / 100) * 255)
         self.pi.set_PWM_dutycycle(self.pwm_pin, adj_pwm)
 
     def set_extension_pwm(self, pwm: int) -> None:

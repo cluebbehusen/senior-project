@@ -1,6 +1,6 @@
 import pigpio
 import RPi.GPIO as GPIO
-from typing import Type, Union
+from typing import Type
 
 
 class BrushedMotor:
@@ -21,7 +21,7 @@ class BrushedMotor:
         self.pi.set_PWM_frequency(self.pwm_pin, frequency)
         self.pi.set_PWM_dutycycle(self.pwm_pin, 0)
 
-    def set_direction(self, direction: Union[GPIO.LOW, GPIO.HIGH]) -> None:
+    def set_direction(self, direction: int) -> None:
         """Change direction to the given direction"""
         GPIO.output(self.direction_pin, direction)
 
@@ -40,3 +40,6 @@ class BrushedMotor:
     def set_pwm_frequency(self, frequency: int) -> None:
         """Change PWM frequency of motor"""
         self.pi.set_PWM_frequency(self.pwm_pin, frequency)
+
+    def stop_motor(self) -> None:
+        self.pi.set_PWM_dutycycle(self.pwm_pin, 0)

@@ -7,7 +7,7 @@ from robot.hardware.brushed_motor import BrushedMotor
 class Launcher:
     """Class for cleanly controlling launcher subsystem"""
 
-    run_end_delay: float = 0.0
+    run_end_delay: float = 0.5
     motor_frequency: int = 10000
 
     def __init__(
@@ -32,4 +32,8 @@ class Launcher:
     def stop(self) -> None:
         """Stop launcher belt spinning"""
         time.sleep(self.run_end_delay)
+        self.motor.set_motor_pwm(0)
+
+    def emergency_stop(self) -> None:
+        """Stop launcher belt spinning without delay"""
         self.motor.set_motor_pwm(0)

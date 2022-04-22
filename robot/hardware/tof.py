@@ -11,8 +11,8 @@ class TOF:
     def __init__(self, i2c: Type[I2C], address: int = 41) -> None:
         """Initialize VL53L1X sensor"""
         self.device = VL53L1X(i2c, address)
-        self.device.distance_mode = 1
-        self.device.timing_budget = 33
+        self.device.distance_mode = 2
+        self.device.timing_budget = 100
         self.device.start_ranging()
         self.distances: List[int] = []
 
@@ -22,7 +22,9 @@ class TOF:
             # distance returned is running average of the past five distances
             if len(self.distances) == 5:
                 self.distances.pop(0)
-            self.distances.append(self.device.distance)
+            distance = self.device.distance
+            if distance != 0:
+                self.distances.append(self.device.distance)
         if len(self.distances) != 0:
             return mean(self.distances)
         return 0

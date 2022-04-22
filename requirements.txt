@@ -1,3 +1,4 @@
 adafruit-circuitpython-busdevice
 pigpio
 mypy
+python-vlc

@@ -8,17 +8,19 @@ from robot.hardware.linear_actuator import LinearActuator
 class Grabber:
     """Class for cleanly controlling grabber subsystem"""
 
-    grab_initial_delay: float = 0.0
-    grab_actuator_min_pwm: int = 0
-    grab_actuator_max_pwm: int = 0
-    grab_motor_pwm: int = 0
-    grab_extension_delay: float = 0.0
-    grab_end_delay: float = 0.0
-    retract_delay: float = 0.0
-    cup_distance: int = 0
-    cup_extension_delay: float = 0.0
-    dispense_pwm: int = 0
-    dispense_time: float = 0.0
+    grab_initial_delay: float = 0.5
+    grab_actuator_min_pwm: int = 75
+    grab_actuator_max_pwm: int = 210
+    grab_motor_pwm: int = 180
+    grab_extension_delay: float = .035  # 0.03
+    grab_end_delay: float = 1
+    retract_delay: float = 3.0
+    loosen_delay: float = 1.0
+    cup_extension_actuator_pwm: int = 240
+    cup_extension_delay: float = 3
+    dispense_pwm: int = 100
+    dispense_time: float = 4.5
+    dispense_end_delay: float = 0.5
 
     def __init__(
             self,
@@ -31,7 +33,7 @@ class Grabber:
             pi,
             brushed_motor_direction_pin,
             brushed_motor_pwm_pin,
-            1000)
+            10000)
         self.actuator: LinearActuator = LinearActuator(
             pi,
             linear_actuator_pwm_pin,
@@ -59,7 +61,7 @@ class Grabber:
 
     def extend_to_cup(self) -> None:
         """Extend grabbing mechanism to hover over cup"""
-        self.actuator.set_extension_percent(self.cup_distance)
+        self.actuator.set_extension_pwm(self.cup_extension_actuator_pwm)
         time.sleep(self.cup_extension_delay)
 
     def dispense_beads(self) -> None:
@@ -69,7 +71,9 @@ class Grabber:
         time.sleep(self.dispense_time)
         self.motor.set_motor_pwm(0)
         self.motor.set_direction_forward()
+        time.sleep(self.dispense_end_delay)
 
     def stop(self) -> None:
+        """Retract actuator and stop coil"""
         self.actuator.set_extension_minimum()
         self.motor.set_motor_pwm(0)
